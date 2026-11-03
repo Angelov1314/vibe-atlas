@@ -1,0 +1,3019 @@
+{
+  "schemaVersion": 1,
+  "researchedAt": "2026-11-02",
+  "scope": "经官方来源核实的起始候选集，不声称覆盖全网最新或排名第一。",
+  "licenseNote": "OSI批准的许可证应用于代码，并不自动证明模型满足完整Open Source AI定义；permissive-open-weights仅表示列出的权重许可宽松。",
+  "modalities": [
+    {
+      "id": "text-to-image",
+      "label": "文生图",
+      "group": "图像"
+    },
+    {
+      "id": "image-edit",
+      "label": "图像编辑",
+      "group": "图像"
+    },
+    {
+      "id": "inpainting",
+      "label": "局部重绘",
+      "group": "图像"
+    },
+    {
+      "id": "image-upscale",
+      "label": "图像超分",
+      "group": "图像"
+    },
+    {
+      "id": "image-restore",
+      "label": "图像修复",
+      "group": "图像"
+    },
+    {
+      "id": "segmentation",
+      "label": "图像分割",
+      "group": "图像"
+    },
+    {
+      "id": "text-to-video",
+      "label": "文生视频",
+      "group": "视频"
+    },
+    {
+      "id": "image-to-video",
+      "label": "图生视频",
+      "group": "视频"
+    },
+    {
+      "id": "video-audio",
+      "label": "音画联合生成",
+      "group": "视频"
+    },
+    {
+      "id": "portrait-animation",
+      "label": "人像动画",
+      "group": "视频"
+    },
+    {
+      "id": "lip-sync",
+      "label": "口型同步",
+      "group": "视频"
+    },
+    {
+      "id": "frame-interpolation",
+      "label": "视频补帧",
+      "group": "视频"
+    },
+    {
+      "id": "video-segmentation",
+      "label": "视频分割",
+      "group": "视频"
+    },
+    {
+      "id": "image-to-3d",
+      "label": "单图转3D",
+      "group": "三维"
+    },
+    {
+      "id": "multiview-to-3d",
+      "label": "多视图重建",
+      "group": "三维"
+    },
+    {
+      "id": "textured-mesh",
+      "label": "纹理网格",
+      "group": "三维"
+    },
+    {
+      "id": "pbr-material",
+      "label": "PBR材质",
+      "group": "三维"
+    },
+    {
+      "id": "depth-estimation",
+      "label": "深度估计",
+      "group": "三维"
+    },
+    {
+      "id": "camera-reconstruction",
+      "label": "相机姿态重建",
+      "group": "三维"
+    },
+    {
+      "id": "text-to-motion",
+      "label": "文字转动作",
+      "group": "三维"
+    },
+    {
+      "id": "text-to-music",
+      "label": "文字转音乐",
+      "group": "音频"
+    },
+    {
+      "id": "lyrics-to-song",
+      "label": "歌词转歌曲",
+      "group": "音频"
+    },
+    {
+      "id": "audio-edit",
+      "label": "音乐编辑",
+      "group": "音频"
+    },
+    {
+      "id": "text-to-sfx",
+      "label": "文字转音效",
+      "group": "音频"
+    },
+    {
+      "id": "text-to-speech",
+      "label": "语音合成",
+      "group": "语音"
+    },
+    {
+      "id": "voice-cloning",
+      "label": "授权声音克隆",
+      "group": "语音"
+    },
+    {
+      "id": "speech-recognition",
+      "label": "语音识别",
+      "group": "语音"
+    },
+    {
+      "id": "audio-understanding",
+      "label": "音频理解",
+      "group": "语音"
+    },
+    {
+      "id": "source-separation",
+      "label": "音源分离",
+      "group": "音频"
+    },
+    {
+      "id": "text-generation",
+      "label": "本地语言模型",
+      "group": "理解与检索"
+    },
+    {
+      "id": "visual-understanding",
+      "label": "视觉理解",
+      "group": "理解与检索"
+    },
+    {
+      "id": "ocr",
+      "label": "视觉文字理解",
+      "group": "理解与检索"
+    },
+    {
+      "id": "text-embedding",
+      "label": "文本嵌入",
+      "group": "理解与检索"
+    },
+    {
+      "id": "image-embedding",
+      "label": "视觉嵌入",
+      "group": "理解与检索"
+    }
+  ],
+  "models": [
+    {
+      "id": "qwen-image",
+      "name": "Qwen-Image",
+      "description": "擅长复杂文字排版与语义理解的本地文生图模型。",
+      "modalities": [
+        "text-to-image"
+      ],
+      "tags": [
+        "text-to-image"
+      ],
+      "github": "https://github.com/QwenLM/Qwen-Image",
+      "repo": "QwenLM/Qwen-Image",
+      "huggingface": "https://huggingface.co/Qwen/Qwen-Image-2512",
+      "homepage": "https://github.com/QwenLM/Qwen-Image",
+      "previewImage": "https://opengraph.githubassets.com/044f0b6d290d2bdf4ff9a9ab0e2d17a0d31bf3c72de6b60029c3399c5df01c37/QwenLM/Qwen-Image",
+      "previewKind": "official-repository-social-preview",
+      "previewAlt": "Qwen-Image 官方仓库预览，非本站生成效果样本",
+      "license": {
+        "code": "Apache-2.0",
+        "weights": "Apache-2.0",
+        "classification": "permissive-open-weights",
+        "summary": "代码与已公开的 Qwen-Image 权重使用 Apache-2.0；具体版本以模型卡为准。",
+        "source": "https://github.com/QwenLM/Qwen-Image#license-agreement"
+      },
+      "hardware": {
+        "vramGb": null,
+        "estimate": false,
+        "notes": "尚未在本站实测；显存受模型版本、精度、分辨率、序列长度和卸载设置影响。",
+        "source": "https://github.com/QwenLM/Qwen-Image"
+      },
+      "localReadiness": "official-local-inference",
+      "deploy": {
+        "kind": "comfyui",
+        "commandHint": "使用隔离 Python 环境，按官方 README 安装与下载指定权重；安装前审阅依赖和许可证。",
+        "docs": "https://github.com/QwenLM/Qwen-Image"
+      },
+      "sources": [
+        "https://github.com/QwenLM/Qwen-Image",
+        "https://github.com/QwenLM/Qwen-Image#license-agreement",
+        "https://huggingface.co/Qwen/Qwen-Image-2512"
+      ],
+      "researchDate": "2026-11-02",
+      "stars": 8445,
+      "starsSource": "https://api.github.com/repos/QwenLM/Qwen-Image",
+      "starsObservedAt": "2026-11-02T08:41:19.783803+00:00",
+      "arena": {
+        "status": "cold-start",
+        "score": null,
+        "votes": 0
+      },
+      "notes": "收录公开的 2512 权重；仓库公告出现 Qwen-Image-2.0 不代表本目录验证了其本地权重。",
+      "githubMetadata": {
+        "ok": true,
+        "source": "https://api.github.com/repos/QwenLM/Qwen-Image",
+        "observedAt": "2026-11-02T08:41:19.783803+00:00",
+        "fullName": "QwenLM/Qwen-Image",
+        "url": "https://github.com/QwenLM/Qwen-Image",
+        "stars": 8445,
+        "forks": 567,
+        "archived": false,
+        "pushedAt": "2026-02-10T07:37:37Z",
+        "createdAt": "2025-08-03T11:03:25Z",
+        "licenseSpdx": "Apache-2.0",
+        "homepage": null
+      },
+      "previewSource": "https://github.com/QwenLM/Qwen-Image"
+    },
+    {
+      "id": "qwen-image-edit",
+      "name": "Qwen-Image-Edit",
+      "description": "用自然语言执行多图融合、文字替换与结构保持的图像编辑。",
+      "modalities": [
+        "image-edit",
+        "inpainting"
+      ],
+      "tags": [
+        "image-edit",
+        "inpainting"
+      ],
+      "github": "https://github.com/QwenLM/Qwen-Image",
+      "repo": "QwenLM/Qwen-Image",
+      "huggingface": "https://huggingface.co/Qwen/Qwen-Image-Edit-2511",
+      "homepage": "https://github.com/QwenLM/Qwen-Image",
+      "previewImage": "https://opengraph.githubassets.com/044f0b6d290d2bdf4ff9a9ab0e2d17a0d31bf3c72de6b60029c3399c5df01c37/QwenLM/Qwen-Image",
+      "previewKind": "official-repository-social-preview",
+      "previewAlt": "Qwen-Image-Edit 官方仓库预览，非本站生成效果样本",
+      "license": {
+        "code": "Apache-2.0",
+        "weights": "Apache-2.0",
+        "classification": "permissive-open-weights",
+        "summary": "应核对指定编辑 checkpoint 的模型卡；不以仓库热度作为编辑质量成绩。",
+        "source": "https://github.com/QwenLM/Qwen-Image"
+      },
+      "hardware": {
+        "vramGb": null,
+        "estimate": false,
+        "notes": "尚未在本站实测；显存受模型版本、精度、分辨率、序列长度和卸载设置影响。",
+        "source": "https://github.com/QwenLM/Qwen-Image"
+      },
+      "localReadiness": "official-local-inference",
+      "deploy": {
+        "kind": "comfyui",
+        "commandHint": "使用隔离 Python 环境，按官方 README 安装与下载指定权重；安装前审阅依赖和许可证。",
+        "docs": "https://github.com/QwenLM/Qwen-Image"
+      },
+      "sources": [
+        "https://github.com/QwenLM/Qwen-Image",
+        "https://huggingface.co/Qwen/Qwen-Image-Edit-2511"
+      ],
+      "researchDate": "2026-11-02",
+      "stars": 8445,
+      "starsSource": "https://api.github.com/repos/QwenLM/Qwen-Image",
+      "starsObservedAt": "2026-11-02T08:41:19.783803+00:00",
+      "arena": {
+        "status": "cold-start",
+        "score": null,
+        "votes": 0
+      },
+      "notes": "",
+      "githubMetadata": {
+        "ok": true,
+        "source": "https://api.github.com/repos/QwenLM/Qwen-Image",
+        "observedAt": "2026-11-02T08:41:19.783803+00:00",
+        "fullName": "QwenLM/Qwen-Image",
+        "url": "https://github.com/QwenLM/Qwen-Image",
+        "stars": 8445,
+        "forks": 567,
+        "archived": false,
+        "pushedAt": "2026-02-10T07:37:37Z",
+        "createdAt": "2025-08-03T11:03:25Z",
+        "licenseSpdx": "Apache-2.0",
+        "homepage": null
+      },
+      "previewSource": "https://github.com/QwenLM/Qwen-Image"
+    },
+    {
+      "id": "flux-schnell",
+      "name": "FLUX.1 schnell",
+      "description": "以少量采样步骤生成图像的开放权重 FLUX 模型。",
+      "modalities": [
+        "text-to-image"
+      ],
+      "tags": [
+        "text-to-image"
+      ],
+      "github": "https://github.com/black-forest-labs/flux",
+      "repo": "black-forest-labs/flux",
+      "huggingface": "https://huggingface.co/black-forest-labs/FLUX.1-schnell",
+      "homepage": "https://github.com/black-forest-labs/flux",
+      "previewImage": "https://opengraph.githubassets.com/ec276c1551903f9d4f7ae77f9468a1c38dc99d977787b52249698b132ff7be71/black-forest-labs/flux",
+      "previewKind": "official-repository-social-preview",
+      "previewAlt": "FLUX.1 schnell 官方仓库预览，非本站生成效果样本",
+      "license": {
+        "code": "Apache-2.0",
+        "weights": "Apache-2.0",
+        "classification": "permissive-open-weights",
+        "summary": "schnell 权重为 Apache-2.0，与 dev 的非商业模型许可不同。",
+        "source": "https://github.com/black-forest-labs/flux/blob/main/model_cards/FLUX.1-schnell.md"
+      },
+      "hardware": {
+        "vramGb": null,
+        "estimate": false,
+        "notes": "尚未在本站实测；显存受模型版本、精度、分辨率、序列长度和卸载设置影响。",
+        "source": "https://github.com/black-forest-labs/flux"
+      },
+      "localReadiness": "official-local-inference",
+      "deploy": {
+        "kind": "comfyui",
+        "commandHint": "使用隔离 Python 环境，按官方 README 安装与下载指定权重；安装前审阅依赖和许可证。",
+        "docs": "https://github.com/black-forest-labs/flux"
+      },
+      "sources": [
+        "https://github.com/black-forest-labs/flux",
+        "https://github.com/black-forest-labs/flux/blob/main/model_cards/FLUX.1-schnell.md",
+        "https://huggingface.co/black-forest-labs/FLUX.1-schnell"
+      ],
+      "researchDate": "2026-11-02",
+      "stars": 26045,
+      "starsSource": "https://api.github.com/repos/black-forest-labs/flux",
+      "starsObservedAt": "2026-11-02T08:41:19.783803+00:00",
+      "arena": {
+        "status": "cold-start",
+        "score": null,
+        "votes": 0
+      },
+      "notes": "",
+      "githubMetadata": {
+        "ok": true,
+        "source": "https://api.github.com/repos/black-forest-labs/flux",
+        "observedAt": "2026-11-02T08:41:19.783803+00:00",
+        "fullName": "black-forest-labs/flux",
+        "url": "https://github.com/black-forest-labs/flux",
+        "stars": 26045,
+        "forks": 1931,
+        "archived": false,
+        "pushedAt": "2025-07-31T13:58:55Z",
+        "createdAt": "2024-08-01T09:04:19Z",
+        "licenseSpdx": "Apache-2.0",
+        "homepage": null
+      },
+      "previewSource": "https://github.com/black-forest-labs/flux"
+    },
+    {
+      "id": "flux-dev",
+      "name": "FLUX.1 dev",
+      "description": "提供高质量提示词控制与成熟工作流生态的 FLUX 基础模型。",
+      "modalities": [
+        "text-to-image"
+      ],
+      "tags": [
+        "text-to-image"
+      ],
+      "github": "https://github.com/black-forest-labs/flux",
+      "repo": "black-forest-labs/flux",
+      "huggingface": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
+      "homepage": "https://github.com/black-forest-labs/flux",
+      "previewImage": "https://opengraph.githubassets.com/ec276c1551903f9d4f7ae77f9468a1c38dc99d977787b52249698b132ff7be71/black-forest-labs/flux",
+      "previewKind": "official-repository-social-preview",
+      "previewAlt": "FLUX.1 dev 官方仓库预览，非本站生成效果样本",
+      "license": {
+        "code": "Apache-2.0 (inference code)",
+        "weights": "FLUX.1-dev Non-Commercial License",
+        "classification": "restricted-open-weights",
+        "summary": "开放权重但模型使用受非商业许可限制；输出条款与模型部署许可必须分别核对。",
+        "source": "https://github.com/black-forest-labs/flux/blob/main/model_licenses/LICENSE-FLUX1-dev"
+      },
+      "hardware": {
+        "vramGb": null,
+        "estimate": false,
+        "notes": "尚未在本站实测；显存受模型版本、精度、分辨率、序列长度和卸载设置影响。",
+        "source": "https://github.com/black-forest-labs/flux"
+      },
+      "localReadiness": "official-local-inference",
+      "deploy": {
+        "kind": "comfyui",
+        "commandHint": "使用隔离 Python 环境，按官方 README 安装与下载指定权重；安装前审阅依赖和许可证。",
+        "docs": "https://github.com/black-forest-labs/flux"
+      },
+      "sources": [
+        "https://github.com/black-forest-labs/flux",
+        "https://github.com/black-forest-labs/flux/blob/main/model_licenses/LICENSE-FLUX1-dev",
+        "https://huggingface.co/black-forest-labs/FLUX.1-dev"
+      ],
+      "researchDate": "2026-11-02",
+      "stars": 26045,
+      "starsSource": "https://api.github.com/repos/black-forest-labs/flux",
+      "starsObservedAt": "2026-11-02T08:41:19.783803+00:00",
+      "arena": {
+        "status": "cold-start",
+        "score": null,
+        "votes": 0
+      },
+      "notes": "",
+      "githubMetadata": {
+        "ok": true,
+        "source": "https://api.github.com/repos/black-forest-labs/flux",
+        "observedAt": "2026-11-02T08:41:19.783803+00:00",
+        "fullName": "black-forest-labs/flux",
+        "url": "https://github.com/black-forest-labs/flux",
+        "stars": 26045,
+        "forks": 1931,
+        "archived": false,
+        "pushedAt": "2025-07-31T13:58:55Z",
+        "createdAt": "2024-08-01T09:04:19Z",
+        "licenseSpdx": "Apache-2.0",
+        "homepage": null
+      },
+      "previewSource": "https://github.com/black-forest-labs/flux"
+    },
+    {
+      "id": "sdxl",
+      "name": "Stable Diffusion XL",
+      "description": "拥有大量微调模型与控制插件的通用本地图像生成底座。",
+      "modalities": [
+        "text-to-image",
+        "image-edit",
+        "inpainting"
+      ],
+      "tags": [
+        "text-to-image",
+        "image-edit",
+        "inpainting"
+      ],
+      "github": "https://github.com/Stability-AI/generative-models",
+      "repo": "Stability-AI/generative-models",
+      "huggingface": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+      "homepage": "https://github.com/Stability-AI/generative-models",
+      "previewImage": "https://opengraph.githubassets.com/bc378ed8b9b476663380014b6f7d51f0967462a4ffebf4dc1dceddae22ef73f9/Stability-AI/generative-models",
+      "previewKind": "official-repository-social-preview",
+      "previewAlt": "Stable Diffusion XL 官方仓库预览，非本站生成效果样本",
+      "license": {
+        "code": "MIT (repository code)",
+        "weights": "CreativeML Open RAIL++-M",
+        "classification": "restricted-open-weights",
+        "summary": "权重使用含使用限制的 Open RAIL++-M；下游 LoRA 和微调模型需单独核对。",
+        "source": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0"
+      },
+      "hardware": {
+        "vramGb": null,
+        "estimate": false,
+        "notes": "尚未在本站实测；显存受模型版本、精度、分辨率、序列长度和卸载设置影响。",
+        "source": "https://github.com/Stability-AI/generative-models"
+      },
+      "localReadiness": "official-local-inference",
+      "deploy": {
+        "kind": "comfyui",
+        "commandHint": "使用隔离 Python 环境，按官方 README 安装与下载指定权重；安装前审阅依赖和许可证。",
+        "docs": "https://github.com/Stability-AI/generative-models"
+      },
+      "sources": [
+        "https://github.com/Stability-AI/generative-models",
+        "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0"
+      ],
+      "researchDate": "2026-11-02",
+      "stars": 27317,
+      "starsSource": "https://api.github.com/repos/Stability-AI/generative-models",
+      "starsObservedAt": "2026-11-02T08:41:19.783803+00:00",
+      "arena": {
+        "status": "cold-start",
+        "score": null,
+        "votes": 0
+      },
+      "notes": "",
+      "githubMetadata": {
+        "ok": true,
+        "source": "https://api.github.com/repos/Stability-AI/generative-models",
+        "observedAt": "2026-11-02T08:41:19.783803+00:00",
+        "fullName": "Stability-AI/generative-models",
+        "url": "https://github.com/Stability-AI/generative-models",
+        "stars": 27317,
+        "forks": 3090,
+        "archived": false,
+        "pushedAt": "2025-12-16T08:36:18Z",
+        "createdAt": "2023-06-22T00:36:35Z",
+        "licenseSpdx": "MIT",
+        "homepage": ""
+      },
+      "previewSource": "https://github.com/Stability-AI/generative-models"
+    },
+    {
+      "id": "sana",
+      "name": "SANA",
+      "description": "围绕高分辨率与低显存优化的高效图像生成系列。",
+      "modalities": [
+        "text-to-image"
+      ],
+      "tags": [
+        "text-to-image"
+      ],
+      "github": "https://github.com/NVlabs/Sana",
+      "repo": "NVlabs/Sana",
+      "huggingface": "https://huggingface.co/Efficient-Large-Model/Sana_1600M_1024px_BF16",
+      "homepage": "https://github.com/NVlabs/Sana",
+      "previewImage": "https://opengraph.githubassets.com/a3570d1e8f2a33df94f433294369cc7fca47ad68aa273bf5a9bb6d9de0ef1611/NVlabs/Sana",
+      "previewKind": "official-repository-social-preview",
+      "previewAlt": "SANA 官方仓库预览，非本站生成效果样本",
+      "license": {
+        "code": "Apache-2.0",
+        "weights": "Apache-2.0",
+        "classification": "permissive-open-weights",
+        "summary": "已核对的 Sana_1600M_1024px_BF16 权重和代码采用 Apache-2.0；其他 checkpoint 须单独核对。",
+        "source": "https://huggingface.co/Efficient-Large-Model/Sana_1600M_1024px_BF16"
+      },
+      "hardware": {
+        "vramGb": 8,
+        "estimate": true,
+        "notes": "官方给出特定 4-bit/卸载配置可用 8GB 的示例；这不是所有 SANA 模型的最低配置，也不是本站实测。",
+        "source": "https://github.com/NVlabs/Sana"
+      },
+      "localReadiness": "official-local-inference",
+      "deploy": {
+        "kind": "comfyui",
+        "commandHint": "使用隔离 Python 环境，按官方 README 安装与下载指定权重；安装前审阅依赖和许可证。",
+        "docs": "https://github.com/NVlabs/Sana"
+      },
+      "sources": [
+        "https://github.com/NVlabs/Sana",
+        "https://huggingface.co/Efficient-Large-Model/Sana_1600M_1024px_BF16"
+      ],
+      "researchDate": "2026-11-02",
+      "stars": 9753,
+      "starsSource": "https://api.github.com/repos/NVlabs/Sana",
+      "starsObservedAt": "2026-11-02T08:41:19.783803+00:00",
+      "arena": {
+        "status": "cold-start",
+        "score": null,
+        "votes": 0
+      },
+      "notes": "",
+      "githubMetadata": {
+        "ok": true,
+        "source": "https://api.github.com/repos/NVlabs/Sana",
+        "observedAt": "2026-11-02T08:41:19.783803+00:00",
+        "fullName": "NVlabs/Sana",
+        "url": "https://github.com/NVlabs/Sana",
+        "stars": 9753,
+        "forks": 790,
+        "archived": false,
+        "pushedAt": "2026-10-30T07:01:25Z",
+        "createdAt": "2024-10-11T20:19:45Z",
+        "licenseSpdx": "Apache-2.0",
+        "homepage": "https://nvlabs.github.io/Sana/docs/"
+      },
+      "previewSource": "https://github.com/NVlabs/Sana"
+    },
+    {
+      "id": "wan22",
+      "name": "Wan2.2",
+      "description": "同时覆盖文生视频、图生视频与角色动画的开放视频模型。",
+      "modalities": [
+        "text-to-video",
+        "image-to-video",
+        "portrait-animation"
+      ],
+      "tags": [
+        "text-to-video",
+        "image-to-video",
+        "portrait-animation"
+      ],
+      "github": "https://github.com/Wan-Video/Wan2.2",
+      "repo": "Wan-Video/Wan2.2",
+      "huggingface": "https://huggingface.co/Wan-AI/Wan2.2-TI2V-5B",
+      "homepage": "https://github.com/Wan-Video/Wan2.2",
+      "previewImage": "https://opengraph.githubassets.com/272a02237c8c3617977b4d602f0542c964ead14494294dba060d1f333ece75be/Wan-Video/Wan2.2",
+      "previewKind": "official-repository-social-preview",
+      "previewAlt": "Wan2.2 官方仓库预览，非本站生成效果样本",
+      "license": {
+        "code": "Apache-2.0",
+        "weights": "Apache-2.0",
+        "classification": "permissive-open-weights",
+        "summary": "官方将仓库模型列为 Apache-2.0；不同大小模型应分赛道与版本评测。",
+        "source": "https://github.com/Wan-Video/Wan2.2"
+      },
+      "hardware": {
+        "vramGb": null,
+        "estimate": false,
+        "notes": "尚未在本站实测；显存受模型版本、精度、分辨率、序列长度和卸载设置影响。",
+        "source": "https://github.com/Wan-Video/Wan2.2"
+      },
+      "localReadiness": "official-local-inference",
+      "deploy": {
+        "kind": "comfyui",
+        "commandHint": "使用隔离 Python 环境，按官方 README 安装与下载指定权重；安装前审阅依赖和许可证。",
+        "docs": "https://github.com/Wan-Video/Wan2.2"
+      },
+      "sources": [
+        "https://github.com/Wan-Video/Wan2.2",
+        "https://huggingface.co/Wan-AI/Wan2.2-TI2V-5B"
+      ],
+      "researchDate": "2026-11-02",
+      "stars": 18314,
+      "starsSource": "https://api.github.com/repos/Wan-Video/Wan2.2",
+      "starsObservedAt": "2026-11-02T08:41:19.783803+00:00",
+      "arena": {
+        "status": "cold-start",
+        "score": null,
+        "votes": 0
+      },
+      "notes": "TI2V-5B 与 A14B 的质量、速度和硬件要求不同，不合并为同一性能成绩。",
+      "githubMetadata": {
+        "ok": true,
+        "source": "https://api.github.com/repos/Wan-Video/Wan2.2",
+        "observedAt": "2026-11-02T08:41:19.783803+00:00",
+        "fullName": "Wan-Video/Wan2.2",
+        "url": "https://github.com/Wan-Video/Wan2.2",
+        "stars": 18314,
+        "forks": 2404,
+        "archived": false,
+        "pushedAt": "2026-09-21T06:16:22Z",
+        "createdAt": "2025-07-28T08:17:01Z",
+        "licenseSpdx": "Apache-2.0",
+        "homepage": "https://wan.video"
+      },
+      "previewSource": "https://github.com/Wan-Video/Wan2.2"
+    },
+    {
+      "id": "ltx2",
+      "name": "LTX-2 / 2.x",
+      "description": "把画面与声音联合生成的本地视频创作模型系列。",
+      "modalities": [
+        "text-to-video",
+        "image-to-video",
+        "video-audio"
+      ],
+      "tags": [
+        "text-to-video",
+        "image-to-video",
+        "video-audio"
+      ],
+      "github": "https://github.com/Lightricks/LTX-2",
+      "repo": "Lightricks/LTX-2",
+      "huggingface": null,
+      "homepage": "https://github.com/Lightricks/LTX-2",
+      "previewImage": "https://opengraph.githubassets.com/9ee83320818a1d9fddad4159bd1aa3d8f3bbb7d072f383854fbe1a575f711429/Lightricks/LTX-2",
+      "previewKind": "official-repository-social-preview",
+      "previewAlt": "LTX-2 / 2.x 官方仓库预览，非本站生成效果样本",
+      "license": {
+        "code": "LTX Community / component-specific",
+        "weights": "LTX Community License (checkpoint-specific)",
+        "classification": "restricted-open-weights",
+        "summary": "2.0–2.3 与 2.5 起的许可版本不同；存在商业规模与使用限制，不标为 OSI 开源。",
+        "source": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE"
+      },
+      "hardware": {
+        "vramGb": null,
+        "estimate": false,
+        "notes": "尚未在本站实测；显存受模型版本、精度、分辨率、序列长度和卸载设置影响。",
+        "source": "https://github.com/Lightricks/LTX-2"
+      },
+      "localReadiness": "official-local-inference",
+      "deploy": {
+        "kind": "comfyui",
+        "commandHint": "使用隔离 Python 环境，按官方 README 安装与下载指定权重；安装前审阅依赖和许可证。",
+        "docs": "https://github.com/Lightricks/LTX-2"
+      },
+      "sources": [
+        "https://github.com/Lightricks/LTX-2",
+        "https://github.com/Lightricks/LTX-2/blob/main/LICENSE"
+      ],
+      "researchDate": "2026-11-02",
+      "stars": 10028,
+      "starsSource": "https://api.github.com/repos/Lightricks/LTX-2",
+      "starsObservedAt": "2026-11-02T08:41:19.783803+00:00",
+      "arena": {
+        "status": "cold-start",
+        "score": null,
+        "votes": 0
+      },
+      "notes": "每次评测必须锁定确切 checkpoint、许可证版本和音视频设置。",
+      "githubMetadata": {
+        "ok": true,
+        "source": "https://api.github.com/repos/Lightricks/LTX-2",
+        "observedAt": "2026-11-02T08:41:19.783803+00:00",
+        "fullName": "Lightricks/LTX-2",
+        "url": "https://github.com/Lightricks/LTX-2",
+        "stars": 10028,
+        "forks": 1589,
+        "archived": false,
+        "pushedAt": "2026-10-18T17:41:34Z",
+        "createdAt": "2026-01-03T13:16:29Z",
+        "licenseSpdx": "NOASSERTION",
+        "homepage": "https://ltx.io"
+      },
+      "previewSource": "https://github.com/Lightricks/LTX-2"
+    },
+    {
+      "id": "hunyuanvideo15",
+      "name": "HunyuanVideo-1.5",
+      "description": "面向消费级 GPU 卸载推理的视频生成模型。",
+      "modalities": [
+        "text-to-video",
+        "image-to-video"
+      ],
+      "tags": [
+        "text-to-video",
+        "image-to-video"
+      ],
+      "github": "https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5",
+      "repo": "Tencent-Hunyuan/HunyuanVideo-1.5",
+      "huggingface": null,
+      "homepage": "https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5",
+      "previewImage": "https://opengraph.githubassets.com/5bf32a118bd3fd38c74389665fa64a2b0e3c0e0a5909a913d640fa664b32b23d/Tencent-Hunyuan/HunyuanVideo-1.5",
+      "previewKind": "official-repository-social-preview",
+      "previewAlt": "HunyuanVideo-1.5 官方仓库预览，非本站生成效果样本",
+      "license": {
+        "code": "Tencent Hunyuan Community License",
+        "weights": "Tencent Hunyuan Community License",
+        "classification": "restricted-open-weights",
+        "summary": "使用腾讯混元社区许可；地区、规模与用途条件以该版本 LICENSE 为准。",
+        "source": "https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5"
+      },
+      "hardware": {
+        "vramGb": 14,
+        "estimate": true,
+        "notes": "官方列出开启模型卸载时最低 14GB；为项目方条件说明，未在本站硬件实测。",
+        "source": "https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5"
+      },
+      "localReadiness": "official-local-inference",
+      "deploy": {
+        "kind": "comfyui",
+        "commandHint": "使用隔离 Python 环境，按官方 README 安装与下载指定权重；安装前审阅依赖和许可证。",
+        "docs": "https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5"
+      },
+      "sources": [
+        "https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5"
+      ],
+      "researchDate": "2026-11-02",
+      "stars": 4591,
+      "starsSource": "https://api.github.com/repos/Tencent-Hunyuan/HunyuanVideo-1.5",
+      "starsObservedAt": "2026-11-02T08:41:19.783803+00:00",
+      "arena": {
+        "status": "cold-start",
+        "score": null,
+        "votes": 0
+      },
+      "notes": "",
+      "githubMetadata": {
+        "ok": true,
+        "source": "https://api.github.com/repos/Tencent-Hunyuan/HunyuanVideo-1.5",
+        "observedAt": "2026-11-02T08:41:19.783803+00:00",
+        "fullName": "Tencent-Hunyuan/HunyuanVideo-1.5",
+        "url": "https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5",
+        "stars": 4591,
+        "forks": 238,
+        "archived": false,
+        "pushedAt": "2026-04-10T06:14:59Z",
+        "createdAt": "2025-11-20T06:15:42Z",
+        "licenseSpdx": "NOASSERTION",
+        "homepage": "https://hunyuan.tencent.com/video/zh?tabIndex=0"
+      },
+      "previewSource": "https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5"
+    },
+    {
+      "id": "cogvideox2b",
+      "name": "CogVideoX-2B",
+      "description": "适合作为可复现基线的 Apache 许可文生视频模型。",
+      "modalities": [
+        "text-to-video"
+      ],
+      "tags": [
+        "text-to-video"
+      ],
+      "github": "https://github.com/zai-org/CogVideo",
+      "repo": "zai-org/CogVideo",
+      "huggingface": "https://huggingface.co/THUDM/CogVideoX-2b",
+      "homepage": "https://github.com/zai-org/CogVideo",
+      "previewImage": "https://opengraph.githubassets.com/f09292c25a01efd54ec543c69d280c4769c61607b8a746362a241f59094c6f59/zai-org/CogVideo",
+      "previewKind": "official-repository-social-preview",
+      "previewAlt": "CogVideoX-2B 官方仓库预览，非本站生成效果样本",
+      "license": {
+        "code": "Apache-2.0",
+        "weights": "Apache-2.0 (2B only)",
+        "classification": "permissive-open-weights",
+        "summary": "这里收录 2B；5B/I2V 的模型许可不同，不能沿用 2B 的许可结论。",
+        "source": "https://github.com/zai-org/CogVideo#model-license"
+      },
+      "hardware": {
+        "vramGb": null,
+        "estimate": false,
+        "notes": "尚未在本站实测；显存受模型版本、精度、分辨率、序列长度和卸载设置影响。",
+        "source": "https://github.com/zai-org/CogVideo"
+      },
+      "localReadiness": "official-local-inference",
+      "deploy": {
+        "kind": "comfyui",
+        "commandHint": "使用隔离 Python 环境，按官方 README 安装与下载指定权重；安装前审阅依赖和许可证。",
+        "docs": "https://github.com/zai-org/CogVideo"
+      },
+      "sources": [
+        "https://github.com/zai-org/CogVideo",
+        "https://github.com/zai-org/CogVideo#model-license",
+        "https://huggingface.co/THUDM/CogVideoX-2b"
+      ],
+      "researchDate": "2026-11-02",
+      "stars": 13171,
+      "starsSource": "https://api.github.com/repos/zai-org/CogVideo",
+      "starsObservedAt": "2026-11-02T08:41:19.783803+00:00",
+      "arena": {
+        "status": "cold-start",
+        "score": null,
+        "votes": 0
+      },
+      "notes": "",
+      "githubMetadata": {
+        "ok": true,
+        "source": "https://api.github.com/repos/zai-org/CogVideo",
+        "observedAt": "2026-11-02T08:41:19.783803+00:00",
+        "fullName": "zai-org/CogVideo",
+        "url": "https://github.com/zai-org/CogVideo",
+        "stars": 13171,
+        "forks": 1385,
+        "archived": false,
+        "pushedAt": "2025-11-04T11:19:04Z",
+        "createdAt": "2022-05-29T06:46:18Z",
+        "licenseSpdx": "Apache-2.0",
+        "homepage": ""
+      },
+      "previewSource": "https://github.com/zai-org/CogVideo"
+    },
+    {
+      "id": "mochi1",
+      "name": "Mochi 1",
+      "description": "注重自然运动与提示词遵循的开放视频生成模型。",
+      "modalities": [
+        "text-to-video"
+      ],
+      "tags": [
+        "text-to-video"
+      ],
+      "github": "https://github.com/genmoai/mochi",
+      "repo": "genmoai/mochi",
+      "huggingface": "https://huggingface.co/genmo/mochi-1-preview",
+      "homepage": "https://github.com/genmoai/mochi",
+      "previewImage": "https://opengraph.githubassets.com/6a62a4d107a496360de9a7cc2179bdb4247024baa7eedab043ca7eb7a66485ff/genmoai/mochi",
+      "previewKind": "official-repository-social-preview",
+      "previewAlt": "Mochi 1 官方仓库预览，非本站生成效果样本",
+      "license": {
+        "code": "Apache-2.0",
+        "weights": "Apache-2.0",
+        "classification": "permissive-open-weights",
+        "summary": "代码与公开模型采用 Apache-2.0；硬件需求应按量化及卸载方案独立记录。",
+        "source": "https://github.com/genmoai/mochi"
+      },
+      "hardware": {
+        "vramGb": null,
+        "estimate": false,
+        "notes": "尚未在本站实测；显存受模型版本、精度、分辨率、序列长度和卸载设置影响。",
+        "source": "https://github.com/genmoai/mochi"
+      },
+      "localReadiness": "official-local-inference",
+      "deploy": {
+        "kind": "comfyui",
+        "commandHint": "使用隔离 Python 环境，按官方 README 安装与下载指定权重；安装前审阅依赖和许可证。",
+        "docs": "https://github.com/genmoai/mochi"
+      },
+      "sources": [
+        "https://github.com/genmoai/mochi",
+        "https://huggingface.co/genmo/mochi-1-preview"
+      ],
+      "researchDate": "2026-11-02",
+      "stars": 3759,
+      "starsSource": "https://api.github.com/repos/genmoai/mochi",
+      "starsObservedAt": "2026-11-02T08:41:19.783803+00:00",
+      "arena": {
+        "status": "cold-start",
+        "score": null,
+        "votes": 0
+      },
+      "notes": "",
+      "githubMetadata": {
+        "ok": true,
+        "source": "https://api.github.com/repos/genmoai/mochi",
+        "observedAt": "2026-11-02T08:41:19.783803+00:00",
+        "fullName": "genmoai/mochi",
+        "url": "https://github.com/genmoai/mochi",
+        "stars": 3759,
+        "forks": 497,
+        "archived": false,
+        "pushedAt": "2026-10-22T23:35:03Z",
+        "createdAt": "2024-09-11T02:55:33Z",
+        "licenseSpdx": "Apache-2.0",
+        "homepage": ""
+      },
+      "previewSource": "https://github.com/genmoai/mochi"
+    },
+    {
+      "id": "hunyuan3d2",
+      "name": "Hunyuan3D-2",
+      "description": "从单张图像生成三维几何与纹理的分阶段模型。",
+      "modalities": [
+        "image-to-3d",
+        "textured-mesh"
+      ],
+      "tags": [
+        "image-to-3d",
+        "textured-mesh"
+      ],
+      "github": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2",
+      "repo": "Tencent-Hunyuan/Hunyuan3D-2",
+      "huggingface": "https://huggingface.co/tencent/Hunyuan3D-2",
+      "homepage": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2",
+      "previewImage": "https://opengraph.githubassets.com/08c6b5420e64bfff05c32ff6cecfd2008129b629821160eed122109cb0925f2f/Tencent-Hunyuan/Hunyuan3D-2",
+      "previewKind": "official-repository-social-preview",
+      "previewAlt": "Hunyuan3D-2 官方仓库预览，非本站生成效果样本",
+      "license": {
+        "code": "Tencent Hunyuan 3D 2.0 Community License",
+        "weights": "Tencent Hunyuan 3D 2.0 Community License",
+        "classification": "restricted-open-weights",
+        "summary": "社区许可含地域与商业规模条件；不是无条件商用或 OSI 开源许可证。",
+        "source": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2/blob/main/LICENSE"
+      },
+      "hardware": {
+        "vramGb": null,
+        "estimate": false,
+        "notes": "尚未在本站实测；显存受模型版本、精度、分辨率、序列长度和卸载设置影响。",
+        "source": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2"
+      },
+      "localReadiness": "official-local-inference",
+      "deploy": {
+        "kind": "python",
+        "commandHint": "使用隔离 Python 环境，按官方 README 安装与下载指定权重；安装前审阅依赖和许可证。",
+        "docs": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2"
+      },
+      "sources": [
+        "https://github.com/Tencent-Hunyuan/Hunyuan3D-2",
+        "https://github.com/Tencent-Hunyuan/Hunyuan3D-2/blob/main/LICENSE",
+        "https://huggingface.co/tencent/Hunyuan3D-2"
+      ],
+      "researchDate": "2026-11-02",
+      "stars": 15294,
+      "starsSource": "https://api.github.com/repos/Tencent-Hunyuan/Hunyuan3D-2",
+      "starsObservedAt": "2026-11-02T08:41:19.783803+00:00",
+      "arena": {
+        "status": "cold-start",
+        "score": null,
+        "votes": 0
+      },
+      "notes": "",
+      "githubMetadata": {
+        "ok": true,
+        "source": "https://api.github.com/repos/Tencent-Hunyuan/Hunyuan3D-2",
+        "observedAt": "2026-11-02T08:41:19.783803+00:00",
+        "fullName": "Tencent-Hunyuan/Hunyuan3D-2",
+        "url": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2",
+        "stars": 15294,
+        "forks": 1586,
+        "archived": false,
+        "pushedAt": "2025-10-28T09:58:12Z",
+        "createdAt": "2025-01-21T05:21:35Z",
+        "licenseSpdx": "NOASSERTION",
+        "homepage": "https://3d.hunyuan.tencent.com/"
+      },
+      "previewSource": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2"
+    },
+    {
+      "id": "trellis2",
+      "name": "TRELLIS.2",
+      "description": "从图像生成带材质的紧凑三维资产与结构化表示。",
+      "modalities": [
+        "image-to-3d",
+        "textured-mesh",
+        "pbr-material"
+      ],
+      "tags": [
+        "image-to-3d",
+        "textured-mesh",
+        "pbr-material"
+      ],
+      "github": "https://github.com/microsoft/TRELLIS.2",
+      "repo": "microsoft/TRELLIS.2",
+      "huggingface": null,
+      "homepage": "https://github.com/microsoft/TRELLIS.2",
+      "previewImage": "https://opengraph.githubassets.com/8538f9fb2dddf240c130444160eb44965898b7e89c63b38217d8f8891736d695/microsoft/TRELLIS.2",
+      "previewKind": "official-repository-social-preview",
+      "previewAlt": "TRELLIS.2 官方仓库预览，非本站生成效果样本",
+      "license": {
+        "code": "MIT",
+        "weights": "MIT",
+        "classification": "permissive-open-weights",
+        "summary": "官方 README 将模型和代码均列为 MIT；外部组件仍各自适用其许可。",
+        "source": "https://github.com/microsoft/TRELLIS.2#license"
+      },
+      "hardware": {
+        "vramGb": null,
+        "estimate": false,
+        "notes": "尚未在本站实测；显存受模型版本、精度、分辨率、序列长度和卸载设置影响。",
+        "source": "https://github.com/microsoft/TRELLIS.2"
+      },
+      "localReadiness": "official-local-inference",
+      "deploy": {
+        "kind": "python",
+        "commandHint": "使用隔离 Python 环境，按官方 README 安装与下载指定权重；安装前审阅依赖和许可证。",
+        "docs": "https://github.com/microsoft/TRELLIS.2"
+      },
+      "sources": [
+        "https://github.com/microsoft/TRELLIS.2",
+        "https://github.com/microsoft/TRELLIS.2#license"
+      ],
+      "researchDate": "2026-11-02",
+      "stars": 12603,
+      "starsSource": "https://api.github.com/repos/microsoft/TRELLIS.2",
+      "starsObservedAt": "2026-11-02T08:41:19.783803+00:00",
+      "arena": {
+        "status": "cold-start",
+        "score": null,
+        "votes": 0
+      },
+      "notes": "",
+      "githubMetadata": {
+        "ok": true,
+        "source": "https://api.github.com/repos/microsoft/TRELLIS.2",
+        "observedAt": "2026-11-02T08:41:19.783803+00:00",
+        "fullName": "microsoft/TRELLIS.2",
+        "url": "https://github.com/microsoft/TRELLIS.2",
+        "stars": 12603,
+        "forks": 1531,
+        "archived": false,
+        "pushedAt": "2026-07-10T12:34:32Z",
+        "createdAt": "2025-11-26T10:04:35Z",
+        "licenseSpdx": "MIT",
+        "homepage": null
+      },
+      "previewSource": "https://github.com/microsoft/TRELLIS.2"
+    },
+    {
+      "id": "triposr",
+      "name": "TripoSR",
+      "description": "把单张物体图像快速重建为可导出的三维网格。",
+      "modalities": [
+        "image-to-3d",
+        "textured-mesh"
+      ],
+      "tags": [
+        "image-to-3d",
+        "textured-mesh"
+      ],
+      "github": "https://github.com/VAST-AI-Research/TripoSR",
+      "repo": "VAST-AI-Research/TripoSR",
+      "huggingface": "https://huggingface.co/stabilityai/TripoSR",
+      "homepage": "https://github.com/VAST-AI-Research/TripoSR",
+      "previewImage": "https://opengraph.githubassets.com/7858332e7122dec82856dab496ac93bac6a1a20d70dcfcafe7b275e8c9592aee/VAST-AI-Research/TripoSR",
+      "previewKind": "official-repository-social-preview",
+      "previewAlt": "TripoSR 官方仓库预览，非本站生成效果样本",
+      "license": {
+        "code": "MIT",
+        "weights": "MIT",
+        "classification": "permissive-open-weights",
+        "summary": "官方说明 MIT 同时覆盖代码和预训练模型。",
+        "source": "https://github.com/VAST-AI-Research/TripoSR"
+      },
+      "hardware": {
+        "vramGb": 6,
+        "estimate": true,
+        "notes": "官方默认单图推理约 6GB 显存；输入、纹理烘焙和硬件实现会影响用量，本站未实测。",
+        "source": "https://github.com/VAST-AI-Research/TripoSR"
+      },
+      "localReadiness": "official-local-inference",
+      "deploy": {
+        "kind": "python",
+        "commandHint": "在隔离环境中按 README 安装后，用 python run.py <image> --output-dir output/ 执行单图重建。",
+        "docs": "https://github.com/VAST-AI-Research/TripoSR"
+      },
+      "sources": [
+        "https://github.com/VAST-AI-Research/TripoSR",
+        "https://huggingface.co/stabilityai/TripoSR"
+      ],
+      "researchDate": "2026-11-02",
+      "stars": 7276,
+      "starsSource": "https://api.github.com/repos/VAST-AI-Research/TripoSR",
+      "starsObservedAt": "2026-11-02T08:41:19.783803+00:00",
+      "arena": {
+        "status": "cold-start",
+        "score": null,
+        "votes": 0
+      },
+      "notes": "",
+      "githubMetadata": {
+        "ok": true,
+        "source": "https://api.github.com/repos/VAST-AI-Research/TripoSR",
+        "observedAt": "2026-11-02T08:41:19.783803+00:00",
+        "fullName": "VAST-AI-Research/TripoSR",
+        "url": "https://github.com/VAST-AI-Research/TripoSR",
+        "stars": 7276,
+        "forks": 938,
+        "archived": false,
+        "pushedAt": "2026-06-04T07:11:09Z",
+        "createdAt": "2024-02-07T10:31:04Z",
+        "licenseSpdx": "MIT",
+        "homepage": "https://www.tripo3d.ai/research/triposr"
+      },
+      "previewSource": "https://github.com/VAST-AI-Research/TripoSR"
+    },
+    {
+      "id": "stable-fast-3d",
+      "name": "Stable Fast 3D",
+      "description": "从单图重建带 UV、纹理和材质信息的三维网格。",
+      "modalities": [
+        "image-to-3d",
+        "textured-mesh",
+        "pbr-material"
+      ],
+      "tags": [
+        "image-to-3d",
+        "textured-mesh",
+        "pbr-material"
+      ],
+      "github": "https://github.com/Stability-AI/stable-fast-3d",
+      "repo": "Stability-AI/stable-fast-3d",
+      "huggingface": "https://huggingface.co/stabilityai/stable-fast-3d",
+      "homepage": "https://github.com/Stability-AI/stable-fast-3d",
+      "previewImage": "https://opengraph.githubassets.com/3f4f8f4ebbfcbc45adda4874662801a546f9d9fc2bd3febc7b0c208c303183d4/Stability-AI/stable-fast-3d",
+      "previewKind": "official-repository-social-preview",
+      "previewAlt": "Stable Fast 3D 官方仓库预览，非本站生成效果样本",
+      "license": {
+        "code": "Stability AI Community License",
+        "weights": "Stability AI Community License",
+        "classification": "restricted-open-weights",
+        "summary": "使用 Stability 社区许可且权重需要授权访问；商业资格以对应许可文本为准。",
+        "source": "https://github.com/Stability-AI/stable-fast-3d/blob/main/LICENSE.md"
+      },
+      "hardware": {
+        "vramGb": null,
+        "estimate": false,
+        "notes": "尚未在本站实测；显存受模型版本、精度、分辨率、序列长度和卸载设置影响。",
+        "source": "https://github.com/Stability-AI/stable-fast-3d"
+      },
+      "localReadiness": "official-local-inference",
+      "deploy": {
+        "kind": "python",
+        "commandHint": "使用隔离 Python 环境，按官方 README 安装与下载指定权重；安装前审阅依赖和许可证。",
+        "docs": "https://github.com/Stability-AI/stable-fast-3d"
+      },
+      "sources": [
+        "https://github.com/Stability-AI/stable-fast-3d",
+        "https://github.com/Stability-AI/stable-fast-3d/blob/main/LICENSE.md",
+        "https://huggingface.co/stabilityai/stable-fast-3d"
+      ],
+      "researchDate": "2026-11-02",
+      "stars": 1918,
+      "starsSource": "https://api.github.com/repos/Stability-AI/stable-fast-3d",
+      "starsObservedAt": "2026-11-02T08:41:19.783803+00:00",
+      "arena": {
+        "status": "cold-start",
+        "score": null,
+        "votes": 0
+      },
+      "notes": "",
+      "githubMetadata": {
+        "ok": true,
+        "source": "https://api.github.com/repos/Stability-AI/stable-fast-3d",
+        "observedAt": "2026-11-02T08:41:19.783803+00:00",
+        "fullName": "Stability-AI/stable-fast-3d",
+        "url": "https://github.com/Stability-AI/stable-fast-3d",
+        "stars": 1918,
+        "forks": 235,
+        "archived": false,
+        "pushedAt": "2025-01-22T14:55:42Z",
+        "createdAt": "2024-07-17T10:09:07Z",
+        "licenseSpdx": "NOASSERTION",
+        "homepage": "https://stable-fast-3d.github.io"
+      },
+      "previewSource": "https://github.com/Stability-AI/stable-fast-3d"
+    },
+    {
+      "id": "instantmesh",
+      "name": "InstantMesh",
+      "description": "借助多视图生成与重建把单图转换成三维网格。",
+      "modalities": [
+        "image-to-3d",
+        "multiview-to-3d",
+        "textured-mesh"
+      ],
+      "tags": [
+        "image-to-3d",
+        "multiview-to-3d",
+        "textured-mesh"
+      ],
+      "github": "https://github.com/TencentARC/InstantMesh",
+      "repo": "TencentARC/InstantMesh",
+      "huggingface": "https://huggingface.co/TencentARC/InstantMesh",
+      "homepage": "https://github.com/TencentARC/InstantMesh",
+      "previewImage": "https://opengraph.githubassets.com/70cc48749b4af6a22fe40fa9a1752c4552f517230179b16f3403d19506f75493/TencentARC/InstantMesh",
+      "previewKind": "official-repository-social-preview",
+      "previewAlt": "InstantMesh 官方仓库预览，非本站生成效果样本",
+      "license": {
+        "code": "Apache-2.0",
+        "weights": "Apache-2.0",
+        "classification": "permissive-open-weights",
+        "summary": "官方 InstantMesh 权重与代码采用 Apache-2.0；Zero123++ 等依赖须分别核对。",
+        "source": "https://huggingface.co/TencentARC/InstantMesh"
+      },
+      "hardware": {
+        "vramGb": null,
+        "estimate": false,
+        "notes": "尚未在本站实测；显存受模型版本、精度、分辨率、序列长度和卸载设置影响。",
+        "source": "https://github.com/TencentARC/InstantMesh"
+      },
+      "localReadiness": "official-local-inference",
+      "deploy": {
+        "kind": "python",
+        "commandHint": "使用隔离 Python 环境，按官方 README 安装与下载指定权重；安装前审阅依赖和许可证。",
+        "docs": "https://github.com/TencentARC/InstantMesh"
+      },
+      "sources": [
+        "https://github.com/TencentARC/InstantMesh",
+        "https://huggingface.co/TencentARC/InstantMesh"
+      ],
+      "researchDate": "2026-11-02",
+      "stars": 4586,
+      "starsSource": "https://api.github.com/repos/TencentARC/InstantMesh",
+      "starsObservedAt": "2026-11-02T08:41:19.783803+00:00",
+      "arena": {
+        "status": "cold-start",
+        "score": null,
+        "votes": 0
+      },
+      "notes": "",
+      "githubMetadata": {
+        "ok": true,
+        "source": "https://api.github.com/repos/TencentARC/InstantMesh",
+        "observedAt": "2026-11-02T08:41:19.783803+00:00",
+        "fullName": "TencentARC/InstantMesh",
+        "url": "https://github.com/TencentARC/InstantMesh",
+        "stars": 4586,
+        "forks": 509,
+        "archived": false,
+        "pushedAt": "2025-01-03T09:09:13Z",
+        "createdAt": "2024-04-10T11:22:38Z",
+        "licenseSpdx": "Apache-2.0",
+        "homepage": null
+      },
+      "previewSource": "https://github.com/TencentARC/InstantMesh"
+    },
+    {
+      "id": "ace-step15",
+      "name": "ACE-Step 1.5",
+      "description": "在本地生成歌曲并支持参考音频与音乐编辑的创作模型。",
+      "modalities": [
+        "text-to-music",
+        "lyrics-to-song",
+        "audio-edit"
+      ],
+      "tags": [
+        "text-to-music",
+        "lyrics-to-song",
+        "audio-edit"
+      ],
+      "github": "https://github.com/ace-step/ACE-Step-1.5",
+      "repo": "ace-step/ACE-Step-1.5",
+      "huggingface": null,
+      "homepage": "https://github.com/ace-step/ACE-Step-1.5",
+      "previewImage": "https://opengraph.githubassets.com/61b2229cb71843a76d621cfa44efc2b92522e18ff502f8f96a014776e4084885/ace-step/ACE-Step-1.5",
+      "previewKind": "official-repository-social-preview",
+      "previewAlt": "ACE-Step 1.5 官方仓库预览，非本站生成效果样本",
+      "license": {
+        "code": "MIT",
+        "weights": "MIT (project declaration; verify selected checkpoint)",
+        "classification": "permissive-open-weights",
+        "summary": "1.5 项目声明 MIT；初代 ACE-Step 仓库使用 Apache-2.0，应保留版本区别。",
+        "source": "https://github.com/ace-step/ACE-Step-1.5#license--disclaimer"
+      },
+      "hardware": {
+        "vramGb": null,
+        "estimate": false,
+        "notes": "尚未在本站实测；显存受模型版本、精度、分辨率、序列长度和卸载设置影响。",
+        "source": "https://github.com/ace-step/ACE-Step-1.5"
+      },
+      "localReadiness": "official-local-inference",
+      "deploy": {
+        "kind": "python",
+        "commandHint": "使用隔离 Python 环境，按官方 README 安装与下载指定权重；安装前审阅依赖和许可证。",
+        "docs": "https://github.com/ace-step/ACE-Step-1.5"
+      },
+      "sources": [
+        "https://github.com/ace-step/ACE-Step-1.5",
+        "https://github.com/ace-step/ACE-Step-1.5#license--disclaimer"
+      ],
+      "researchDate": "2026-11-02",
+      "stars": 14287,
+      "starsSource": "https://api.github.com/repos/ace-step/ACE-Step-1.5",
+      "starsObservedAt": "2026-11-02T08:41:19.783803+00:00",
+      "arena": {
+        "status": "cold-start",
+        "score": null,
+        "votes": 0
+      },
+      "notes": "",
+      "githubMetadata": {
+        "ok": true,
+        "source": "https://api.github.com/repos/ace-step/ACE-Step-1.5",
+        "observedAt": "2026-11-02T08:41:19.783803+00:00",
+        "fullName": "ace-step/ACE-Step-1.5",
+        "url": "https://github.com/ace-step/ACE-Step-1.5",
+        "stars": 14287,
+        "forks": 1890,
+        "archived": false,
+        "pushedAt": "2026-10-11T14:11:22Z",
+        "createdAt": "2025-09-04T02:00:07Z",
+        "licenseSpdx": "MIT",
+        "homepage": "https://acemusic.ai/"
+      },
+      "previewSource": "https://github.com/ace-step/ACE-Step-1.5"
+    },
+    {
+      "id": "yue2",
+      "name": "YuE2",
+      "description": "通过音乐规划、歌词与参考音频完成歌曲生成和编辑。",
+      "modalities": [
+        "text-to-music",
+        "lyrics-to-song",
+        "audio-edit"
+      ],
+      "tags": [
+        "text-to-music",
+        "lyrics-to-song",
+        "audio-edit"
+      ],
+      "github": "https://github.com/multimodal-art-projection/YuE",
+      "repo": "multimodal-art-projection/YuE",
+      "huggingface": "https://huggingface.co/m-a-p/YuE2-3B",
+      "homepage": "https://github.com/multimodal-art-projection/YuE",
+      "previewImage": "https://opengraph.githubassets.com/e804ab0461b65df10e5928292987734786edb89dca20bf1ff11b154088effdf0/multimodal-art-projection/YuE",
+      "previewKind": "official-repository-social-preview",
+      "previewAlt": "YuE2 官方仓库预览，非本站生成效果样本",
+      "license": {
+        "code": "Apache-2.0",
+        "weights": "CC-BY-NC-4.0 + additional creator permission",
+        "classification": "restricted-open-weights",
+        "summary": "YuE2 权重非商业许可另附创作者权限；个人创作者与公司使用条款不同，旧版许可不自动继承。",
+        "source": "https://github.com/multimodal-art-projection/YuE/blob/main/MODEL_LICENSE"
+      },
+      "hardware": {
+        "vramGb": null,
+        "estimate": false,
+        "notes": "尚未在本站实测；显存受模型版本、精度、分辨率、序列长度和卸载设置影响。",
+        "source": "https://github.com/multimodal-art-projection/YuE"
+      },
+      "localReadiness": "official-local-inference",
+      "deploy": {
+        "kind": "python",
+        "commandHint": "使用隔离 Python 环境，按官方 README 安装与下载指定权重；安装前审阅依赖和许可证。",
+        "docs": "https://github.com/multimodal-art-projection/YuE"
+      },
+      "sources": [
+        "https://github.com/multimodal-art-projection/YuE",
+        "https://github.com/multimodal-art-projection/YuE/blob/main/MODEL_LICENSE",
+        "https://huggingface.co/m-a-p/YuE2-3B"
+      ],
+      "researchDate": "2026-11-02",
+      "stars": 12993,
+      "starsSource": "https://api.github.com/repos/multimodal-art-projection/YuE",
+      "starsObservedAt": "2026-11-02T08:41:19.783803+00:00",
+      "arena": {
+        "status": "cold-start",
+        "score": null,
+        "votes": 0
+      },
+      "notes": "",
+      "githubMetadata": {
+        "ok": true,
+        "source": "https://api.github.com/repos/multimodal-art-projection/YuE",
+        "observedAt": "2026-11-02T08:41:19.783803+00:00",
+        "fullName": "multimodal-art-projection/YuE",
+        "url": "https://github.com/multimodal-art-projection/YuE",
+        "stars": 12993,
+        "forks": 1497,
+        "archived": false,
+        "pushedAt": "2026-11-01T05:46:34Z",
+        "createdAt": "2025-01-23T06:21:58Z",
+        "licenseSpdx": "Apache-2.0",
+        "homepage": "https://map-yue2.github.io/"
+      },
+      "previewSource": "https://github.com/multimodal-art-projection/YuE"
+    },
+    {
+      "id": "musicgen",
+      "name": "MusicGen",
+      "description": "通过文本或旋律条件生成音乐的可复现研究基线。",
+      "modalities": [
+        "text-to-music",
+        "audio-edit"
+      ],
+      "tags": [
+        "text-to-music",
+        "audio-edit"
+      ],
+      "github": "https://github.com/facebookresearch/audiocraft",
+      "repo": "facebookresearch/audiocraft",
+      "huggingface": "https://huggingface.co/facebook/musicgen-small",
+      "homepage": "https://github.com/facebookresearch/audiocraft",
+      "previewImage": "https://opengraph.githubassets.com/d5152d386bfb11a28fa34edd281e6a03adf85197a0272fb7e49de260f2459d29/facebookresearch/audiocraft",
+      "previewKind": "official-repository-social-preview",
+      "previewAlt": "MusicGen 官方仓库预览，非本站生成效果样本",
+      "license": {
+        "code": "MIT",
+        "weights": "CC-BY-NC-4.0",
+        "classification": "restricted-open-weights",
+        "summary": "AudioCraft 代码 MIT，MusicGen 权重 CC-BY-NC-4.0。",
+        "source": "https://github.com/facebookresearch/audiocraft#license"
+      },
+      "hardware": {
+        "vramGb": null,
+        "estimate": false,
+        "notes": "尚未在本站实测；显存受模型版本、精度、分辨率、序列长度和卸载设置影响。",
+        "source": "https://github.com/facebookresearch/audiocraft"
+      },
+      "localReadiness": "official-local-inference",
+      "deploy": {
+        "kind": "python",
+        "commandHint": "使用隔离 Python 环境，按官方 README 安装与下载指定权重；安装前审阅依赖和许可证。",
+        "docs": "https://github.com/facebookresearch/audiocraft"
+      },
+      "sources": [
+        "https://github.com/facebookresearch/audiocraft",
+        "https://github.com/facebookresearch/audiocraft#license",
+        "https://huggingface.co/facebook/musicgen-small"
+      ],
+      "researchDate": "2026-11-02",
+      "stars": 23784,
+      "starsSource": "https://api.github.com/repos/facebookresearch/audiocraft",
+      "starsObservedAt": "2026-11-02T08:41:19.783803+00:00",
+      "arena": {
+        "status": "cold-start",
+        "score": null,
+        "votes": 0
+      },
+      "notes": "",
+      "githubMetadata": {
+        "ok": true,
+        "source": "https://api.github.com/repos/facebookresearch/audiocraft",
+        "observedAt": "2026-11-02T08:41:19.783803+00:00",
+        "fullName": "facebookresearch/audiocraft",
+        "url": "https://github.com/facebookresearch/audiocraft",
+        "stars": 23784,
+        "forks": 2711,
+        "archived": false,
+        "pushedAt": "2026-03-03T21:50:32Z",
+        "createdAt": "2023-06-08T06:41:36Z",
+        "licenseSpdx": "MIT",
+        "homepage": null
+      },
+      "previewSource": "https://github.com/facebookresearch/audiocraft"
+    },
+    {
+      "id": "stable-audio-open",
+      "name": "Stable Audio Open 1.0",
+      "description": "从文字生成环境声、音效与短音乐片段。",
+      "modalities": [
+        "text-to-sfx",
+        "text-to-music"
+      ],
+      "tags": [
+        "text-to-sfx",
+        "text-to-music"
+      ],
+      "github": "https://github.com/Stability-AI/stable-audio-tools",
+      "repo": "Stability-AI/stable-audio-tools",
+      "huggingface": "https://huggingface.co/stabilityai/stable-audio-open-1.0",
+      "homepage": "https://github.com/Stability-AI/stable-audio-tools",
+      "previewImage": "https://opengraph.githubassets.com/a25315ed1f7bacfcf7cb3600764fe82fe9b5dcadfe3c65aff8be9a83ba773735/Stability-AI/stable-audio-tools",
+      "previewKind": "official-repository-social-preview",
+      "previewAlt": "Stable Audio Open 1.0 官方仓库预览，非本站生成效果样本",
+      "license": {
+        "code": "MIT (tooling)",
+        "weights": "Stability AI Community License",
+        "classification": "restricted-open-weights",
+        "summary": "工具代码与模型权重许可不同；模型卡列为 Stability AI Community License。",
+        "source": "https://huggingface.co/stabilityai/stable-audio-open-1.0"
+      },
+      "hardware": {
+        "vramGb": null,
+        "estimate": false,
+        "notes": "尚未在本站实测；显存受模型版本、精度、分辨率、序列长度和卸载设置影响。",
+        "source": "https://github.com/Stability-AI/stable-audio-tools"
+      },
+      "localReadiness": "official-local-inference",
+      "deploy": {
+        "kind": "python",
+        "commandHint": "使用隔离 Python 环境，按官方 README 安装与下载指定权重；安装前审阅依赖和许可证。",
+        "docs": "https://github.com/Stability-AI/stable-audio-tools"
+      },
+      "sources": [
+        "https://github.com/Stability-AI/stable-audio-tools",
+        "https://huggingface.co/stabilityai/stable-audio-open-1.0"
+      ],
+      "researchDate": "2026-11-02",
+      "stars": 3896,
+      "starsSource": "https://api.github.com/repos/Stability-AI/stable-audio-tools",
+      "starsObservedAt": "2026-11-02T08:41:19.783803+00:00",
+      "arena": {
+        "status": "cold-start",
+        "score": null,
+        "votes": 0
+      },
+      "notes": "",
+      "githubMetadata": {
+        "ok": true,
+        "source": "https://api.github.com/repos/Stability-AI/stable-audio-tools",
+        "observedAt": "2026-11-02T08:41:19.783803+00:00",
+        "fullName": "Stability-AI/stable-audio-tools",
+        "url": "https://github.com/Stability-AI/stable-audio-tools",
+        "stars": 3896,
+        "forks": 489,
+        "archived": false,
+        "pushedAt": "2026-11-01T04:15:33Z",
+        "createdAt": "2023-05-23T15:51:04Z",
+        "licenseSpdx": "MIT",
+        "homepage": null
+      },
+      "previewSource": "https://github.com/Stability-AI/stable-audio-tools"
+    },
+    {
+      "id": "tangoflux",
+      "name": "TangoFlux",
+      "description": "利用流匹配从声音描述生成短音频与音效。",
+      "modalities": [
+        "text-to-sfx"
+      ],
+      "tags": [
+        "text-to-sfx"
+      ],
+      "github": "https://github.com/declare-lab/TangoFlux",
+      "repo": "declare-lab/TangoFlux",
+      "huggingface": "https://huggingface.co/declare-lab/TangoFlux",
+      "homepage": "https://github.com/declare-lab/TangoFlux",
+      "previewImage": "https://opengraph.githubassets.com/eac6edb0b1d6e6f25fa335ef25618524f40e8eb8995fccc6e2946f5332a79c17/declare-lab/TangoFlux",
+      "previewKind": "official-repository-social-preview",
+      "previewAlt": "TangoFlux 官方仓库预览，非本站生成效果样本",
+      "license": {
+        "code": "Component-specific / see repository",
+        "weights": "Research-only; Stability and dataset terms",
+        "classification": "research-restricted",
+        "summary": "官方明确研究与非商业定位，另受 Stability 和 WavCaps 数据条款约束。",
+        "source": "https://github.com/declare-lab/TangoFlux#license"
+      },
+      "hardware": {
+        "vramGb": null,
+        "estimate": false,
+        "notes": "尚未在本站实测；显存受模型版本、精度、分辨率、序列长度和卸载设置影响。",
+        "source": "https://github.com/declare-lab/TangoFlux"
+      },
+      "localReadiness": "official-local-inference",
+      "deploy": {
+        "kind": "python",
+        "commandHint": "使用隔离 Python 环境，按官方 README 安装与下载指定权重；安装前审阅依赖和许可证。",
+        "docs": "https://github.com/declare-lab/TangoFlux"
+      },
+      "sources": [
+        "https://github.com/declare-lab/TangoFlux",
+        "https://github.com/declare-lab/TangoFlux#license",
+        "https://huggingface.co/declare-lab/TangoFlux"
+      ],
+      "researchDate": "2026-11-02",
+      "stars": 885,
+      "starsSource": "https://api.github.com/repos/declare-lab/TangoFlux",
+      "starsObservedAt": "2026-11-02T08:41:19.783803+00:00",
+      "arena": {
+        "status": "cold-start",
+        "score": null,
+        "votes": 0
+      },
+      "notes": "",
+      "githubMetadata": {
+        "ok": true,
+        "source": "https://api.github.com/repos/declare-lab/TangoFlux",
+        "observedAt": "2026-11-02T08:41:19.783803+00:00",
+        "fullName": "declare-lab/TangoFlux",
+        "url": "https://github.com/declare-lab/TangoFlux",
+        "stars": 885,
+        "forks": 79,
+        "archived": false,
+        "pushedAt": "2026-01-28T08:32:17Z",
+        "createdAt": "2024-12-28T19:37:36Z",
+        "licenseSpdx": "NOASSERTION",
+        "homepage": "https://tangoflux.github.io"
+      },
+      "previewSource": "https://github.com/declare-lab/TangoFlux"
+    },
+    {
+      "id": "kokoro82m",
+      "name": "Kokoro 82M",
+      "description": "轻量级多语音本地 TTS，适合旁白与交互语音。",
+      "modalities": [
+        "text-to-speech"
+      ],
+      "tags": [
+        "text-to-speech"
+      ],
+      "github": "https://github.com/hexgrad/kokoro",
+      "repo": "hexgrad/kokoro",
+      "huggingface": "https://huggingface.co/hexgrad/Kokoro-82M",
+      "homepage": "https://github.com/hexgrad/kokoro",
+      "previewImage": "https://opengraph.githubassets.com/9973c4541c5c6188346450b73d2e676b0ed8c34d57f585722c9810d81bd3035c/hexgrad/kokoro",
+      "previewKind": "official-repository-social-preview",
+      "previewAlt": "Kokoro 82M 官方仓库预览，非本站生成效果样本",
+      "license": {
+        "code": "Apache-2.0 (repository)",
+        "weights": "Apache-2.0",
+        "classification": "permissive-open-weights",
+        "summary": "权重 Apache-2.0；espeak-ng 等外部运行依赖仍有各自许可证。",
+        "source": "https://huggingface.co/hexgrad/Kokoro-82M"
+      },
+      "hardware": {
+        "vramGb": null,
+        "estimate": false,
+        "notes": "尚未在本站实测；显存受模型版本、精度、分辨率、序列长度和卸载设置影响。",
+        "source": "https://github.com/hexgrad/kokoro"
+      },
+      "localReadiness": "official-local-inference",
+      "deploy": {
+        "kind": "python",
+        "commandHint": "使用隔离 Python 环境，按官方 README 安装与下载指定权重；安装前审阅依赖和许可证。",
+        "docs": "https://github.com/hexgrad/kokoro"
+      },
+      "sources": [
+        "https://github.com/hexgrad/kokoro",
+        "https://huggingface.co/hexgrad/Kokoro-82M"
+      ],
+      "researchDate": "2026-11-02",
+      "stars": 9861,
+      "starsSource": "https://api.github.com/repos/hexgrad/kokoro",
+      "starsObservedAt": "2026-11-02T08:41:19.783803+00:00",
+      "arena": {
+        "status": "cold-start",
+        "score": null,
+        "votes": 0
+      },
+      "notes": "",
+      "githubMetadata": {
+        "ok": true,
+        "source": "https://api.github.com/repos/hexgrad/kokoro",
+        "observedAt": "2026-11-02T08:41:19.783803+00:00",
+        "fullName": "hexgrad/kokoro",
+        "url": "https://github.com/hexgrad/kokoro",
+        "stars": 9861,
+        "forks": 1101,
+        "archived": false,
+        "pushedAt": "2025-08-06T22:28:53Z",
+        "createdAt": "2025-01-10T21:37:05Z",
+        "licenseSpdx": "Apache-2.0",
+        "homepage": null
+      },
+      "previewSource": "https://github.com/hexgrad/kokoro"
+    },
+    {
+      "id": "f5tts",
+      "name": "F5-TTS",
+      "description": "以参考语音控制说话风格的中英文语音合成模型。",
+      "modalities": [
+        "text-to-speech",
+        "voice-cloning"
+      ],
+      "tags": [
+        "text-to-speech",
+        "voice-cloning"
+      ],
+      "github": "https://github.com/SWivid/F5-TTS",
+      "repo": "SWivid/F5-TTS",
+      "huggingface": "https://huggingface.co/SWivid/F5-TTS",
+      "homepage": "https://github.com/SWivid/F5-TTS",
+      "previewImage": "https://opengraph.githubassets.com/1297c1942c0563135503c72018aef8288bf98cb4fa8aacc7d2bab742f53d17c2/SWivid/F5-TTS",
+      "previewKind": "official-repository-social-preview",
+      "previewAlt": "F5-TTS 官方仓库预览，非本站生成效果样本",
+      "license": {
+        "code": "MIT",
+        "weights": "CC-BY-NC-4.0",
+        "classification": "restricted-open-weights",
+        "summary": "代码 MIT，但官方预训练权重因训练数据使用非商业许可。",
+        "source": "https://github.com/SWivid/F5-TTS#license"
+      },
+      "hardware": {
+        "vramGb": null,
+        "estimate": false,
+        "notes": "尚未在本站实测；显存受模型版本、精度、分辨率、序列长度和卸载设置影响。",
+        "source": "https://github.com/SWivid/F5-TTS"
+      },
+      "localReadiness": "official-local-inference",
+      "deploy": {
+        "kind": "python",
+        "commandHint": "使用隔离 Python 环境，按官方 README 安装与下载指定权重；安装前审阅依赖和许可证。",
+        "docs": "https://github.com/SWivid/F5-TTS"
+      },
+      "sources": [
+        "https://github.com/SWivid/F5-TTS",
+        "https://github.com/SWivid/F5-TTS#license",
+        "https://huggingface.co/SWivid/F5-TTS"
+      ],
+      "researchDate": "2026-11-02",
+      "stars": 15500,
+      "starsSource": "https://api.github.com/repos/SWivid/F5-TTS",
+      "starsObservedAt": "2026-11-02T08:41:19.783803+00:00",
+      "arena": {
+        "status": "cold-start",
+        "score": null,
+        "votes": 0
+      },
+      "notes": "声音克隆仅用于已获授权的声音素材。",
+      "githubMetadata": {
+        "ok": true,
+        "source": "https://api.github.com/repos/SWivid/F5-TTS",
+        "observedAt": "2026-11-02T08:41:19.783803+00:00",
+        "fullName": "SWivid/F5-TTS",
+        "url": "https://github.com/SWivid/F5-TTS",
+        "stars": 15500,
+        "forks": 2258,
+        "archived": false,
+        "pushedAt": "2026-10-23T22:59:22Z",
+        "createdAt": "2024-10-08T13:36:55Z",
+        "licenseSpdx": "MIT",
+        "homepage": "https://arxiv.org/abs/2410.06885"
+      },
+      "previewSource": "https://github.com/SWivid/F5-TTS"
+    },
+    {
+      "id": "cosyvoice3",
+      "name": "Fun-CosyVoice 3.0",
+      "description": "支持多语言、方言与流式输出的语音生成模型。",
+      "modalities": [
+        "text-to-speech",
+        "voice-cloning"
+      ],
+      "tags": [
+        "text-to-speech",
+        "voice-cloning"
+      ],
+      "github": "https://github.com/QwenAudio/CosyVoice",
+      "repo": "QwenAudio/CosyVoice",
+      "huggingface": "https://huggingface.co/FunAudioLLM/Fun-CosyVoice3-0.5B-2512",
+      "homepage": "https://github.com/QwenAudio/CosyVoice",
+      "previewImage": "https://opengraph.githubassets.com/274ff8592c570af189db91399771c68de5794d8ddb820ffd4d5ca0a8324aa5d3/QwenAudio/CosyVoice",
+      "previewKind": "official-repository-social-preview",
+      "previewAlt": "Fun-CosyVoice 3.0 官方仓库预览，非本站生成效果样本",
+      "license": {
+        "code": "Apache-2.0",
+        "weights": "Apache-2.0",
+        "classification": "permissive-open-weights",
+        "summary": "官方 Fun-CosyVoice3-0.5B-2512 模型卡列为 Apache-2.0；额外文本规范化组件仍需单独核对。",
+        "source": "https://huggingface.co/FunAudioLLM/Fun-CosyVoice3-0.5B-2512"
+      },
+      "hardware": {
+        "vramGb": null,
+        "estimate": false,
+        "notes": "尚未在本站实测；显存受模型版本、精度、分辨率、序列长度和卸载设置影响。",
+        "source": "https://github.com/QwenAudio/CosyVoice"
+      },
+      "localReadiness": "official-local-inference",
+      "deploy": {
+        "kind": "python",
+        "commandHint": "使用隔离 Python 环境，按官方 README 安装与下载指定权重；安装前审阅依赖和许可证。",
+        "docs": "https://github.com/QwenAudio/CosyVoice"
+      },
+      "sources": [
+        "https://github.com/QwenAudio/CosyVoice",
+        "https://huggingface.co/FunAudioLLM/Fun-CosyVoice3-0.5B-2512"
+      ],
+      "researchDate": "2026-11-02",
+      "stars": 24239,
+      "starsSource": "https://api.github.com/repos/QwenAudio/CosyVoice",
+      "starsObservedAt": "2026-11-02T08:41:19.783803+00:00",
+      "arena": {
+        "status": "cold-start",
+        "score": null,
+        "votes": 0
+      },
+      "notes": "官方仓库从 FunAudioLLM 转到 QwenAudio；参考音频须获得授权。",
+      "githubMetadata": {
+        "ok": true,
+        "source": "https://api.github.com/repos/QwenAudio/CosyVoice",
+        "observedAt": "2026-11-02T08:41:19.783803+00:00",
+        "fullName": "QwenAudio/CosyVoice",
+        "url": "https://github.com/QwenAudio/CosyVoice",
+        "stars": 24239,
+        "forks": 2767,
+        "archived": false,
+        "pushedAt": "2026-05-25T18:15:40Z",
+        "createdAt": "2024-07-03T02:59:22Z",
+        "licenseSpdx": "Apache-2.0",
+        "homepage": "https://funaudiollm.github.io/cosyvoice3"
+      },
+      "previewSource": "https://github.com/QwenAudio/CosyVoice"
+    },
+    {
+      "id": "whisper",
+      "name": "Whisper",
+      "description": "把多语言音频转录成文字的成熟本地语音识别模型。",
+      "modalities": [
+        "speech-recognition"
+      ],
+      "tags": [
+        "speech-recognition"
+      ],
+      "github": "https://github.com/openai/whisper",
+      "repo": "openai/whisper",
+      "huggingface": "https://huggingface.co/openai/whisper-large-v3-turbo",
+      "homepage": "https://github.com/openai/whisper",
+      "previewImage": "https://opengraph.githubassets.com/b7954d290f274d65182349bf2ed21b2ff8b2f6c156b27ac2dbb2f47ed70c33b4/openai/whisper",
+      "previewKind": "official-repository-social-preview",
+      "previewAlt": "Whisper 官方仓库预览，非本站生成效果样本",
+      "license": {
+        "code": "MIT",
+        "weights": "MIT",
+        "classification": "permissive-open-weights",
+        "summary": "官方 README 明确代码与模型权重均为 MIT。",
+        "source": "https://github.com/openai/whisper#license"
+      },
+      "hardware": {
+        "vramGb": null,
+        "estimate": false,
+        "notes": "尚未在本站实测；显存受模型版本、精度、分辨率、序列长度和卸载设置影响。",
+        "source": "https://github.com/openai/whisper"
+      },
+      "localReadiness": "official-local-inference",
+      "deploy": {
+        "kind": "python",
+        "commandHint": "使用隔离 Python 环境，按官方 README 安装与下载指定权重；安装前审阅依赖和许可证。",
+        "docs": "https://github.com/openai/whisper"
+      },
+      "sources": [
+        "https://github.com/openai/whisper",
+        "https://github.com/openai/whisper#license",
+        "https://huggingface.co/openai/whisper-large-v3-turbo"
+      ],
+      "researchDate": "2026-11-02",
+      "stars": 111759,
+      "starsSource": "https://api.github.com/repos/openai/whisper",
+      "starsObservedAt": "2026-11-02T08:41:19.783803+00:00",
+      "arena": {
+        "status": "cold-start",
+        "score": null,
+        "votes": 0
+      },
+      "notes": "",
+      "githubMetadata": {
+        "ok": true,
+        "source": "https://api.github.com/repos/openai/whisper",
+        "observedAt": "2026-11-02T08:41:19.783803+00:00",
+        "fullName": "openai/whisper",
+        "url": "https://github.com/openai/whisper",
+        "stars": 111759,
+        "forks": 13545,
+        "archived": false,
+        "pushedAt": "2026-08-31T17:19:19Z",
+        "createdAt": "2022-09-16T20:02:54Z",
+        "licenseSpdx": "MIT",
+        "homepage": ""
+      },
+      "previewSource": "https://github.com/openai/whisper"
+    },
+    {
+      "id": "sensevoice",
+      "name": "SenseVoiceSmall",
+      "description": "同时识别语音内容、语言、情感与音频事件。",
+      "modalities": [
+        "speech-recognition",
+        "audio-understanding"
+      ],
+      "tags": [
+        "speech-recognition",
+        "audio-understanding"
+      ],
+      "github": "https://github.com/QwenAudio/SenseVoice",
+      "repo": "QwenAudio/SenseVoice",
+      "huggingface": "https://huggingface.co/FunAudioLLM/SenseVoiceSmall",
+      "homepage": "https://github.com/QwenAudio/SenseVoice",
+      "previewImage": "https://opengraph.githubassets.com/9ca4ff0ebc242272e32b75bf347d626e5c56bf00b25ab178de355004228ecbbd/QwenAudio/SenseVoice",
+      "previewKind": "official-repository-social-preview",
+      "previewAlt": "SenseVoiceSmall 官方仓库预览，非本站生成效果样本",
+      "license": {
+        "code": "MIT",
+        "weights": "FunASR Model Open Source License Agreement",
+        "classification": "restricted-open-weights",
+        "summary": "官方代码 MIT；官方权重适用 FunASR 模型许可及命名/署名条件，不能统称 MIT。",
+        "source": "https://github.com/QwenAudio/SenseVoice#license"
+      },
+      "hardware": {
+        "vramGb": null,
+        "estimate": false,
+        "notes": "尚未在本站实测；显存受模型版本、精度、分辨率、序列长度和卸载设置影响。",
+        "source": "https://github.com/QwenAudio/SenseVoice"
+      },
+      "localReadiness": "official-local-inference",
+      "deploy": {
+        "kind": "python",
+        "commandHint": "使用隔离 Python 环境，按官方 README 安装与下载指定权重；安装前审阅依赖和许可证。",
+        "docs": "https://github.com/QwenAudio/SenseVoice"
+      },
+      "sources": [
+        "https://github.com/QwenAudio/SenseVoice",
+        "https://github.com/QwenAudio/SenseVoice#license",
+        "https://huggingface.co/FunAudioLLM/SenseVoiceSmall"
+      ],
+      "researchDate": "2026-11-02",
+      "stars": 9668,
+      "starsSource": "https://api.github.com/repos/QwenAudio/SenseVoice",
+      "starsObservedAt": "2026-11-02T08:41:19.783803+00:00",
+      "arena": {
+        "status": "cold-start",
+        "score": null,
+        "votes": 0
+      },
+      "notes": "",
+      "githubMetadata": {
+        "ok": true,
+        "source": "https://api.github.com/repos/QwenAudio/SenseVoice",
+        "observedAt": "2026-11-02T08:41:19.783803+00:00",
+        "fullName": "QwenAudio/SenseVoice",
+        "url": "https://github.com/QwenAudio/SenseVoice",
+        "stars": 9668,
+        "forks": 845,
+        "archived": false,
+        "pushedAt": "2026-09-30T10:22:01Z",
+        "createdAt": "2024-07-03T02:56:46Z",
+        "licenseSpdx": "MIT",
+        "homepage": "https://huggingface.co/spaces/FunAudioLLM/SenseVoice"
+      },
+      "previewSource": "https://github.com/QwenAudio/SenseVoice"
+    },
+    {
+      "id": "demucs",
+      "name": "Demucs",
+      "description": "把混合音乐分离成人声、鼓、贝斯与其他音轨。",
+      "modalities": [
+        "source-separation"
+      ],
+      "tags": [
+        "source-separation"
+      ],
+      "github": "https://github.com/facebookresearch/demucs",
+      "repo": "facebookresearch/demucs",
+      "huggingface": null,
+      "homepage": "https://github.com/facebookresearch/demucs",
+      "previewImage": "https://repository-images.githubusercontent.com/217436984/588ff17a-e9c9-49c7-b572-e1b189d871e5",
+      "previewKind": "official-repository-social-preview",
+      "previewAlt": "Demucs 官方仓库预览，非本站生成效果样本",
+      "license": {
+        "code": "MIT",
+        "weights": "See official checkpoint distribution",
+        "classification": "code-open-weights-available",
+        "summary": "官方项目 MIT；第三方转换权重和附加模型需要单独核对。",
+        "source": "https://github.com/facebookresearch/demucs"
+      },
+      "hardware": {
+        "vramGb": null,
+        "estimate": false,
+        "notes": "尚未在本站实测；显存受模型版本、精度、分辨率、序列长度和卸载设置影响。",
+        "source": "https://github.com/facebookresearch/demucs"
+      },
+      "localReadiness": "official-local-inference",
+      "deploy": {
+        "kind": "python",
+        "commandHint": "使用隔离 Python 环境，按官方 README 安装与下载指定权重；安装前审阅依赖和许可证。",
+        "docs": "https://github.com/facebookresearch/demucs"
+      },
+      "sources": [
+        "https://github.com/facebookresearch/demucs"
+      ],
+      "researchDate": "2026-11-02",
+      "stars": 10401,
+      "starsSource": "https://api.github.com/repos/facebookresearch/demucs",
+      "starsObservedAt": "2026-11-02T08:41:19.783803+00:00",
+      "arena": {
+        "status": "cold-start",
+        "score": null,
+        "votes": 0
+      },
+      "notes": "历史经典基线；维护状态应从仓库元数据独立显示。",
+      "githubMetadata": {
+        "ok": true,
+        "source": "https://api.github.com/repos/facebookresearch/demucs",
+        "observedAt": "2026-11-02T08:41:19.783803+00:00",
+        "fullName": "facebookresearch/demucs",
+        "url": "https://github.com/facebookresearch/demucs",
+        "stars": 10401,
+        "forks": 1665,
+        "archived": true,
+        "pushedAt": "2024-04-24T20:25:19Z",
+        "createdAt": "2019-10-25T02:43:20Z",
+        "licenseSpdx": "MIT",
+        "homepage": ""
+      },
+      "previewSource": "https://github.com/facebookresearch/demucs"
+    },
+    {
+      "id": "sam2",
+      "name": "SAM 2.1",
+      "description": "根据点、框或掩码对图片及视频中的对象分割与跟踪。",
+      "modalities": [
+        "segmentation",
+        "video-segmentation"
+      ],
+      "tags": [
+        "segmentation",
+        "video-segmentation"
+      ],
+      "github": "https://github.com/facebookresearch/sam2",
+      "repo": "facebookresearch/sam2",
+      "huggingface": "https://huggingface.co/facebook/sam2.1-hiera-large",
+      "homepage": "https://github.com/facebookresearch/sam2",
+      "previewImage": "https://opengraph.githubassets.com/4bf0ebaee9dbc0986c5abf7cd3bb5384052417d0d5b771526056008aff4c466b/facebookresearch/sam2",
+      "previewKind": "official-repository-social-preview",
+      "previewAlt": "SAM 2.1 官方仓库预览，非本站生成效果样本",
+      "license": {
+        "code": "Apache-2.0",
+        "weights": "Apache-2.0",
+        "classification": "permissive-open-weights",
+        "summary": "官方模型 checkpoint、训练代码和演示代码采用 Apache-2.0。",
+        "source": "https://github.com/facebookresearch/sam2#license"
+      },
+      "hardware": {
+        "vramGb": null,
+        "estimate": false,
+        "notes": "尚未在本站实测；显存受模型版本、精度、分辨率、序列长度和卸载设置影响。",
+        "source": "https://github.com/facebookresearch/sam2"
+      },
+      "localReadiness": "official-local-inference",
+      "deploy": {
+        "kind": "python",
+        "commandHint": "使用隔离 Python 环境，按官方 README 安装与下载指定权重；安装前审阅依赖和许可证。",
+        "docs": "https://github.com/facebookresearch/sam2"
+      },
+      "sources": [
+        "https://github.com/facebookresearch/sam2",
+        "https://github.com/facebookresearch/sam2#license",
+        "https://huggingface.co/facebook/sam2.1-hiera-large"
+      ],
+      "researchDate": "2026-11-02",
+      "stars": 20092,
+      "starsSource": "https://api.github.com/repos/facebookresearch/sam2",
+      "starsObservedAt": "2026-11-02T08:41:19.783803+00:00",
+      "arena": {
+        "status": "cold-start",
+        "score": null,
+        "votes": 0
+      },
+      "notes": "",
+      "githubMetadata": {
+        "ok": true,
+        "source": "https://api.github.com/repos/facebookresearch/sam2",
+        "observedAt": "2026-11-02T08:41:19.783803+00:00",
+        "fullName": "facebookresearch/sam2",
+        "url": "https://github.com/facebookresearch/sam2",
+        "stars": 20092,
+        "forks": 2583,
+        "archived": false,
+        "pushedAt": "2026-05-30T02:29:40Z",
+        "createdAt": "2024-07-29T21:48:23Z",
+        "licenseSpdx": "Apache-2.0",
+        "homepage": ""
+      },
+      "previewSource": "https://github.com/facebookresearch/sam2"
+    },
+    {
+      "id": "real-esrgan",
+      "name": "Real-ESRGAN",
+      "description": "恢复低清图像与视频细节的实用超分辨率模型。",
+      "modalities": [
+        "image-upscale",
+        "image-restore"
+      ],
+      "tags": [
+        "image-upscale",
+        "image-restore"
+      ],
+      "github": "https://github.com/xinntao/Real-ESRGAN",
+      "repo": "xinntao/Real-ESRGAN",
+      "huggingface": null,
+      "homepage": "https://github.com/xinntao/Real-ESRGAN",
+      "previewImage": "https://repository-images.githubusercontent.com/387326890/6c552346-f525-47b6-a22e-1f3575422a5f",
+      "previewKind": "official-repository-social-preview",
+      "previewAlt": "Real-ESRGAN 官方仓库预览，非本站生成效果样本",
+      "license": {
+        "code": "BSD-3-Clause",
+        "weights": "See official checkpoint distribution",
+        "classification": "code-open-weights-available",
+        "summary": "仓库 BSD-3-Clause；具体预训练权重与第三方转换应核对分发说明。",
+        "source": "https://github.com/xinntao/Real-ESRGAN"
+      },
+      "hardware": {
+        "vramGb": null,
+        "estimate": false,
+        "notes": "尚未在本站实测；显存受模型版本、精度、分辨率、序列长度和卸载设置影响。",
+        "source": "https://github.com/xinntao/Real-ESRGAN"
+      },
+      "localReadiness": "official-local-inference",
+      "deploy": {
+        "kind": "python",
+        "commandHint": "使用隔离 Python 环境，按官方 README 安装与下载指定权重；安装前审阅依赖和许可证。",
+        "docs": "https://github.com/xinntao/Real-ESRGAN"
+      },
+      "sources": [
+        "https://github.com/xinntao/Real-ESRGAN"
+      ],
+      "researchDate": "2026-11-02",
+      "stars": 37317,
+      "starsSource": "https://api.github.com/repos/xinntao/Real-ESRGAN",
+      "starsObservedAt": "2026-11-02T08:41:19.783803+00:00",
+      "arena": {
+        "status": "cold-start",
+        "score": null,
+        "votes": 0
+      },
+      "notes": "",
+      "githubMetadata": {
+        "ok": true,
+        "source": "https://api.github.com/repos/xinntao/Real-ESRGAN",
+        "observedAt": "2026-11-02T08:41:19.783803+00:00",
+        "fullName": "xinntao/Real-ESRGAN",
+        "url": "https://github.com/xinntao/Real-ESRGAN",
+        "stars": 37317,
+        "forks": 4518,
+        "archived": false,
+        "pushedAt": "2024-08-06T13:15:18Z",
+        "createdAt": "2021-07-19T03:23:30Z",
+        "licenseSpdx": "BSD-3-Clause",
+        "homepage": ""
+      },
+      "previewSource": "https://github.com/xinntao/Real-ESRGAN"
+    },
+    {
+      "id": "swinir",
+      "name": "SwinIR",
+      "description": "用视觉 Transformer 执行超分、去噪和压缩伪影修复。",
+      "modalities": [
+        "image-upscale",
+        "image-restore"
+      ],
+      "tags": [
+        "image-upscale",
+        "image-restore"
+      ],
+      "github": "https://github.com/JingyunLiang/SwinIR",
+      "repo": "JingyunLiang/SwinIR",
+      "huggingface": null,
+      "homepage": "https://github.com/JingyunLiang/SwinIR",
+      "previewImage": "https://opengraph.githubassets.com/bd3a60b0666969aacb16cb6319ed9e152a236831a62c038c09cfc4248c5bf279/JingyunLiang/SwinIR",
+      "previewKind": "official-repository-social-preview",
+      "previewAlt": "SwinIR 官方仓库预览，非本站生成效果样本",
+      "license": {
+        "code": "Apache-2.0",
+        "weights": "See official checkpoint distribution",
+        "classification": "code-open-weights-available",
+        "summary": "项目 Apache-2.0；依赖项目与具体 checkpoint 应分别核对。",
+        "source": "https://github.com/JingyunLiang/SwinIR"
+      },
+      "hardware": {
+        "vramGb": null,
+        "estimate": false,
+        "notes": "尚未在本站实测；显存受模型版本、精度、分辨率、序列长度和卸载设置影响。",
+        "source": "https://github.com/JingyunLiang/SwinIR"
+      },
+      "localReadiness": "official-local-inference",
+      "deploy": {
+        "kind": "python",
+        "commandHint": "使用隔离 Python 环境，按官方 README 安装与下载指定权重；安装前审阅依赖和许可证。",
+        "docs": "https://github.com/JingyunLiang/SwinIR"
+      },
+      "sources": [
+        "https://github.com/JingyunLiang/SwinIR"
+      ],
+      "researchDate": "2026-11-02",
+      "stars": 5622,
+      "starsSource": "https://api.github.com/repos/JingyunLiang/SwinIR",
+      "starsObservedAt": "2026-11-02T08:41:19.783803+00:00",
+      "arena": {
+        "status": "cold-start",
+        "score": null,
+        "votes": 0
+      },
+      "notes": "",
+      "githubMetadata": {
+        "ok": true,
+        "source": "https://api.github.com/repos/JingyunLiang/SwinIR",
+        "observedAt": "2026-11-02T08:41:19.783803+00:00",
+        "fullName": "JingyunLiang/SwinIR",
+        "url": "https://github.com/JingyunLiang/SwinIR",
+        "stars": 5622,
+        "forks": 668,
+        "archived": false,
+        "pushedAt": "2024-05-14T07:05:48Z",
+        "createdAt": "2021-08-16T11:50:30Z",
+        "licenseSpdx": "Apache-2.0",
+        "homepage": "https://arxiv.org/abs/2108.10257"
+      },
+      "previewSource": "https://github.com/JingyunLiang/SwinIR"
+    },
+    {
+      "id": "liveportrait",
+      "name": "LivePortrait",
+      "description": "用驱动视频让静态人物或动物肖像产生自然表情与运动。",
+      "modalities": [
+        "portrait-animation"
+      ],
+      "tags": [
+        "portrait-animation"
+      ],
+      "github": "https://github.com/KlingAIResearch/LivePortrait",
+      "repo": "KlingAIResearch/LivePortrait",
+      "huggingface": null,
+      "homepage": "https://github.com/KlingAIResearch/LivePortrait",
+      "previewImage": "https://opengraph.githubassets.com/590a11355bb5efe2bc42b3dc83009c7b66af1e8cf8030eae8a795b685db83682/KlingAIResearch/LivePortrait",
+      "previewKind": "official-repository-social-preview",
+      "previewAlt": "LivePortrait 官方仓库预览，非本站生成效果样本",
+      "license": {
+        "code": "MIT",
+        "weights": "MIT core; InsightFace dependency restricted",
+        "classification": "mixed-dependency-restrictions",
+        "summary": "核心代码与权重采用 MIT，但默认 InsightFace 模型有非商业限制；完整流水线不可只看主仓库许可。",
+        "source": "https://github.com/KlingAIResearch/LivePortrait/blob/main/LICENSE"
+      },
+      "hardware": {
+        "vramGb": null,
+        "estimate": false,
+        "notes": "尚未在本站实测；显存受模型版本、精度、分辨率、序列长度和卸载设置影响。",
+        "source": "https://github.com/KlingAIResearch/LivePortrait"
+      },
+      "localReadiness": "official-local-inference",
+      "deploy": {
+        "kind": "python",
+        "commandHint": "使用隔离 Python 环境，按官方 README 安装与下载指定权重；安装前审阅依赖和许可证。",
+        "docs": "https://github.com/KlingAIResearch/LivePortrait"
+      },
+      "sources": [
+        "https://github.com/KlingAIResearch/LivePortrait",
+        "https://github.com/KlingAIResearch/LivePortrait/blob/main/LICENSE"
+      ],
+      "researchDate": "2026-11-02",
+      "stars": 19373,
+      "starsSource": "https://api.github.com/repos/KlingAIResearch/LivePortrait",
+      "starsObservedAt": "2026-11-02T08:41:19.783803+00:00",
+      "arena": {
+        "status": "cold-start",
+        "score": null,
+        "votes": 0
+      },
+      "notes": "处理人物素材应确认肖像与驱动素材授权。",
+      "githubMetadata": {
+        "ok": true,
+        "source": "https://api.github.com/repos/KlingAIResearch/LivePortrait",
+        "observedAt": "2026-11-02T08:41:19.783803+00:00",
+        "fullName": "KlingAIResearch/LivePortrait",
+        "url": "https://github.com/KlingAIResearch/LivePortrait",
+        "stars": 19373,
+        "forks": 2016,
+        "archived": false,
+        "pushedAt": "2026-06-01T17:25:09Z",
+        "createdAt": "2024-07-03T16:15:03Z",
+        "licenseSpdx": "NOASSERTION",
+        "homepage": "https://liveportrait.github.io"
+      },
+      "previewSource": "https://github.com/KlingAIResearch/LivePortrait"
+    },
+    {
+      "id": "wav2lip",
+      "name": "Wav2Lip",
+      "description": "让现有视频中的口型与给定语音同步的经典模型。",
+      "modalities": [
+        "lip-sync"
+      ],
+      "tags": [
+        "lip-sync"
+      ],
+      "github": "https://github.com/Rudrabha/Wav2Lip",
+      "repo": "Rudrabha/Wav2Lip",
+      "huggingface": null,
+      "homepage": "https://github.com/Rudrabha/Wav2Lip",
+      "previewImage": "https://opengraph.githubassets.com/04fec90308c514942ff49403c5dad0d0989d98cbca70581306c911f85af068a9/Rudrabha/Wav2Lip",
+      "previewKind": "official-repository-social-preview",
+      "previewAlt": "Wav2Lip 官方仓库预览，非本站生成效果样本",
+      "license": {
+        "code": "Non-commercial research/personal terms",
+        "weights": "Non-commercial research/personal terms",
+        "classification": "research-restricted",
+        "summary": "官方开源版本明确限制为研究、学术或个人非商业用途。",
+        "source": "https://github.com/Rudrabha/Wav2Lip#disclaimer"
+      },
+      "hardware": {
+        "vramGb": null,
+        "estimate": false,
+        "notes": "尚未在本站实测；显存受模型版本、精度、分辨率、序列长度和卸载设置影响。",
+        "source": "https://github.com/Rudrabha/Wav2Lip"
+      },
+      "localReadiness": "official-local-inference",
+      "deploy": {
+        "kind": "python",
+        "commandHint": "使用隔离 Python 环境，按官方 README 安装与下载指定权重；安装前审阅依赖和许可证。",
+        "docs": "https://github.com/Rudrabha/Wav2Lip"
+      },
+      "sources": [
+        "https://github.com/Rudrabha/Wav2Lip",
+        "https://github.com/Rudrabha/Wav2Lip#disclaimer"
+      ],
+      "researchDate": "2026-11-02",
+      "stars": 13265,
+      "starsSource": "https://api.github.com/repos/Rudrabha/Wav2Lip",
+      "starsObservedAt": "2026-11-02T08:41:19.783803+00:00",
+      "arena": {
+        "status": "cold-start",
+        "score": null,
+        "votes": 0
+      },
+      "notes": "",
+      "githubMetadata": {
+        "ok": true,
+        "source": "https://api.github.com/repos/Rudrabha/Wav2Lip",
+        "observedAt": "2026-11-02T08:41:19.783803+00:00",
+        "fullName": "Rudrabha/Wav2Lip",
+        "url": "https://github.com/Rudrabha/Wav2Lip",
+        "stars": 13265,
+        "forks": 2850,
+        "archived": false,
+        "pushedAt": "2025-06-22T02:41:21Z",
+        "createdAt": "2020-08-07T08:06:38Z",
+        "licenseSpdx": null,
+        "homepage": "https://sync.so"
+      },
+      "previewSource": "https://github.com/Rudrabha/Wav2Lip"
+    },
+    {
+      "id": "rife",
+      "name": "Practical RIFE",
+      "description": "在相邻视频帧之间补出中间帧以改善播放流畅度。",
+      "modalities": [
+        "frame-interpolation"
+      ],
+      "tags": [
+        "frame-interpolation"
+      ],
+      "github": "https://github.com/hzwer/Practical-RIFE",
+      "repo": "hzwer/Practical-RIFE",
+      "huggingface": null,
+      "homepage": "https://github.com/hzwer/Practical-RIFE",
+      "previewImage": "https://opengraph.githubassets.com/d7083801c8045c00a6a0ac726f09732e72e6fe519618244e18db465d9a6b43ae/hzwer/Practical-RIFE",
+      "previewKind": "official-repository-social-preview",
+      "previewAlt": "Practical RIFE 官方仓库预览，非本站生成效果样本",
+      "license": {
+        "code": "MIT",
+        "weights": "MIT (official linked models)",
+        "classification": "permissive-open-weights",
+        "summary": "官方 README 说明链接模型与项目采用相同 MIT 许可。",
+        "source": "https://github.com/hzwer/Practical-RIFE"
+      },
+      "hardware": {
+        "vramGb": null,
+        "estimate": false,
+        "notes": "尚未在本站实测；显存受模型版本、精度、分辨率、序列长度和卸载设置影响。",
+        "source": "https://github.com/hzwer/Practical-RIFE"
+      },
+      "localReadiness": "official-local-inference",
+      "deploy": {
+        "kind": "python",
+        "commandHint": "使用隔离 Python 环境，按官方 README 安装与下载指定权重；安装前审阅依赖和许可证。",
+        "docs": "https://github.com/hzwer/Practical-RIFE"
+      },
+      "sources": [
+        "https://github.com/hzwer/Practical-RIFE"
+      ],
+      "researchDate": "2026-11-02",
+      "stars": 1034,
+      "starsSource": "https://api.github.com/repos/hzwer/Practical-RIFE",
+      "starsObservedAt": "2026-11-02T08:41:19.783803+00:00",
+      "arena": {
+        "status": "cold-start",
+        "score": null,
+        "votes": 0
+      },
+      "notes": "",
+      "githubMetadata": {
+        "ok": true,
+        "source": "https://api.github.com/repos/hzwer/Practical-RIFE",
+        "observedAt": "2026-11-02T08:41:19.783803+00:00",
+        "fullName": "hzwer/Practical-RIFE",
+        "url": "https://github.com/hzwer/Practical-RIFE",
+        "stars": 1034,
+        "forks": 132,
+        "archived": false,
+        "pushedAt": "2026-08-27T08:13:43Z",
+        "createdAt": "2021-06-16T05:22:06Z",
+        "licenseSpdx": "MIT",
+        "homepage": ""
+      },
+      "previewSource": "https://github.com/hzwer/Practical-RIFE"
+    },
+    {
+      "id": "vggt",
+      "name": "VGGT",
+      "description": "从一组图像估计相机、深度和三维点结构。",
+      "modalities": [
+        "multiview-to-3d",
+        "depth-estimation",
+        "camera-reconstruction"
+      ],
+      "tags": [
+        "multiview-to-3d",
+        "depth-estimation",
+        "camera-reconstruction"
+      ],
+      "github": "https://github.com/facebookresearch/vggt",
+      "repo": "facebookresearch/vggt",
+      "huggingface": "https://huggingface.co/facebook/VGGT-1B-Commercial",
+      "homepage": "https://github.com/facebookresearch/vggt",
+      "previewImage": "https://opengraph.githubassets.com/00d3d2f91b6e0d4f927b5807d2f42664137b61150418658593b8537992d57747/facebookresearch/vggt",
+      "previewKind": "official-repository-social-preview",
+      "previewAlt": "VGGT 官方仓库预览，非本站生成效果样本",
+      "license": {
+        "code": "VGGT License",
+        "weights": "VGGT License; checkpoint-specific",
+        "classification": "restricted-open-weights",
+        "summary": "新商业版 checkpoint 与原始非商业权重不同；存在用途限制，须固定 checkpoint。",
+        "source": "https://github.com/facebookresearch/vggt/blob/main/LICENSE.txt"
+      },
+      "hardware": {
+        "vramGb": null,
+        "estimate": false,
+        "notes": "尚未在本站实测；显存受模型版本、精度、分辨率、序列长度和卸载设置影响。",
+        "source": "https://github.com/facebookresearch/vggt"
+      },
+      "localReadiness": "official-local-inference",
+      "deploy": {
+        "kind": "python",
+        "commandHint": "使用隔离 Python 环境，按官方 README 安装与下载指定权重；安装前审阅依赖和许可证。",
+        "docs": "https://github.com/facebookresearch/vggt"
+      },
+      "sources": [
+        "https://github.com/facebookresearch/vggt",
+        "https://github.com/facebookresearch/vggt/blob/main/LICENSE.txt",
+        "https://huggingface.co/facebook/VGGT-1B-Commercial"
+      ],
+      "researchDate": "2026-11-02",
+      "stars": 14590,
+      "starsSource": "https://api.github.com/repos/facebookresearch/vggt",
+      "starsObservedAt": "2026-11-02T08:41:19.783803+00:00",
+      "arena": {
+        "status": "cold-start",
+        "score": null,
+        "votes": 0
+      },
+      "notes": "",
+      "githubMetadata": {
+        "ok": true,
+        "source": "https://api.github.com/repos/facebookresearch/vggt",
+        "observedAt": "2026-11-02T08:41:19.783803+00:00",
+        "fullName": "facebookresearch/vggt",
+        "url": "https://github.com/facebookresearch/vggt",
+        "stars": 14590,
+        "forks": 1569,
+        "archived": false,
+        "pushedAt": "2026-05-19T03:39:39Z",
+        "createdAt": "2025-02-18T18:32:14Z",
+        "licenseSpdx": "NOASSERTION",
+        "homepage": ""
+      },
+      "previewSource": "https://github.com/facebookresearch/vggt"
+    },
+    {
+      "id": "depth-anything-v2",
+      "name": "Depth Anything V2 Small",
+      "description": "从单张图片预测深度以支持场景理解和三维工作流。",
+      "modalities": [
+        "depth-estimation"
+      ],
+      "tags": [
+        "depth-estimation"
+      ],
+      "github": "https://github.com/DepthAnything/Depth-Anything-V2",
+      "repo": "DepthAnything/Depth-Anything-V2",
+      "huggingface": "https://huggingface.co/depth-anything/Depth-Anything-V2-Small-hf",
+      "homepage": "https://github.com/DepthAnything/Depth-Anything-V2",
+      "previewImage": "https://opengraph.githubassets.com/a448ba7a5f6c3043456f8bdf44ddcff78b603cebbfd8ed78030be161eb63a24e/DepthAnything/Depth-Anything-V2",
+      "previewKind": "official-repository-social-preview",
+      "previewAlt": "Depth Anything V2 Small 官方仓库预览，非本站生成效果样本",
+      "license": {
+        "code": "Apache-2.0",
+        "weights": "Apache-2.0 (Small only)",
+        "classification": "permissive-open-weights",
+        "summary": "仅 Small 权重 Apache-2.0；Base、Large、Giant 为 CC-BY-NC-4.0。",
+        "source": "https://github.com/DepthAnything/Depth-Anything-V2#license"
+      },
+      "hardware": {
+        "vramGb": null,
+        "estimate": false,
+        "notes": "尚未在本站实测；显存受模型版本、精度、分辨率、序列长度和卸载设置影响。",
+        "source": "https://github.com/DepthAnything/Depth-Anything-V2"
+      },
+      "localReadiness": "official-local-inference",
+      "deploy": {
+        "kind": "python",
+        "commandHint": "使用隔离 Python 环境，按官方 README 安装与下载指定权重；安装前审阅依赖和许可证。",
+        "docs": "https://github.com/DepthAnything/Depth-Anything-V2"
+      },
+      "sources": [
+        "https://github.com/DepthAnything/Depth-Anything-V2",
+        "https://github.com/DepthAnything/Depth-Anything-V2#license",
+        "https://huggingface.co/depth-anything/Depth-Anything-V2-Small-hf"
+      ],
+      "researchDate": "2026-11-02",
+      "stars": 9080,
+      "starsSource": "https://api.github.com/repos/DepthAnything/Depth-Anything-V2",
+      "starsObservedAt": "2026-11-02T08:41:19.783803+00:00",
+      "arena": {
+        "status": "cold-start",
+        "score": null,
+        "votes": 0
+      },
+      "notes": "",
+      "githubMetadata": {
+        "ok": true,
+        "source": "https://api.github.com/repos/DepthAnything/Depth-Anything-V2",
+        "observedAt": "2026-11-02T08:41:19.783803+00:00",
+        "fullName": "DepthAnything/Depth-Anything-V2",
+        "url": "https://github.com/DepthAnything/Depth-Anything-V2",
+        "stars": 9080,
+        "forks": 940,
+        "archived": false,
+        "pushedAt": "2026-03-24T10:59:06Z",
+        "createdAt": "2024-06-13T19:39:39Z",
+        "licenseSpdx": "Apache-2.0",
+        "homepage": "https://depth-anything-v2.github.io"
+      },
+      "previewSource": "https://github.com/DepthAnything/Depth-Anything-V2"
+    },
+    {
+      "id": "mdm",
+      "name": "Human Motion Diffusion Model",
+      "description": "把动作文字描述转成人体骨骼运动序列。",
+      "modalities": [
+        "text-to-motion"
+      ],
+      "tags": [
+        "text-to-motion"
+      ],
+      "github": "https://github.com/GuyTevet/motion-diffusion-model",
+      "repo": "GuyTevet/motion-diffusion-model",
+      "huggingface": null,
+      "homepage": "https://github.com/GuyTevet/motion-diffusion-model",
+      "previewImage": "https://opengraph.githubassets.com/628dafbaab362035e7d3d8743cec31b8b1ffbc3581699a570d6df3c32819e260/GuyTevet/motion-diffusion-model",
+      "previewKind": "official-repository-social-preview",
+      "previewAlt": "Human Motion Diffusion Model 官方仓库预览，非本站生成效果样本",
+      "license": {
+        "code": "MIT",
+        "weights": "Model/data dependencies require separate review",
+        "classification": "mixed-dependency-restrictions",
+        "summary": "代码 MIT，但 SMPL、SMPL-X 及训练数据各有许可，完整工作流需逐项核对。",
+        "source": "https://github.com/GuyTevet/motion-diffusion-model#license"
+      },
+      "hardware": {
+        "vramGb": null,
+        "estimate": false,
+        "notes": "尚未在本站实测；显存受模型版本、精度、分辨率、序列长度和卸载设置影响。",
+        "source": "https://github.com/GuyTevet/motion-diffusion-model"
+      },
+      "localReadiness": "research-setup",
+      "deploy": {
+        "kind": "python",
+        "commandHint": "使用隔离 Python 环境，按官方 README 安装与下载指定权重；安装前审阅依赖和许可证。",
+        "docs": "https://github.com/GuyTevet/motion-diffusion-model"
+      },
+      "sources": [
+        "https://github.com/GuyTevet/motion-diffusion-model",
+        "https://github.com/GuyTevet/motion-diffusion-model#license"
+      ],
+      "researchDate": "2026-11-02",
+      "stars": 4130,
+      "starsSource": "https://api.github.com/repos/GuyTevet/motion-diffusion-model",
+      "starsObservedAt": "2026-11-02T08:41:19.783803+00:00",
+      "arena": {
+        "status": "cold-start",
+        "score": null,
+        "votes": 0
+      },
+      "notes": "",
+      "githubMetadata": {
+        "ok": true,
+        "source": "https://api.github.com/repos/GuyTevet/motion-diffusion-model",
+        "observedAt": "2026-11-02T08:41:19.783803+00:00",
+        "fullName": "GuyTevet/motion-diffusion-model",
+        "url": "https://github.com/GuyTevet/motion-diffusion-model",
+        "stars": 4130,
+        "forks": 463,
+        "archived": false,
+        "pushedAt": "2025-10-01T00:29:26Z",
+        "createdAt": "2022-09-29T11:24:35Z",
+        "licenseSpdx": "MIT",
+        "homepage": null
+      },
+      "previewSource": "https://github.com/GuyTevet/motion-diffusion-model"
+    },
+    {
+      "id": "qwen3",
+      "name": "Qwen3",
+      "description": "可通过本地推理运行的多尺寸语言与推理模型系列。",
+      "modalities": [
+        "text-generation"
+      ],
+      "tags": [
+        "text-generation"
+      ],
+      "github": "https://github.com/QwenLM/Qwen3",
+      "repo": "QwenLM/Qwen3",
+      "huggingface": "https://huggingface.co/Qwen/Qwen3-8B",
+      "homepage": "https://github.com/QwenLM/Qwen3",
+      "previewImage": "https://opengraph.githubassets.com/a89e23dcd7e964f1da454e0f00746dbb1397385e2e9af3d538311720b15ba619/QwenLM/Qwen3",
+      "previewKind": "official-repository-social-preview",
+      "previewAlt": "Qwen3 官方仓库预览，非本站生成效果样本",
+      "license": {
+        "code": "Apache-2.0",
+        "weights": "Apache-2.0",
+        "classification": "permissive-open-weights",
+        "summary": "官方公开权重采用 Apache-2.0；必须记录具体参数规模、量化与上下文长度。",
+        "source": "https://github.com/QwenLM/Qwen3#license-agreement"
+      },
+      "hardware": {
+        "vramGb": null,
+        "estimate": false,
+        "notes": "尚未在本站实测；显存受模型版本、精度、分辨率、序列长度和卸载设置影响。",
+        "source": "https://github.com/QwenLM/Qwen3"
+      },
+      "localReadiness": "official-local-inference",
+      "deploy": {
+        "kind": "ollama",
+        "commandHint": "在已安装 Ollama 的本机中审阅模型后执行 ollama pull qwen3:8b，再通过本地 API 调用。",
+        "docs": "https://github.com/QwenLM/Qwen3"
+      },
+      "sources": [
+        "https://github.com/QwenLM/Qwen3",
+        "https://github.com/QwenLM/Qwen3#license-agreement",
+        "https://huggingface.co/Qwen/Qwen3-8B"
+      ],
+      "researchDate": "2026-11-02",
+      "stars": 27697,
+      "starsSource": "https://api.github.com/repos/QwenLM/Qwen3",
+      "starsObservedAt": "2026-11-02T08:41:19.783803+00:00",
+      "arena": {
+        "status": "cold-start",
+        "score": null,
+        "votes": 0
+      },
+      "notes": "本条目是明确的 Qwen3-8B 基线，不宣称最新模型或通用第一。",
+      "githubMetadata": {
+        "ok": true,
+        "source": "https://api.github.com/repos/QwenLM/Qwen3",
+        "observedAt": "2026-11-02T08:41:19.783803+00:00",
+        "fullName": "QwenLM/Qwen3",
+        "url": "https://github.com/QwenLM/Qwen3",
+        "stars": 27697,
+        "forks": 2095,
+        "archived": false,
+        "pushedAt": "2026-01-09T03:05:47Z",
+        "createdAt": "2024-02-05T05:45:08Z",
+        "licenseSpdx": null,
+        "homepage": ""
+      },
+      "previewSource": "https://github.com/QwenLM/Qwen3"
+    },
+    {
+      "id": "qwen3-vl",
+      "name": "Qwen3-VL",
+      "description": "联合理解图片、视频与文字的本地视觉语言模型。",
+      "modalities": [
+        "visual-understanding",
+        "ocr",
+        "text-generation"
+      ],
+      "tags": [
+        "visual-understanding",
+        "ocr",
+        "text-generation"
+      ],
+      "github": "https://github.com/QwenLM/Qwen3-VL",
+      "repo": "QwenLM/Qwen3-VL",
+      "huggingface": "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct",
+      "homepage": "https://github.com/QwenLM/Qwen3-VL",
+      "previewImage": "https://opengraph.githubassets.com/a75919499f4d5ee9ee29b0b875bd174a9ad95345319a888c33d20caeb0ed4fde/QwenLM/Qwen3-VL",
+      "previewKind": "official-repository-social-preview",
+      "previewAlt": "Qwen3-VL 官方仓库预览，非本站生成效果样本",
+      "license": {
+        "code": "Apache-2.0",
+        "weights": "Apache-2.0",
+        "classification": "permissive-open-weights",
+        "summary": "已核对的 Qwen3-VL-8B-Instruct 模型卡列为 Apache-2.0；其他版本须分别核对。",
+        "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct"
+      },
+      "hardware": {
+        "vramGb": null,
+        "estimate": false,
+        "notes": "尚未在本站实测；显存受模型版本、精度、分辨率、序列长度和卸载设置影响。",
+        "source": "https://github.com/QwenLM/Qwen3-VL"
+      },
+      "localReadiness": "official-local-inference",
+      "deploy": {
+        "kind": "vllm",
+        "commandHint": "使用隔离 Python 环境，按官方 README 安装与下载指定权重；安装前审阅依赖和许可证。",
+        "docs": "https://github.com/QwenLM/Qwen3-VL"
+      },
+      "sources": [
+        "https://github.com/QwenLM/Qwen3-VL",
+        "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct"
+      ],
+      "researchDate": "2026-11-02",
+      "stars": 20155,
+      "starsSource": "https://api.github.com/repos/QwenLM/Qwen3-VL",
+      "starsObservedAt": "2026-11-02T08:41:19.783803+00:00",
+      "arena": {
+        "status": "cold-start",
+        "score": null,
+        "votes": 0
+      },
+      "notes": "",
+      "githubMetadata": {
+        "ok": true,
+        "source": "https://api.github.com/repos/QwenLM/Qwen3-VL",
+        "observedAt": "2026-11-02T08:41:19.783803+00:00",
+        "fullName": "QwenLM/Qwen3-VL",
+        "url": "https://github.com/QwenLM/Qwen3-VL",
+        "stars": 20155,
+        "forks": 1882,
+        "archived": false,
+        "pushedAt": "2026-01-30T04:47:30Z",
+        "createdAt": "2024-08-29T08:30:38Z",
+        "licenseSpdx": "Apache-2.0",
+        "homepage": ""
+      },
+      "previewSource": "https://github.com/QwenLM/Qwen3-VL"
+    },
+    {
+      "id": "bge-m3",
+      "name": "BGE-M3",
+      "description": "为多语言检索同时提供稠密、稀疏与多向量表示。",
+      "modalities": [
+        "text-embedding"
+      ],
+      "tags": [
+        "text-embedding"
+      ],
+      "github": "https://github.com/FlagOpen/FlagEmbedding",
+      "repo": "FlagOpen/FlagEmbedding",
+      "huggingface": "https://huggingface.co/BAAI/bge-m3",
+      "homepage": "https://github.com/FlagOpen/FlagEmbedding",
+      "previewImage": "https://opengraph.githubassets.com/d7019e110dc7f9938daa3883f1254c62413c28fdc6418ffdda930d6a3a94bf58/FlagOpen/FlagEmbedding",
+      "previewKind": "official-repository-social-preview",
+      "previewAlt": "BGE-M3 官方仓库预览，非本站生成效果样本",
+      "license": {
+        "code": "MIT",
+        "weights": "MIT",
+        "classification": "permissive-open-weights",
+        "summary": "官方 BGE-M3 模型卡列为 MIT；检索表现需按本地语料评测。",
+        "source": "https://huggingface.co/BAAI/bge-m3"
+      },
+      "hardware": {
+        "vramGb": null,
+        "estimate": false,
+        "notes": "尚未在本站实测；显存受模型版本、精度、分辨率、序列长度和卸载设置影响。",
+        "source": "https://github.com/FlagOpen/FlagEmbedding"
+      },
+      "localReadiness": "official-local-inference",
+      "deploy": {
+        "kind": "python",
+        "commandHint": "使用隔离 Python 环境，按官方 README 安装与下载指定权重；安装前审阅依赖和许可证。",
+        "docs": "https://github.com/FlagOpen/FlagEmbedding"
+      },
+      "sources": [
+        "https://github.com/FlagOpen/FlagEmbedding",
+        "https://huggingface.co/BAAI/bge-m3"
+      ],
+      "researchDate": "2026-11-02",
+      "stars": 12292,
+      "starsSource": "https://api.github.com/repos/FlagOpen/FlagEmbedding",
+      "starsObservedAt": "2026-11-02T08:41:19.783803+00:00",
+      "arena": {
+        "status": "cold-start",
+        "score": null,
+        "votes": 0
+      },
+      "notes": "",
+      "githubMetadata": {
+        "ok": true,
+        "source": "https://api.github.com/repos/FlagOpen/FlagEmbedding",
+        "observedAt": "2026-11-02T08:41:19.783803+00:00",
+        "fullName": "FlagOpen/FlagEmbedding",
+        "url": "https://github.com/FlagOpen/FlagEmbedding",
+        "stars": 12292,
+        "forks": 945,
+        "archived": false,
+        "pushedAt": "2026-10-27T09:50:16Z",
+        "createdAt": "2023-08-02T02:08:11Z",
+        "licenseSpdx": "MIT",
+        "homepage": "http://www.bge-model.com/"
+      },
+      "previewSource": "https://github.com/FlagOpen/FlagEmbedding"
+    },
+    {
+      "id": "dinov2",
+      "name": "DINOv2",
+      "description": "提取可迁移视觉特征以支持图片检索、聚类与下游识别。",
+      "modalities": [
+        "image-embedding",
+        "visual-understanding"
+      ],
+      "tags": [
+        "image-embedding",
+        "visual-understanding"
+      ],
+      "github": "https://github.com/facebookresearch/dinov2",
+      "repo": "facebookresearch/dinov2",
+      "huggingface": null,
+      "homepage": "https://github.com/facebookresearch/dinov2",
+      "previewImage": "https://opengraph.githubassets.com/548690f3b371ddc6d913e5e5d066f5a7235a7d8dff20f6122497e0afff4a0f28/facebookresearch/dinov2",
+      "previewKind": "official-repository-social-preview",
+      "previewAlt": "DINOv2 官方仓库预览，非本站生成效果样本",
+      "license": {
+        "code": "Apache-2.0",
+        "weights": "Apache-2.0",
+        "classification": "permissive-open-weights",
+        "summary": "官方代码与权重均采用 Apache-2.0。",
+        "source": "https://github.com/facebookresearch/dinov2#license"
+      },
+      "hardware": {
+        "vramGb": null,
+        "estimate": false,
+        "notes": "尚未在本站实测；显存受模型版本、精度、分辨率、序列长度和卸载设置影响。",
+        "source": "https://github.com/facebookresearch/dinov2"
+      },
+      "localReadiness": "official-local-inference",
+      "deploy": {
+        "kind": "python",
+        "commandHint": "使用隔离 Python 环境，按官方 README 安装与下载指定权重；安装前审阅依赖和许可证。",
+        "docs": "https://github.com/facebookresearch/dinov2"
+      },
+      "sources": [
+        "https://github.com/facebookresearch/dinov2",
+        "https://github.com/facebookresearch/dinov2#license"
+      ],
+      "researchDate": "2026-11-02",
+      "stars": 13493,
+      "starsSource": "https://api.github.com/repos/facebookresearch/dinov2",
+      "starsObservedAt": "2026-11-02T08:41:19.783803+00:00",
+      "arena": {
+        "status": "cold-start",
+        "score": null,
+        "votes": 0
+      },
+      "notes": "",
+      "githubMetadata": {
+        "ok": true,
+        "source": "https://api.github.com/repos/facebookresearch/dinov2",
+        "observedAt": "2026-11-02T08:41:19.783803+00:00",
+        "fullName": "facebookresearch/dinov2",
+        "url": "https://github.com/facebookresearch/dinov2",
+        "stars": 13493,
+        "forks": 1291,
+        "archived": false,
+        "pushedAt": "2026-11-01T22:25:23Z",
+        "createdAt": "2023-03-29T16:00:37Z",
+        "licenseSpdx": "Apache-2.0",
+        "homepage": null
+      },
+      "previewSource": "https://github.com/facebookresearch/dinov2"
+    }
+  ],
+  "deploymentRecipes": [
+    {
+      "id": "ollama-qwen3",
+      "name": "Ollama + Qwen3 本地检索回答",
+      "models": [
+        "qwen3"
+      ],
+      "prerequisites": [
+        "已安装官方 Ollama",
+        "网络与磁盘足够下载所选权重",
+        "仅在回环地址启动服务"
+      ],
+      "steps": [
+        "检测本地 Ollama /api/tags 与版本",
+        "展示 qwen3:8b 的下载体积、模型许可与计划",
+        "经用户在本机确认后执行 ollama pull qwen3:8b",
+        "通过本地 runner 向 /api/chat 发送检索出的目录条目"
+      ],
+      "docs": [
+        "https://docs.ollama.com/api/chat",
+        "https://ollama.com/library/qwen3"
+      ],
+      "automaticExecution": false
+    },
+    {
+      "id": "comfyui-visual",
+      "name": "ComfyUI 图像 / 视频工作流",
+      "models": [
+        "flux-schnell",
+        "qwen-image",
+        "qwen-image-edit",
+        "wan22",
+        "ltx2"
+      ],
+      "prerequisites": [
+        "官方 ComfyUI 安装完成",
+        "兼容的驱动与 PyTorch",
+        "用户已确认具体 checkpoint 许可"
+      ],
+      "steps": [
+        "读取本机 GPU、可用显存与磁盘",
+        "选择经过审阅并锁定版本的工作流模板",
+        "展示模型 URL、校验和、体积和预计磁盘需求",
+        "下载权重到相应模型目录后执行一次最小样本并记录峰值显存"
+      ],
+      "docs": [
+        "https://docs.comfy.org/installation/system_requirements",
+        "https://github.com/Comfy-Org/ComfyUI"
+      ],
+      "automaticExecution": false
+    },
+    {
+      "id": "triposr-venv",
+      "name": "TripoSR 单图转三维",
+      "models": [
+        "triposr"
+      ],
+      "prerequisites": [
+        "Python 与匹配的平台 PyTorch",
+        "隔离虚拟环境",
+        "单图输入素材"
+      ],
+      "steps": [
+        "克隆官方仓库并锁定待审阅提交",
+        "在虚拟环境安装该版本依赖",
+        "验证模型下载来源与许可",
+        "以官方 run.py 对单张素材执行最小重建"
+      ],
+      "docs": [
+        "https://github.com/VAST-AI-Research/TripoSR"
+      ],
+      "automaticExecution": false
+    },
+    {
+      "id": "kokoro-venv",
+      "name": "Kokoro 本地旁白",
+      "models": [
+        "kokoro82m"
+      ],
+      "prerequisites": [
+        "Python 虚拟环境",
+        "平台所需 espeak-ng 依赖",
+        "用户选择语言与 voicepack"
+      ],
+      "steps": [
+        "在隔离环境安装锁定版本的 kokoro",
+        "核对官方权重与所选 voicepack",
+        "对用户提供的短文本做最小合成",
+        "记录硬件、版本、时长与实时率，不用估算值冒充实测"
+      ],
+      "docs": [
+        "https://github.com/hexgrad/kokoro",
+        "https://huggingface.co/hexgrad/Kokoro-82M"
+      ],
+      "automaticExecution": false
+    }
+  ],
+  "bridgeNotes": {
+    "architecture": "云端网页负责检索、方案与任务声明；本地 companion/runner 持有本机执行能力，通过用户配对的回环服务接收固定 JSON 配方。",
+    "browserBoundary": "HTTPS 网站不能假装已直接安装用户电脑；混合内容、Private Network Access 与跨源策略可能阻止直接连接 localhost。可靠方案是本地 companion UI、浏览器扩展或用户主动下载执行的配方。",
+    "security": [
+      "只接受固定 recipeId 与白名单参数，不接受模型生成的任意 shell 命令",
+      "服务仅绑定 127.0.0.1，校验 Host 和严格 Origin 白名单",
+      "每次配对生成随机令牌，敏感部署需本机确认，禁止把令牌写进URL或日志",
+      "通过签名清单、固定版本和sha256检查下载；许可证与大体积下载预先展示",
+      "Ollama 默认在本地调用；不开公网端口、不转发云端 arbitrary URL",
+      "任务记录支持取消与重试；安装成功必须由本地实际探针证明"
+    ],
+    "retrieval": [
+      "先做确定性条件筛选：任务、OS、GPU/显存、许可、运行方式",
+      "混合关键词与多语言同义词检索，返回有来源的候选条目",
+      "若本地LLM不可用，退回明确标记的目录检索，不模拟LLM生成",
+      "模型只解释目录与审阅过的配方，不自由编造安装命令"
+    ],
+    "arenaProtocol": [
+      "模型版本/精度/采样/种子/提示词/分辨率/时长/硬件必须记录",
+      "同一题目匹配同预算或明确预算赛道，随机隐藏A/B模型身份",
+      "没有真实输出时不允许产生有效质量投票",
+      "质量、速度、显存和成本分别展示；项目热度不进入质量Elo",
+      "新模型从无评分开始；足够覆盖、有效票数与置信区间满足条件后才上榜"
+    ]
+  }
+}

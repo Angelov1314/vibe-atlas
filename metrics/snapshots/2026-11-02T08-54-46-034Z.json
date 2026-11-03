@@ -1,0 +1,2143 @@
+{
+  "schemaVersion": 1,
+  "collectedAt": "2026-11-02T08:54:46.034Z",
+  "completedAt": "2026-11-02T08:54:54.911Z",
+  "provenance": {
+    "github": "GitHub official REST repository endpoint",
+    "x": "not collected"
+  },
+  "requestedRepositories": 84,
+  "repositories": {
+    "4ian/GDevelop": {
+      "ok": true,
+      "repo": "4ian/GDevelop",
+      "itemIds": [
+        "gdevelop"
+      ],
+      "source": "https://api.github.com/repos/4ian/GDevelop",
+      "observedAt": "2026-11-02T08:54:46.293Z",
+      "fullName": "4ian/GDevelop",
+      "url": "https://github.com/4ian/GDevelop",
+      "stars": 28337,
+      "forks": 1639,
+      "pushedAt": "2026-11-01T15:52:36Z",
+      "createdAt": "2014-06-29T19:58:38Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": null,
+      "licenseName": "Other",
+      "licenseSource": null,
+      "licenseNote": "GitHub did not assign a standard SPDX license; inspect LICENSE manually.",
+      "homepage": "https://gdevelop.io",
+      "defaultBranch": "master",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 49,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "abi/screenshot-to-code": {
+      "ok": true,
+      "repo": "abi/screenshot-to-code",
+      "itemIds": [
+        "screenshot-to-code"
+      ],
+      "source": "https://api.github.com/repos/abi/screenshot-to-code",
+      "observedAt": "2026-11-02T08:54:46.461Z",
+      "fullName": "abi/screenshot-to-code",
+      "url": "https://github.com/abi/screenshot-to-code",
+      "stars": 80973,
+      "forks": 9918,
+      "pushedAt": "2026-10-27T10:48:37Z",
+      "createdAt": "2023-11-14T17:53:32Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": "MIT",
+      "licenseName": "MIT License",
+      "licenseSource": "https://api.github.com/licenses/mit",
+      "licenseNote": null,
+      "homepage": "https://screenshottocode.com",
+      "defaultBranch": "main",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 48,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "activepieces/activepieces": {
+      "ok": true,
+      "repo": "activepieces/activepieces",
+      "itemIds": [
+        "activepieces"
+      ],
+      "source": "https://api.github.com/repos/activepieces/activepieces",
+      "observedAt": "2026-11-02T08:54:46.631Z",
+      "fullName": "activepieces/activepieces",
+      "url": "https://github.com/activepieces/activepieces",
+      "stars": 25332,
+      "forks": 4419,
+      "pushedAt": "2026-11-02T08:48:12Z",
+      "createdAt": "2022-12-03T02:52:46Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": null,
+      "licenseName": "Other",
+      "licenseSource": null,
+      "licenseNote": "GitHub did not assign a standard SPDX license; inspect LICENSE manually.",
+      "homepage": "https://www.activepieces.com",
+      "defaultBranch": "main",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 47,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "Aider-AI/aider": {
+      "ok": true,
+      "repo": "Aider-AI/aider",
+      "itemIds": [
+        "aider"
+      ],
+      "source": "https://api.github.com/repos/Aider-AI/aider",
+      "observedAt": "2026-11-02T08:54:46.863Z",
+      "fullName": "Aider-AI/aider",
+      "url": "https://github.com/Aider-AI/aider",
+      "stars": 49895,
+      "forks": 5126,
+      "pushedAt": "2026-05-22T14:02:20Z",
+      "createdAt": "2023-05-09T18:57:49Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": "Apache-2.0",
+      "licenseName": "Apache License 2.0",
+      "licenseSource": "https://api.github.com/licenses/apache-2.0",
+      "licenseNote": null,
+      "homepage": "https://aider.chat/",
+      "defaultBranch": "main",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 46,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "airbnb/lottie-web": {
+      "ok": true,
+      "repo": "airbnb/lottie-web",
+      "itemIds": [
+        "lottie-web"
+      ],
+      "source": "https://api.github.com/repos/airbnb/lottie-web",
+      "observedAt": "2026-11-02T08:54:47.022Z",
+      "fullName": "airbnb/lottie-web",
+      "url": "https://github.com/airbnb/lottie-web",
+      "stars": 32329,
+      "forks": 2956,
+      "pushedAt": "2025-09-01T09:01:31Z",
+      "createdAt": "2015-02-20T21:02:59Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": "MIT",
+      "licenseName": "MIT License",
+      "licenseSource": "https://api.github.com/licenses/mit",
+      "licenseNote": null,
+      "homepage": "",
+      "defaultBranch": "master",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 45,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "angr/angr": {
+      "ok": true,
+      "repo": "angr/angr",
+      "itemIds": [
+        "angr"
+      ],
+      "source": "https://api.github.com/repos/angr/angr",
+      "observedAt": "2026-11-02T08:54:47.193Z",
+      "fullName": "angr/angr",
+      "url": "https://github.com/angr/angr",
+      "stars": 9278,
+      "forks": 1219,
+      "pushedAt": "2026-11-02T07:28:48Z",
+      "createdAt": "2015-08-06T21:46:55Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": "BSD-2-Clause",
+      "licenseName": "BSD 2-Clause \"Simplified\" License",
+      "licenseSource": "https://api.github.com/licenses/bsd-2-clause",
+      "licenseNote": null,
+      "homepage": "http://angr.io",
+      "defaultBranch": "master",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 44,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "apache/superset": {
+      "ok": true,
+      "repo": "apache/superset",
+      "itemIds": [
+        "superset"
+      ],
+      "source": "https://api.github.com/repos/apache/superset",
+      "observedAt": "2026-11-02T08:54:47.370Z",
+      "fullName": "apache/superset",
+      "url": "https://github.com/apache/superset",
+      "stars": 75389,
+      "forks": 18570,
+      "pushedAt": "2026-11-02T08:35:02Z",
+      "createdAt": "2015-07-21T18:55:34Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": "Apache-2.0",
+      "licenseName": "Apache License 2.0",
+      "licenseSource": "https://api.github.com/licenses/apache-2.0",
+      "licenseNote": null,
+      "homepage": "https://superset.apache.org/",
+      "defaultBranch": "master",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 43,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "apify/crawlee": {
+      "ok": true,
+      "repo": "apify/crawlee",
+      "itemIds": [
+        "crawlee"
+      ],
+      "source": "https://api.github.com/repos/apify/crawlee",
+      "observedAt": "2026-11-02T08:54:47.562Z",
+      "fullName": "apify/crawlee",
+      "url": "https://github.com/apify/crawlee",
+      "stars": 26314,
+      "forks": 1739,
+      "pushedAt": "2026-11-02T05:09:17Z",
+      "createdAt": "2016-08-26T18:35:03Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": "Apache-2.0",
+      "licenseName": "Apache License 2.0",
+      "licenseSource": "https://api.github.com/licenses/apache-2.0",
+      "licenseNote": null,
+      "homepage": "https://crawlee.dev",
+      "defaultBranch": "master",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 42,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "AvaloniaUI/Avalonia": {
+      "ok": true,
+      "repo": "AvaloniaUI/Avalonia",
+      "itemIds": [
+        "avalonia"
+      ],
+      "source": "https://api.github.com/repos/AvaloniaUI/Avalonia",
+      "observedAt": "2026-11-02T08:54:47.741Z",
+      "fullName": "AvaloniaUI/Avalonia",
+      "url": "https://github.com/AvaloniaUI/Avalonia",
+      "stars": 31744,
+      "forks": 2877,
+      "pushedAt": "2026-11-02T08:19:38Z",
+      "createdAt": "2013-12-05T20:13:21Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": "MIT",
+      "licenseName": "MIT License",
+      "licenseSource": "https://api.github.com/licenses/mit",
+      "licenseNote": null,
+      "homepage": "https://avaloniaui.net",
+      "defaultBranch": "main",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 41,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "BabylonJS/Babylon.js": {
+      "ok": true,
+      "repo": "BabylonJS/Babylon.js",
+      "itemIds": [
+        "babylon-js"
+      ],
+      "source": "https://api.github.com/repos/BabylonJS/Babylon.js",
+      "observedAt": "2026-11-02T08:54:47.912Z",
+      "fullName": "BabylonJS/Babylon.js",
+      "url": "https://github.com/BabylonJS/Babylon.js",
+      "stars": 26276,
+      "forks": 3719,
+      "pushedAt": "2026-10-31T01:25:50Z",
+      "createdAt": "2013-06-27T20:40:42Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": "Apache-2.0",
+      "licenseName": "Apache License 2.0",
+      "licenseSource": "https://api.github.com/licenses/apache-2.0",
+      "licenseNote": null,
+      "homepage": "http://www.babylonjs.com",
+      "defaultBranch": "master",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 40,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "beeware/toga": {
+      "ok": true,
+      "repo": "beeware/toga",
+      "itemIds": [
+        "toga"
+      ],
+      "source": "https://api.github.com/repos/beeware/toga",
+      "observedAt": "2026-11-02T08:54:48.068Z",
+      "fullName": "beeware/toga",
+      "url": "https://github.com/beeware/toga",
+      "stars": 5429,
+      "forks": 836,
+      "pushedAt": "2026-11-02T07:04:02Z",
+      "createdAt": "2014-08-01T21:44:10Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": "BSD-3-Clause",
+      "licenseName": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "licenseSource": "https://api.github.com/licenses/bsd-3-clause",
+      "licenseNote": null,
+      "homepage": "https://toga.beeware.org/",
+      "defaultBranch": "main",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 39,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "bevyengine/bevy": {
+      "ok": true,
+      "repo": "bevyengine/bevy",
+      "itemIds": [
+        "bevy"
+      ],
+      "source": "https://api.github.com/repos/bevyengine/bevy",
+      "observedAt": "2026-11-02T08:54:48.265Z",
+      "fullName": "bevyengine/bevy",
+      "url": "https://github.com/bevyengine/bevy",
+      "stars": 49456,
+      "forks": 5007,
+      "pushedAt": "2026-10-30T06:54:23Z",
+      "createdAt": "2020-01-18T21:13:55Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": "Apache-2.0",
+      "licenseName": "Apache License 2.0",
+      "licenseSource": "https://api.github.com/licenses/apache-2.0",
+      "licenseNote": null,
+      "homepage": "https://bevy.org",
+      "defaultBranch": "main",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 38,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "blender/blender": {
+      "ok": true,
+      "repo": "blender/blender",
+      "itemIds": [
+        "blender"
+      ],
+      "source": "https://api.github.com/repos/blender/blender",
+      "observedAt": "2026-11-02T08:54:48.414Z",
+      "fullName": "blender/blender",
+      "url": "https://github.com/blender/blender",
+      "stars": 21528,
+      "forks": 3482,
+      "pushedAt": "2026-11-02T08:11:50Z",
+      "createdAt": "2019-10-09T12:47:28Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": null,
+      "licenseName": "Other",
+      "licenseSource": null,
+      "licenseNote": "GitHub did not assign a standard SPDX license; inspect LICENSE manually.",
+      "homepage": "https://developer.blender.org/docs/handbook/contributing/using_git/#github-mirror",
+      "defaultBranch": "main",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 37,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "browser-use/browser-use": {
+      "ok": true,
+      "repo": "browser-use/browser-use",
+      "itemIds": [
+        "browser-use"
+      ],
+      "source": "https://api.github.com/repos/browser-use/browser-use",
+      "observedAt": "2026-11-02T08:54:48.591Z",
+      "fullName": "browser-use/browser-use",
+      "url": "https://github.com/browser-use/browser-use",
+      "stars": 119803,
+      "forks": 13351,
+      "pushedAt": "2026-11-02T01:31:56Z",
+      "createdAt": "2024-10-31T16:00:56Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": "MIT",
+      "licenseName": "MIT License",
+      "licenseSource": "https://api.github.com/licenses/mit",
+      "licenseNote": null,
+      "homepage": "https://browser-use.com",
+      "defaultBranch": "main",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 36,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "capstone-engine/capstone": {
+      "ok": true,
+      "repo": "capstone-engine/capstone",
+      "itemIds": [
+        "capstone"
+      ],
+      "source": "https://api.github.com/repos/capstone-engine/capstone",
+      "observedAt": "2026-11-02T08:54:48.751Z",
+      "fullName": "capstone-engine/capstone",
+      "url": "https://github.com/capstone-engine/capstone",
+      "stars": 9160,
+      "forks": 1744,
+      "pushedAt": "2026-10-27T13:14:16Z",
+      "createdAt": "2013-11-27T02:32:11Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": null,
+      "licenseName": null,
+      "licenseSource": null,
+      "licenseNote": null,
+      "homepage": "http://www.capstone-engine.org",
+      "defaultBranch": "next",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 35,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "CesiumGS/cesium": {
+      "ok": true,
+      "repo": "CesiumGS/cesium",
+      "itemIds": [
+        "cesium"
+      ],
+      "source": "https://api.github.com/repos/CesiumGS/cesium",
+      "observedAt": "2026-11-02T08:54:48.931Z",
+      "fullName": "CesiumGS/cesium",
+      "url": "https://github.com/CesiumGS/cesium",
+      "stars": 15906,
+      "forks": 3894,
+      "pushedAt": "2026-11-02T06:43:39Z",
+      "createdAt": "2012-03-02T22:27:14Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": "Apache-2.0",
+      "licenseName": "Apache License 2.0",
+      "licenseSource": "https://api.github.com/licenses/apache-2.0",
+      "licenseNote": null,
+      "homepage": "https://cesium.com/cesiumjs/",
+      "defaultBranch": "main",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 34,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "coder/code-server": {
+      "ok": true,
+      "repo": "coder/code-server",
+      "itemIds": [
+        "code-server"
+      ],
+      "source": "https://api.github.com/repos/coder/code-server",
+      "observedAt": "2026-11-02T08:54:49.109Z",
+      "fullName": "coder/code-server",
+      "url": "https://github.com/coder/code-server",
+      "stars": 79753,
+      "forks": 6935,
+      "pushedAt": "2026-11-01T12:05:24Z",
+      "createdAt": "2019-02-27T16:50:41Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": "MIT",
+      "licenseName": "MIT License",
+      "licenseSource": "https://api.github.com/licenses/mit",
+      "licenseNote": null,
+      "homepage": "https://coder.com",
+      "defaultBranch": "main",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 33,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "continuedev/continue": {
+      "ok": true,
+      "repo": "continuedev/continue",
+      "itemIds": [
+        "continue"
+      ],
+      "source": "https://api.github.com/repos/continuedev/continue",
+      "observedAt": "2026-11-02T08:54:49.265Z",
+      "fullName": "continuedev/continue",
+      "url": "https://github.com/continuedev/continue",
+      "stars": 36399,
+      "forks": 5543,
+      "pushedAt": "2026-11-01T07:23:48Z",
+      "createdAt": "2023-05-24T03:39:39Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": "Apache-2.0",
+      "licenseName": "Apache License 2.0",
+      "licenseSource": "https://api.github.com/licenses/apache-2.0",
+      "licenseNote": null,
+      "homepage": "https://continue.dev",
+      "defaultBranch": "main",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 32,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "d3/d3": {
+      "ok": true,
+      "repo": "d3/d3",
+      "itemIds": [
+        "d3"
+      ],
+      "source": "https://api.github.com/repos/d3/d3",
+      "observedAt": "2026-11-02T08:54:49.428Z",
+      "fullName": "d3/d3",
+      "url": "https://github.com/d3/d3",
+      "stars": 113854,
+      "forks": 22758,
+      "pushedAt": "2026-10-21T22:24:11Z",
+      "createdAt": "2010-09-27T17:22:42Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": "ISC",
+      "licenseName": "ISC License",
+      "licenseSource": "https://api.github.com/licenses/isc",
+      "licenseNote": null,
+      "homepage": "https://d3js.org",
+      "defaultBranch": "main",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 31,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "dimforge/rapier": {
+      "ok": true,
+      "repo": "dimforge/rapier",
+      "itemIds": [
+        "rapier"
+      ],
+      "source": "https://api.github.com/repos/dimforge/rapier",
+      "observedAt": "2026-11-02T08:54:49.590Z",
+      "fullName": "dimforge/rapier",
+      "url": "https://github.com/dimforge/rapier",
+      "stars": 6017,
+      "forks": 426,
+      "pushedAt": "2026-11-01T21:48:29Z",
+      "createdAt": "2020-08-25T20:05:14Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": "Apache-2.0",
+      "licenseName": "Apache License 2.0",
+      "licenseSource": "https://api.github.com/licenses/apache-2.0",
+      "licenseNote": null,
+      "homepage": "https://rapier.rs",
+      "defaultBranch": "master",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 30,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "duckdb/duckdb": {
+      "ok": true,
+      "repo": "duckdb/duckdb",
+      "itemIds": [
+        "duckdb"
+      ],
+      "source": "https://api.github.com/repos/duckdb/duckdb",
+      "observedAt": "2026-11-02T08:54:49.779Z",
+      "fullName": "duckdb/duckdb",
+      "url": "https://github.com/duckdb/duckdb",
+      "stars": 42737,
+      "forks": 4170,
+      "pushedAt": "2026-11-02T08:42:14Z",
+      "createdAt": "2018-06-26T15:04:45Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": "MIT",
+      "licenseName": "MIT License",
+      "licenseSource": "https://api.github.com/licenses/mit",
+      "licenseNote": null,
+      "homepage": "http://www.duckdb.org",
+      "defaultBranch": "main",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 29,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "electron/electron": {
+      "ok": true,
+      "repo": "electron/electron",
+      "itemIds": [
+        "electron"
+      ],
+      "source": "https://api.github.com/repos/electron/electron",
+      "observedAt": "2026-11-02T08:54:49.948Z",
+      "fullName": "electron/electron",
+      "url": "https://github.com/electron/electron",
+      "stars": 123710,
+      "forks": 17916,
+      "pushedAt": "2026-11-02T07:36:19Z",
+      "createdAt": "2013-04-12T01:47:36Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": "MIT",
+      "licenseName": "MIT License",
+      "licenseSource": "https://api.github.com/licenses/mit",
+      "licenseNote": null,
+      "homepage": "https://electronjs.org",
+      "defaultBranch": "main",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 28,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "excalidraw/excalidraw": {
+      "ok": true,
+      "repo": "excalidraw/excalidraw",
+      "itemIds": [
+        "excalidraw"
+      ],
+      "source": "https://api.github.com/repos/excalidraw/excalidraw",
+      "observedAt": "2026-11-02T08:54:50.107Z",
+      "fullName": "excalidraw/excalidraw",
+      "url": "https://github.com/excalidraw/excalidraw",
+      "stars": 135010,
+      "forks": 15964,
+      "pushedAt": "2026-11-01T20:55:25Z",
+      "createdAt": "2020-01-02T01:04:43Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": "MIT",
+      "licenseName": "MIT License",
+      "licenseSource": "https://api.github.com/licenses/mit",
+      "licenseNote": null,
+      "homepage": "https://excalidraw.com",
+      "defaultBranch": "master",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 27,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "expo/expo": {
+      "ok": true,
+      "repo": "expo/expo",
+      "itemIds": [
+        "expo"
+      ],
+      "source": "https://api.github.com/repos/expo/expo",
+      "observedAt": "2026-11-02T08:54:50.274Z",
+      "fullName": "expo/expo",
+      "url": "https://github.com/expo/expo",
+      "stars": 53285,
+      "forks": 14897,
+      "pushedAt": "2026-11-02T08:18:09Z",
+      "createdAt": "2016-08-15T17:14:25Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": "MIT",
+      "licenseName": "MIT License",
+      "licenseSource": "https://api.github.com/licenses/mit",
+      "licenseNote": null,
+      "homepage": "https://docs.expo.dev",
+      "defaultBranch": "main",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 26,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "expressjs/express": {
+      "ok": true,
+      "repo": "expressjs/express",
+      "itemIds": [
+        "express"
+      ],
+      "source": "https://api.github.com/repos/expressjs/express",
+      "observedAt": "2026-11-02T08:54:50.466Z",
+      "fullName": "expressjs/express",
+      "url": "https://github.com/expressjs/express",
+      "stars": 69586,
+      "forks": 25348,
+      "pushedAt": "2026-11-02T06:25:48Z",
+      "createdAt": "2009-06-26T18:56:01Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": "MIT",
+      "licenseName": "MIT License",
+      "licenseSource": "https://api.github.com/licenses/mit",
+      "licenseNote": null,
+      "homepage": "https://expressjs.com",
+      "defaultBranch": "master",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 25,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "fastapi/fastapi": {
+      "ok": true,
+      "repo": "fastapi/fastapi",
+      "itemIds": [
+        "fastapi"
+      ],
+      "source": "https://api.github.com/repos/fastapi/fastapi",
+      "observedAt": "2026-11-02T08:54:50.621Z",
+      "fullName": "fastapi/fastapi",
+      "url": "https://github.com/fastapi/fastapi",
+      "stars": 104551,
+      "forks": 10173,
+      "pushedAt": "2026-11-02T08:54:42Z",
+      "createdAt": "2018-12-08T08:21:47Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": "MIT",
+      "licenseName": "MIT License",
+      "licenseSource": "https://api.github.com/licenses/mit",
+      "licenseNote": null,
+      "homepage": "https://fastapi.tiangolo.com/",
+      "defaultBranch": "master",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 24,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "FFmpeg/FFmpeg": {
+      "ok": true,
+      "repo": "FFmpeg/FFmpeg",
+      "itemIds": [
+        "ffmpeg"
+      ],
+      "source": "https://api.github.com/repos/FFmpeg/FFmpeg",
+      "observedAt": "2026-11-02T08:54:50.807Z",
+      "fullName": "FFmpeg/FFmpeg",
+      "url": "https://github.com/FFmpeg/FFmpeg",
+      "stars": 66262,
+      "forks": 14498,
+      "pushedAt": "2026-11-02T07:38:37Z",
+      "createdAt": "2011-04-14T14:12:38Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": null,
+      "licenseName": "Other",
+      "licenseSource": null,
+      "licenseNote": "GitHub did not assign a standard SPDX license; inspect LICENSE manually.",
+      "homepage": "https://ffmpeg.org/",
+      "defaultBranch": "master",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 23,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "flutter/flutter": {
+      "ok": true,
+      "repo": "flutter/flutter",
+      "itemIds": [
+        "flutter"
+      ],
+      "source": "https://api.github.com/repos/flutter/flutter",
+      "observedAt": "2026-11-02T08:54:50.972Z",
+      "fullName": "flutter/flutter",
+      "url": "https://github.com/flutter/flutter",
+      "stars": 181010,
+      "forks": 32868,
+      "pushedAt": "2026-11-02T07:44:09Z",
+      "createdAt": "2015-03-06T22:54:58Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": "BSD-3-Clause",
+      "licenseName": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "licenseSource": "https://api.github.com/licenses/bsd-3-clause",
+      "licenseNote": null,
+      "homepage": "https://flutter.dev",
+      "defaultBranch": "master",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 22,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "frida/frida": {
+      "ok": true,
+      "repo": "frida/frida",
+      "itemIds": [
+        "frida"
+      ],
+      "source": "https://api.github.com/repos/frida/frida",
+      "observedAt": "2026-11-02T08:54:51.150Z",
+      "fullName": "frida/frida",
+      "url": "https://github.com/frida/frida",
+      "stars": 22602,
+      "forks": 2295,
+      "pushedAt": "2026-11-01T14:11:58Z",
+      "createdAt": "2013-04-12T22:35:05Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": null,
+      "licenseName": "Other",
+      "licenseSource": null,
+      "licenseNote": "GitHub did not assign a standard SPDX license; inspect LICENSE manually.",
+      "homepage": "https://frida.re",
+      "defaultBranch": "main",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 21,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "gfx-rs/wgpu": {
+      "ok": true,
+      "repo": "gfx-rs/wgpu",
+      "itemIds": [
+        "wgpu"
+      ],
+      "source": "https://api.github.com/repos/gfx-rs/wgpu",
+      "observedAt": "2026-11-02T08:54:51.311Z",
+      "fullName": "gfx-rs/wgpu",
+      "url": "https://github.com/gfx-rs/wgpu",
+      "stars": 18442,
+      "forks": 1591,
+      "pushedAt": "2026-11-02T01:59:28Z",
+      "createdAt": "2018-09-13T19:18:50Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": "Apache-2.0",
+      "licenseName": "Apache License 2.0",
+      "licenseSource": "https://api.github.com/licenses/apache-2.0",
+      "licenseNote": null,
+      "homepage": "https://wgpu.rs",
+      "defaultBranch": "trunk",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 20,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "godotengine/godot": {
+      "ok": true,
+      "repo": "godotengine/godot",
+      "itemIds": [
+        "godot"
+      ],
+      "source": "https://api.github.com/repos/godotengine/godot",
+      "observedAt": "2026-11-02T08:54:51.494Z",
+      "fullName": "godotengine/godot",
+      "url": "https://github.com/godotengine/godot",
+      "stars": 119424,
+      "forks": 27330,
+      "pushedAt": "2026-10-30T16:47:09Z",
+      "createdAt": "2014-01-04T16:05:36Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": "MIT",
+      "licenseName": "MIT License",
+      "licenseSource": "https://api.github.com/licenses/mit",
+      "licenseNote": null,
+      "homepage": "https://godotengine.org",
+      "defaultBranch": "master",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 19,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "gradio-app/gradio": {
+      "ok": true,
+      "repo": "gradio-app/gradio",
+      "itemIds": [
+        "gradio"
+      ],
+      "source": "https://api.github.com/repos/gradio-app/gradio",
+      "observedAt": "2026-11-02T08:54:51.666Z",
+      "fullName": "gradio-app/gradio",
+      "url": "https://github.com/gradio-app/gradio",
+      "stars": 43962,
+      "forks": 3657,
+      "pushedAt": "2026-11-02T08:39:53Z",
+      "createdAt": "2018-12-19T08:24:04Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": "Apache-2.0",
+      "licenseName": "Apache License 2.0",
+      "licenseSource": "https://api.github.com/licenses/apache-2.0",
+      "licenseNote": null,
+      "homepage": "http://www.gradio.app",
+      "defaultBranch": "main",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 18,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "GrapesJS/grapesjs": {
+      "ok": true,
+      "repo": "GrapesJS/grapesjs",
+      "itemIds": [
+        "grapesjs"
+      ],
+      "source": "https://api.github.com/repos/GrapesJS/grapesjs",
+      "observedAt": "2026-11-02T08:54:51.853Z",
+      "fullName": "GrapesJS/grapesjs",
+      "url": "https://github.com/GrapesJS/grapesjs",
+      "stars": 26362,
+      "forks": 4651,
+      "pushedAt": "2026-10-21T16:08:00Z",
+      "createdAt": "2016-01-22T00:23:19Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": null,
+      "licenseName": "Other",
+      "licenseSource": null,
+      "licenseNote": "GitHub did not assign a standard SPDX license; inspect LICENSE manually.",
+      "homepage": "https://grapesjs.com",
+      "defaultBranch": "dev",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 17,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "home-assistant/core": {
+      "ok": true,
+      "repo": "home-assistant/core",
+      "itemIds": [
+        "core"
+      ],
+      "source": "https://api.github.com/repos/home-assistant/core",
+      "observedAt": "2026-11-02T08:54:52.057Z",
+      "fullName": "home-assistant/core",
+      "url": "https://github.com/home-assistant/core",
+      "stars": 91906,
+      "forks": 39208,
+      "pushedAt": "2026-11-02T08:49:51Z",
+      "createdAt": "2013-09-17T07:29:48Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": "Apache-2.0",
+      "licenseName": "Apache License 2.0",
+      "licenseSource": "https://api.github.com/licenses/apache-2.0",
+      "licenseNote": null,
+      "homepage": "https://www.home-assistant.io",
+      "defaultBranch": "dev",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 16,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "honojs/hono": {
+      "ok": true,
+      "repo": "honojs/hono",
+      "itemIds": [
+        "hono"
+      ],
+      "source": "https://api.github.com/repos/honojs/hono",
+      "observedAt": "2026-11-02T08:54:52.232Z",
+      "fullName": "honojs/hono",
+      "url": "https://github.com/honojs/hono",
+      "stars": 32781,
+      "forks": 1452,
+      "pushedAt": "2026-11-01T02:52:19Z",
+      "createdAt": "2021-12-14T20:05:30Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": "MIT",
+      "licenseName": "MIT License",
+      "licenseSource": "https://api.github.com/licenses/mit",
+      "licenseNote": null,
+      "homepage": "https://hono.dev",
+      "defaultBranch": "main",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 15,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "ionic-team/ionic-framework": {
+      "ok": true,
+      "repo": "ionic-team/ionic-framework",
+      "itemIds": [
+        "ionic-framework"
+      ],
+      "source": "https://api.github.com/repos/ionic-team/ionic-framework",
+      "observedAt": "2026-11-02T08:54:52.412Z",
+      "fullName": "ionic-team/ionic-framework",
+      "url": "https://github.com/ionic-team/ionic-framework",
+      "stars": 52735,
+      "forks": 13295,
+      "pushedAt": "2026-10-30T22:28:59Z",
+      "createdAt": "2013-08-20T23:06:02Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": "MIT",
+      "licenseName": "MIT License",
+      "licenseSource": "https://api.github.com/licenses/mit",
+      "licenseNote": null,
+      "homepage": "https://ionicframework.com",
+      "defaultBranch": "main",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 14,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "JetBrains/compose-multiplatform": {
+      "ok": true,
+      "repo": "JetBrains/compose-multiplatform",
+      "itemIds": [
+        "compose-multiplatform"
+      ],
+      "source": "https://api.github.com/repos/JetBrains/compose-multiplatform",
+      "observedAt": "2026-11-02T08:54:52.593Z",
+      "fullName": "JetBrains/compose-multiplatform",
+      "url": "https://github.com/JetBrains/compose-multiplatform",
+      "stars": 19464,
+      "forks": 1436,
+      "pushedAt": "2026-11-01T22:17:40Z",
+      "createdAt": "2020-09-07T10:40:49Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": "Apache-2.0",
+      "licenseName": "Apache License 2.0",
+      "licenseSource": "https://api.github.com/licenses/apache-2.0",
+      "licenseNote": null,
+      "homepage": "https://jetbrains.com/lp/compose-multiplatform",
+      "defaultBranch": "master",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 13,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "jupyterlab/jupyterlab": {
+      "ok": true,
+      "repo": "jupyterlab/jupyterlab",
+      "itemIds": [
+        "jupyterlab"
+      ],
+      "source": "https://api.github.com/repos/jupyterlab/jupyterlab",
+      "observedAt": "2026-11-02T08:54:52.794Z",
+      "fullName": "jupyterlab/jupyterlab",
+      "url": "https://github.com/jupyterlab/jupyterlab",
+      "stars": 15383,
+      "forks": 4152,
+      "pushedAt": "2026-11-01T14:34:40Z",
+      "createdAt": "2016-06-03T20:09:17Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": "BSD-3-Clause",
+      "licenseName": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "licenseSource": "https://api.github.com/licenses/bsd-3-clause",
+      "licenseNote": null,
+      "homepage": "https://jupyterlab.readthedocs.io/",
+      "defaultBranch": "main",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 12,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "langchain-ai/langgraph": {
+      "ok": true,
+      "repo": "langchain-ai/langgraph",
+      "itemIds": [
+        "langgraph"
+      ],
+      "source": "https://api.github.com/repos/langchain-ai/langgraph",
+      "observedAt": "2026-11-02T08:54:52.963Z",
+      "fullName": "langchain-ai/langgraph",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "stars": 44315,
+      "forks": 7621,
+      "pushedAt": "2026-11-02T04:37:36Z",
+      "createdAt": "2023-08-09T18:33:12Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": "MIT",
+      "licenseName": "MIT License",
+      "licenseSource": "https://api.github.com/licenses/mit",
+      "licenseNote": null,
+      "homepage": "https://docs.langchain.com/oss/python/langgraph/",
+      "defaultBranch": "main",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 11,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "langgenius/dify": {
+      "ok": true,
+      "repo": "langgenius/dify",
+      "itemIds": [
+        "dify"
+      ],
+      "source": "https://api.github.com/repos/langgenius/dify",
+      "observedAt": "2026-11-02T08:54:53.116Z",
+      "fullName": "langgenius/dify",
+      "url": "https://github.com/langgenius/dify",
+      "stars": 160212,
+      "forks": 25328,
+      "pushedAt": "2026-11-02T08:50:58Z",
+      "createdAt": "2023-04-12T07:40:24Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": null,
+      "licenseName": "Other",
+      "licenseSource": null,
+      "licenseNote": "GitHub did not assign a standard SPDX license; inspect LICENSE manually.",
+      "homepage": "https://dify.ai",
+      "defaultBranch": "main",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 10,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "lynx-family/lynx": {
+      "ok": true,
+      "repo": "lynx-family/lynx",
+      "itemIds": [
+        "lynx"
+      ],
+      "source": "https://api.github.com/repos/lynx-family/lynx",
+      "observedAt": "2026-11-02T08:54:53.283Z",
+      "fullName": "lynx-family/lynx",
+      "url": "https://github.com/lynx-family/lynx",
+      "stars": 15228,
+      "forks": 564,
+      "pushedAt": "2026-11-02T08:41:05Z",
+      "createdAt": "2025-03-04T07:41:43Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": "Apache-2.0",
+      "licenseName": "Apache License 2.0",
+      "licenseSource": "https://api.github.com/licenses/apache-2.0",
+      "licenseNote": null,
+      "homepage": "https://lynxjs.org",
+      "defaultBranch": "develop",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 9,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "ManimCommunity/manim": {
+      "ok": true,
+      "repo": "ManimCommunity/manim",
+      "itemIds": [
+        "manim"
+      ],
+      "source": "https://api.github.com/repos/ManimCommunity/manim",
+      "observedAt": "2026-11-02T08:54:53.460Z",
+      "fullName": "ManimCommunity/manim",
+      "url": "https://github.com/ManimCommunity/manim",
+      "stars": 42125,
+      "forks": 3269,
+      "pushedAt": "2026-11-02T02:47:31Z",
+      "createdAt": "2020-05-19T02:37:13Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": "MIT",
+      "licenseName": "MIT License",
+      "licenseSource": "https://api.github.com/licenses/mit",
+      "licenseNote": null,
+      "homepage": "https://www.manim.community",
+      "defaultBranch": "main",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 8,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "medusajs/medusa": {
+      "ok": true,
+      "repo": "medusajs/medusa",
+      "itemIds": [
+        "medusa"
+      ],
+      "source": "https://api.github.com/repos/medusajs/medusa",
+      "observedAt": "2026-11-02T08:54:53.648Z",
+      "fullName": "medusajs/medusa",
+      "url": "https://github.com/medusajs/medusa",
+      "stars": 37050,
+      "forks": 5485,
+      "pushedAt": "2026-11-02T08:54:14Z",
+      "createdAt": "2020-01-18T13:39:04Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": null,
+      "licenseName": "Other",
+      "licenseSource": null,
+      "licenseNote": "GitHub did not assign a standard SPDX license; inspect LICENSE manually.",
+      "homepage": "https://medusajs.com",
+      "defaultBranch": "develop",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 7,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "metabase/metabase": {
+      "ok": true,
+      "repo": "metabase/metabase",
+      "itemIds": [
+        "metabase"
+      ],
+      "source": "https://api.github.com/repos/metabase/metabase",
+      "observedAt": "2026-11-02T08:54:53.825Z",
+      "fullName": "metabase/metabase",
+      "url": "https://github.com/metabase/metabase",
+      "stars": 50102,
+      "forks": 6967,
+      "pushedAt": "2026-11-02T08:37:45Z",
+      "createdAt": "2015-02-02T19:25:47Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": null,
+      "licenseName": "Other",
+      "licenseSource": null,
+      "licenseNote": "GitHub did not assign a standard SPDX license; inspect LICENSE manually.",
+      "homepage": "https://metabase.com",
+      "defaultBranch": "master",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 6,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "microsoft/autogen": {
+      "ok": true,
+      "repo": "microsoft/autogen",
+      "itemIds": [
+        "autogen"
+      ],
+      "source": "https://api.github.com/repos/microsoft/autogen",
+      "observedAt": "2026-11-02T08:54:54.024Z",
+      "fullName": "microsoft/autogen",
+      "url": "https://github.com/microsoft/autogen",
+      "stars": 61670,
+      "forks": 9349,
+      "pushedAt": "2026-10-28T14:45:27Z",
+      "createdAt": "2023-08-18T11:43:45Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": "CC-BY-4.0",
+      "licenseName": "Creative Commons Attribution 4.0 International",
+      "licenseSource": "https://api.github.com/licenses/cc-by-4.0",
+      "licenseNote": null,
+      "homepage": "https://microsoft.github.io/autogen/",
+      "defaultBranch": "main",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 5,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "microsoft/graphrag": {
+      "ok": true,
+      "repo": "microsoft/graphrag",
+      "itemIds": [
+        "graphrag"
+      ],
+      "source": "https://api.github.com/repos/microsoft/graphrag",
+      "observedAt": "2026-11-02T08:54:54.181Z",
+      "fullName": "microsoft/graphrag",
+      "url": "https://github.com/microsoft/graphrag",
+      "stars": 36529,
+      "forks": 3868,
+      "pushedAt": "2026-11-02T07:24:01Z",
+      "createdAt": "2024-03-27T17:57:52Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": "MIT",
+      "licenseName": "MIT License",
+      "licenseSource": "https://api.github.com/licenses/mit",
+      "licenseNote": null,
+      "homepage": "https://microsoft.github.io/graphrag/",
+      "defaultBranch": "main",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 4,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "microsoft/playwright": {
+      "ok": true,
+      "repo": "microsoft/playwright",
+      "itemIds": [
+        "playwright"
+      ],
+      "source": "https://api.github.com/repos/microsoft/playwright",
+      "observedAt": "2026-11-02T08:54:54.360Z",
+      "fullName": "microsoft/playwright",
+      "url": "https://github.com/microsoft/playwright",
+      "stars": 99084,
+      "forks": 6780,
+      "pushedAt": "2026-11-02T03:16:02Z",
+      "createdAt": "2019-11-15T18:32:42Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": "Apache-2.0",
+      "licenseName": "Apache License 2.0",
+      "licenseSource": "https://api.github.com/licenses/apache-2.0",
+      "licenseNote": null,
+      "homepage": "https://playwright.dev",
+      "defaultBranch": "main",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 3,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "mobile-dev-inc/maestro": {
+      "ok": true,
+      "repo": "mobile-dev-inc/maestro",
+      "itemIds": [
+        "maestro"
+      ],
+      "source": "https://api.github.com/repos/mobile-dev-inc/maestro",
+      "observedAt": "2026-11-02T08:54:54.555Z",
+      "fullName": "mobile-dev-inc/Maestro",
+      "url": "https://github.com/mobile-dev-inc/Maestro",
+      "stars": 16287,
+      "forks": 1013,
+      "pushedAt": "2026-11-02T08:05:47Z",
+      "createdAt": "2022-03-31T18:17:40Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": "Apache-2.0",
+      "licenseName": "Apache License 2.0",
+      "licenseSource": "https://api.github.com/licenses/apache-2.0",
+      "licenseNote": null,
+      "homepage": "https://maestro.dev",
+      "defaultBranch": "main",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 2,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "motion-canvas/motion-canvas": {
+      "ok": true,
+      "repo": "motion-canvas/motion-canvas",
+      "itemIds": [
+        "motion-canvas"
+      ],
+      "source": "https://api.github.com/repos/motion-canvas/motion-canvas",
+      "observedAt": "2026-11-02T08:54:54.719Z",
+      "fullName": "motion-canvas/motion-canvas",
+      "url": "https://github.com/motion-canvas/motion-canvas",
+      "stars": 19640,
+      "forks": 879,
+      "pushedAt": "2026-07-02T20:01:32Z",
+      "createdAt": "2022-08-03T16:30:14Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": "MIT",
+      "licenseName": "MIT License",
+      "licenseSource": "https://api.github.com/licenses/mit",
+      "licenseNote": null,
+      "homepage": "https://motion-canvas.io",
+      "defaultBranch": "main",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 1,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "motiondivision/motion": {
+      "ok": true,
+      "repo": "motiondivision/motion",
+      "itemIds": [
+        "motion"
+      ],
+      "source": "https://api.github.com/repos/motiondivision/motion",
+      "observedAt": "2026-11-02T08:54:54.911Z",
+      "fullName": "motiondivision/motion",
+      "url": "https://github.com/motiondivision/motion",
+      "stars": 34795,
+      "forks": 1495,
+      "pushedAt": "2026-11-02T08:53:49Z",
+      "createdAt": "2018-11-16T09:48:38Z",
+      "archived": false,
+      "disabled": false,
+      "isFork": false,
+      "licenseSpdx": "MIT",
+      "licenseName": "MIT License",
+      "licenseSource": "https://api.github.com/licenses/mit",
+      "licenseNote": null,
+      "homepage": "https://motion.dev",
+      "defaultBranch": "main",
+      "apiVersion": "2022-11-28",
+      "rate": {
+        "remaining": 0,
+        "resetAt": "2026-11-02T09:41:50.000Z",
+        "retryAfter": null
+      },
+      "contributors90d": null,
+      "growth": {
+        "starsGained30d": null,
+        "reason": "no_real_30_to_31_day_baseline"
+      }
+    },
+    "mrdoob/three.js": {
+      "ok": false,
+      "repo": "mrdoob/three.js",
+      "itemIds": [
+        "three-js"
+      ],
+      "source": "https://api.github.com/repos/mrdoob/three.js",
+      "observedAt": null,
+      "missingReason": "not_attempted_after_stop",
+      "stopReason": "github_budget_exhausted"
+    },
+    "n8n-io/n8n": {
+      "ok": false,
+      "repo": "n8n-io/n8n",
+      "itemIds": [
+        "n8n"
+      ],
+      "source": "https://api.github.com/repos/n8n-io/n8n",
+      "observedAt": null,
+      "missingReason": "not_attempted_after_stop",
+      "stopReason": "github_budget_exhausted"
+    },
+    "NationalSecurityAgency/ghidra": {
+      "ok": false,
+      "repo": "NationalSecurityAgency/ghidra",
+      "itemIds": [
+        "ghidra"
+      ],
+      "source": "https://api.github.com/repos/NationalSecurityAgency/ghidra",
+      "observedAt": null,
+      "missingReason": "not_attempted_after_stop",
+      "stopReason": "github_budget_exhausted"
+    },
+    "nestjs/nest": {
+      "ok": false,
+      "repo": "nestjs/nest",
+      "itemIds": [
+        "nest"
+      ],
+      "source": "https://api.github.com/repos/nestjs/nest",
+      "observedAt": null,
+      "missingReason": "not_attempted_after_stop",
+      "stopReason": "github_budget_exhausted"
+    },
+    "neutralinojs/neutralinojs": {
+      "ok": false,
+      "repo": "neutralinojs/neutralinojs",
+      "itemIds": [
+        "neutralinojs"
+      ],
+      "source": "https://api.github.com/repos/neutralinojs/neutralinojs",
+      "observedAt": null,
+      "missingReason": "not_attempted_after_stop",
+      "stopReason": "github_budget_exhausted"
+    },
+    "open-webui/open-webui": {
+      "ok": false,
+      "repo": "open-webui/open-webui",
+      "itemIds": [
+        "open-webui"
+      ],
+      "source": "https://api.github.com/repos/open-webui/open-webui",
+      "observedAt": null,
+      "missingReason": "not_attempted_after_stop",
+      "stopReason": "github_budget_exhausted"
+    },
+    "OpenHands/OpenHands": {
+      "ok": false,
+      "repo": "OpenHands/OpenHands",
+      "itemIds": [
+        "openhands"
+      ],
+      "source": "https://api.github.com/repos/OpenHands/OpenHands",
+      "observedAt": null,
+      "missingReason": "not_attempted_after_stop",
+      "stopReason": "github_budget_exhausted"
+    },
+    "payloadcms/payload": {
+      "ok": false,
+      "repo": "payloadcms/payload",
+      "itemIds": [
+        "payload"
+      ],
+      "source": "https://api.github.com/repos/payloadcms/payload",
+      "observedAt": null,
+      "missingReason": "not_attempted_after_stop",
+      "stopReason": "github_budget_exhausted"
+    },
+    "pbakaus/impeccable": {
+      "ok": false,
+      "repo": "pbakaus/impeccable",
+      "itemIds": [
+        "impeccable"
+      ],
+      "source": "https://api.github.com/repos/pbakaus/impeccable",
+      "observedAt": null,
+      "missingReason": "not_attempted_after_stop",
+      "stopReason": "github_budget_exhausted"
+    },
+    "penpot/penpot": {
+      "ok": false,
+      "repo": "penpot/penpot",
+      "itemIds": [
+        "penpot"
+      ],
+      "source": "https://api.github.com/repos/penpot/penpot",
+      "observedAt": null,
+      "missingReason": "not_attempted_after_stop",
+      "stopReason": "github_budget_exhausted"
+    },
+    "phaserjs/phaser": {
+      "ok": false,
+      "repo": "phaserjs/phaser",
+      "itemIds": [
+        "phaser"
+      ],
+      "source": "https://api.github.com/repos/phaserjs/phaser",
+      "observedAt": null,
+      "missingReason": "not_attempted_after_stop",
+      "stopReason": "github_budget_exhausted"
+    },
+    "pixijs/pixijs": {
+      "ok": false,
+      "repo": "pixijs/pixijs",
+      "itemIds": [
+        "pixijs"
+      ],
+      "source": "https://api.github.com/repos/pixijs/pixijs",
+      "observedAt": null,
+      "missingReason": "not_attempted_after_stop",
+      "stopReason": "github_budget_exhausted"
+    },
+    "pmndrs/react-three-fiber": {
+      "ok": false,
+      "repo": "pmndrs/react-three-fiber",
+      "itemIds": [
+        "react-three-fiber"
+      ],
+      "source": "https://api.github.com/repos/pmndrs/react-three-fiber",
+      "observedAt": null,
+      "missingReason": "not_attempted_after_stop",
+      "stopReason": "github_budget_exhausted"
+    },
+    "processing/p5.js": {
+      "ok": false,
+      "repo": "processing/p5.js",
+      "itemIds": [
+        "p5-js"
+      ],
+      "source": "https://api.github.com/repos/processing/p5.js",
+      "observedAt": null,
+      "missingReason": "not_attempted_after_stop",
+      "stopReason": "github_budget_exhausted"
+    },
+    "radareorg/radare2": {
+      "ok": false,
+      "repo": "radareorg/radare2",
+      "itemIds": [
+        "radare2"
+      ],
+      "source": "https://api.github.com/repos/radareorg/radare2",
+      "observedAt": null,
+      "missingReason": "not_attempted_after_stop",
+      "stopReason": "github_budget_exhausted"
+    },
+    "remotion-dev/remotion": {
+      "ok": false,
+      "repo": "remotion-dev/remotion",
+      "itemIds": [
+        "remotion"
+      ],
+      "source": "https://api.github.com/repos/remotion-dev/remotion",
+      "observedAt": null,
+      "missingReason": "not_attempted_after_stop",
+      "stopReason": "github_budget_exhausted"
+    },
+    "shadcn-ui/ui": {
+      "ok": false,
+      "repo": "shadcn-ui/ui",
+      "itemIds": [
+        "ui"
+      ],
+      "source": "https://api.github.com/repos/shadcn-ui/ui",
+      "observedAt": null,
+      "missingReason": "not_attempted_after_stop",
+      "stopReason": "github_budget_exhausted"
+    },
+    "storybookjs/storybook": {
+      "ok": false,
+      "repo": "storybookjs/storybook",
+      "itemIds": [
+        "storybook"
+      ],
+      "source": "https://api.github.com/repos/storybookjs/storybook",
+      "observedAt": null,
+      "missingReason": "not_attempted_after_stop",
+      "stopReason": "github_budget_exhausted"
+    },
+    "streamlit/streamlit": {
+      "ok": false,
+      "repo": "streamlit/streamlit",
+      "itemIds": [
+        "streamlit"
+      ],
+      "source": "https://api.github.com/repos/streamlit/streamlit",
+      "observedAt": null,
+      "missingReason": "not_attempted_after_stop",
+      "stopReason": "github_budget_exhausted"
+    },
+    "supabase/supabase": {
+      "ok": false,
+      "repo": "supabase/supabase",
+      "itemIds": [
+        "supabase"
+      ],
+      "source": "https://api.github.com/repos/supabase/supabase",
+      "observedAt": null,
+      "missingReason": "not_attempted_after_stop",
+      "stopReason": "github_budget_exhausted"
+    },
+    "svgdotjs/svg.js": {
+      "ok": false,
+      "repo": "svgdotjs/svg.js",
+      "itemIds": [
+        "svg-js"
+      ],
+      "source": "https://api.github.com/repos/svgdotjs/svg.js",
+      "observedAt": null,
+      "missingReason": "not_attempted_after_stop",
+      "stopReason": "github_budget_exhausted"
+    },
+    "tauri-apps/tauri": {
+      "ok": false,
+      "repo": "tauri-apps/tauri",
+      "itemIds": [
+        "tauri"
+      ],
+      "source": "https://api.github.com/repos/tauri-apps/tauri",
+      "observedAt": null,
+      "missingReason": "not_attempted_after_stop",
+      "stopReason": "github_budget_exhausted"
+    },
+    "temporalio/temporal": {
+      "ok": false,
+      "repo": "temporalio/temporal",
+      "itemIds": [
+        "temporal"
+      ],
+      "source": "https://api.github.com/repos/temporalio/temporal",
+      "observedAt": null,
+      "missingReason": "not_attempted_after_stop",
+      "stopReason": "github_budget_exhausted"
+    },
+    "tldraw/tldraw": {
+      "ok": false,
+      "repo": "tldraw/tldraw",
+      "itemIds": [
+        "tldraw"
+      ],
+      "source": "https://api.github.com/repos/tldraw/tldraw",
+      "observedAt": null,
+      "missingReason": "not_attempted_after_stop",
+      "stopReason": "github_budget_exhausted"
+    },
+    "tokens-studio/figma-plugin": {
+      "ok": false,
+      "repo": "tokens-studio/figma-plugin",
+      "itemIds": [
+        "figma-plugin"
+      ],
+      "source": "https://api.github.com/repos/tokens-studio/figma-plugin",
+      "observedAt": null,
+      "missingReason": "not_attempted_after_stop",
+      "stopReason": "github_budget_exhausted"
+    },
+    "vercel/next.js": {
+      "ok": false,
+      "repo": "vercel/next.js",
+      "itemIds": [
+        "next-js"
+      ],
+      "source": "https://api.github.com/repos/vercel/next.js",
+      "observedAt": null,
+      "missingReason": "not_attempted_after_stop",
+      "stopReason": "github_budget_exhausted"
+    },
+    "vuejs/vitepress": {
+      "ok": false,
+      "repo": "vuejs/vitepress",
+      "itemIds": [
+        "vitepress"
+      ],
+      "source": "https://api.github.com/repos/vuejs/vitepress",
+      "observedAt": null,
+      "missingReason": "not_attempted_after_stop",
+      "stopReason": "github_budget_exhausted"
+    },
+    "wailsapp/wails": {
+      "ok": false,
+      "repo": "wailsapp/wails",
+      "itemIds": [
+        "wails"
+      ],
+      "source": "https://api.github.com/repos/wailsapp/wails",
+      "observedAt": null,
+      "missingReason": "not_attempted_after_stop",
+      "stopReason": "github_budget_exhausted"
+    },
+    "wezterm/wezterm": {
+      "ok": false,
+      "repo": "wezterm/wezterm",
+      "itemIds": [
+        "wezterm"
+      ],
+      "source": "https://api.github.com/repos/wezterm/wezterm",
+      "observedAt": null,
+      "missingReason": "not_attempted_after_stop",
+      "stopReason": "github_budget_exhausted"
+    },
+    "windmill-labs/windmill": {
+      "ok": false,
+      "repo": "windmill-labs/windmill",
+      "itemIds": [
+        "windmill"
+      ],
+      "source": "https://api.github.com/repos/windmill-labs/windmill",
+      "observedAt": null,
+      "missingReason": "not_attempted_after_stop",
+      "stopReason": "github_budget_exhausted"
+    },
+    "wireshark/wireshark": {
+      "ok": false,
+      "repo": "wireshark/wireshark",
+      "itemIds": [
+        "wireshark"
+      ],
+      "source": "https://api.github.com/repos/wireshark/wireshark",
+      "observedAt": null,
+      "missingReason": "not_attempted_after_stop",
+      "stopReason": "github_budget_exhausted"
+    },
+    "withastro/astro": {
+      "ok": false,
+      "repo": "withastro/astro",
+      "itemIds": [
+        "astro"
+      ],
+      "source": "https://api.github.com/repos/withastro/astro",
+      "observedAt": null,
+      "missingReason": "not_attempted_after_stop",
+      "stopReason": "github_budget_exhausted"
+    },
+    "xyflow/xyflow": {
+      "ok": false,
+      "repo": "xyflow/xyflow",
+      "itemIds": [
+        "xyflow"
+      ],
+      "source": "https://api.github.com/repos/xyflow/xyflow",
+      "observedAt": null,
+      "missingReason": "not_attempted_after_stop",
+      "stopReason": "github_budget_exhausted"
+    },
+    "zed-industries/zed": {
+      "ok": false,
+      "repo": "zed-industries/zed",
+      "itemIds": [
+        "zed"
+      ],
+      "source": "https://api.github.com/repos/zed-industries/zed",
+      "observedAt": null,
+      "missingReason": "not_attempted_after_stop",
+      "stopReason": "github_budget_exhausted"
+    }
+  },
+  "stoppedReason": "github_budget_exhausted",
+  "x": null,
+  "notes": [
+    "No community votes or Arena scores are generated by this collector.",
+    "Snapshots do not modify curated project metadata.",
+    "Repository code licenses do not establish model-weight licenses."
+  ]
+}

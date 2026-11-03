@@ -1,0 +1,120 @@
+.local-studio { padding-bottom: 80px; font-size: 15px; line-height: 1.65; color: var(--ink); }
+.local-studio strong { font-weight: 500; }
+.local-studio .local-intro { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding-top: 48px; padding-bottom: 36px; }
+.local-studio .local-intro h1 { margin: 0; font-size: 36px; font-weight: 500; letter-spacing: 0; line-height: 1.25; }
+.local-intro .text-link { font-size: 14px; }
+.local-grid { display: grid; grid-template-columns: minmax(0, .95fr) minmax(0, 1.05fr); gap: 48px; align-items: start; }
+.local-section-heading { display: flex; align-items: center; gap: 16px; margin-bottom: 24px; }
+.local-section-heading h2 { font-size: 24px; font-weight: 500; letter-spacing: 0; margin: 0; }
+.local-connected { margin-left: auto; display: flex; gap: 8px; align-items: center; color: #28724b; font-size: 14px; }
+.local-connected > span { width: 6px; height: 6px; background: #28724b; border-radius: 50%; }
+.local-steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 28px; counter-reset: localstep; }
+.local-steps > li { display: flex; gap: 16px; counter-increment: localstep; }
+.local-steps > li::before { content: counter(localstep); flex: 0 0 20px; margin-top: 1px; color: var(--secondary); font-size: 15px; text-align: center; font-variant-numeric: tabular-nums; }
+.local-steps > li > div { min-width: 0; flex: 1; }
+.local-steps strong { font-size: 16px; font-weight: 500; }
+.local-steps .field-label { margin-top: 0; font-size: 15px; color: var(--ink); font-weight: 500; }
+.local-actions { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; margin-top: 12px; }
+.local-actions .text-link { font-size: 14px; }
+.local-os-tabs { display: flex; gap: 8px; margin: 12px 0 8px; }
+.local-os-tabs button { border: 0; background: transparent; padding: 8px 12px; min-height: 40px; border-radius: 6px; font-size: 14px; color: var(--secondary); font-family: inherit; cursor: pointer; }
+.local-os-tabs button.active { background: var(--surface); color: var(--ink); }
+.local-command { display: flex; gap: 12px; align-items: center; padding: 12px 8px 12px 16px; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; }
+.local-command code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 13px; line-height: 1.7; overflow-wrap: anywhere; flex: 1; min-width: 0; }
+.local-command button { flex-shrink: 0; }
+.local-token-field { display: flex; align-items: center; gap: 12px; padding: 0 12px; border: 1px solid var(--line); border-radius: 8px; background: white; }
+.local-token-field svg { color: var(--secondary); flex-shrink: 0; }
+.local-token-field input { width: 100%; border: 0; outline: 0; padding: 12px 0; min-height: 44px; background: transparent; font-size: 15px; min-width: 0; }
+.local-token-field:focus-within { outline: 3px solid #1769e030; outline-offset: 2px; border-color: var(--blue); }
+.local-fine { font-size: 14px; line-height: 1.7; color: var(--secondary); margin: 12px 0; }
+.local-health { margin: 24px 0 0; padding: 20px; background: var(--surface); border-radius: 8px; border: 1px solid var(--line); }
+.local-health > div:first-child { display: flex; gap: 8px; align-items: center; color: #28724b; font-size: 15px; flex-wrap: wrap; }
+.local-health small { margin-left: auto; color: var(--secondary); font-size: 13px; }
+.local-health dl { display: grid; gap: 12px; margin: 16px 0 0; }
+.local-health dl > div { display: grid; grid-template-columns: 60px 1fr; gap: 12px; font-size: 14px; line-height: 1.7; }
+.local-health dt { color: var(--secondary); }
+.local-health dd { margin: 0; color: var(--ink); overflow-wrap: anywhere; }
+.local-health dd span { display: block; }
+.local-recipes { display: grid; gap: 12px; margin-bottom: 20px; }
+.local-recipe { display: flex; align-items: center; gap: 16px; width: 100%; padding: 20px; border: 1px solid var(--line); background: white; border-radius: 12px; cursor: pointer; text-align: left; transition: border-color .16s, background .16s; font-family: inherit; }
+.local-recipe:hover { background: var(--surface); }
+.local-recipe.selected { border-color: var(--blue); background: #f7faff; }
+.local-recipe > div { flex: 1; min-width: 0; }
+.local-recipe strong { font-size: 18px; font-weight: 500; letter-spacing: 0; }
+.local-recipe p { font-size: 15px; line-height: 1.6; color: var(--secondary); margin: 4px 0; }
+.local-recipe small { display: block; font-size: 13px; color: var(--secondary); }
+.local-recipe > svg { color: var(--blue); flex-shrink: 0; }
+.local-recipe-mark { display: grid; place-items: center; flex-shrink: 0; width: 48px; height: 48px; border-radius: 8px; background: var(--ink); color: white; font-size: 18px; font-weight: 500; }
+.local-recipe-mark.n8n { background: #fff0f2; color: #b72848; }
+.local-recipe-mark.qdrant { background: #f1effb; color: #6545ad; }
+.local-plan { margin-top: 24px; padding: 24px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; }
+.local-plan-title { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.local-plan h3 { font-size: 20px; font-weight: 500; margin: 0; }
+.local-plan-title span { font-size: 13px; color: var(--secondary); white-space: nowrap; }
+.local-plan .spec-list { margin: 16px 0 4px; }
+.local-plan .spec-list > div { font-size: 14px; grid-template-columns: 72px 1fr; gap: 16px; }
+.local-plan .spec-list dt { color: var(--secondary); }
+.local-plan .spec-list dd { color: var(--ink); overflow-wrap: anywhere; }
+.local-plan .source-row { display: flex; align-items: center; gap: 8px; padding: 16px 0; color: var(--blue); font-size: 14px; }
+.local-plan-commands { margin-top: 20px; }
+.local-plan-commands summary { font-size: 14px; color: var(--secondary); cursor: pointer; }
+.local-plan-commands pre { padding: 16px; margin: 12px 0 0; background: white; border: 1px solid var(--line); border-radius: 8px; overflow-x: auto; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 13px; line-height: 1.7; max-height: 350px; }
+.local-review { display: flex; gap: 12px; align-items: flex-start; font-size: 14px; line-height: 1.75; margin: 20px 0; color: var(--secondary); }
+.local-review input { margin-top: 4px; accent-color: var(--blue); width: 18px; height: 18px; flex-shrink: 0; }
+.local-job { padding: 20px; border: 1px solid var(--line); border-radius: 12px; margin-top: 20px; background: var(--surface); }
+.local-job.success { background: #f3faf6; border-color: #cfdfd5; }
+.local-job > div:first-child { display: flex; gap: 8px; align-items: center; font-size: 15px; }
+.local-job > p { font-size: 14px; line-height: 1.7; color: var(--secondary); }
+.local-digest { display: block; overflow-wrap: anywhere; font-size: 13px; line-height: 1.7; background: #ffffffa0; padding: 12px; border-radius: 6px; }
+.local-chat-section { margin-top: 56px; padding-top: 40px; border-top: 1px solid var(--line); }
+.local-chat-layout { display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 32px; }
+.local-chat-settings .field-label { margin-top: 0; font-size: 14px; color: var(--secondary); }
+.local-chat-settings select { width: 100%; min-height: 44px; padding: 10px 12px; font: inherit; font-size: 14px; border: 1px solid var(--line); border-radius: 8px; background: white; color: var(--ink); margin-bottom: 16px; }
+.local-chat-settings .text-link { font-size: 14px; }
+.local-chat-box { border: 1px solid var(--line); border-radius: 12px; overflow: hidden; background: white; }
+.local-chat-history { max-height: 470px; min-height: 220px; overflow-y: auto; padding: 24px; }
+.local-chat-empty { min-height: 170px; display: grid; place-items: center; text-align: center; color: var(--secondary); }
+.local-chat-empty p { font-size: 15px; line-height: 1.7; }
+.local-chat-message { margin: 0 0 24px; }
+.local-chat-message > span { font-size: 13px; color: var(--secondary); }
+.local-chat-message > p { font-size: 15px; line-height: 1.8; white-space: pre-wrap; overflow-wrap: anywhere; margin: 8px 0; }
+.local-chat-message.user { margin-left: 32px; background: var(--surface); padding: 12px 16px; border-radius: 8px; }
+.local-chat-sources { display: flex; gap: 8px; flex-wrap: wrap; }
+.local-chat-sources a { display: inline-flex; align-items: center; gap: 4px; padding: 6px 8px; background: var(--blue-light); border-radius: 6px; font-size: 13px; color: var(--blue); text-decoration: none; }
+.local-chat-thinking { display: flex; align-items: center; gap: 8px; color: var(--secondary); font-size: 14px; }
+.local-chat-form { display: flex; gap: 12px; align-items: flex-end; padding: 16px; border-top: 1px solid var(--line); }
+.local-chat-form textarea { flex: 1; min-width: 0; border: 0; outline: 0; background: transparent; resize: vertical; font: inherit; font-size: 15px; line-height: 1.7; max-height: 160px; }
+.local-chat-form .button { padding: 12px; min-height: 44px; }
+.local-chat-disclosure { margin: 0; padding: 0 16px 16px; font-size: 13px; }
+.local-chat-box > .error { padding: 0 16px; }
+.local-spin { animation: local-spin 1s linear infinite; }
+.local-studio button:disabled { opacity: .45; cursor: not-allowed; }
+.local-studio a:focus-visible, .local-studio button:focus-visible, .local-studio select:focus-visible, .local-studio textarea:focus-visible { outline: 3px solid #1769e040; outline-offset: 3px; }
+.local-studio .error { line-height: 1.7; font-size: 14px; overflow-wrap: anywhere; }
+@keyframes local-spin { to { transform: rotate(360deg); } }
+@media (max-width: 1000px) {
+  .local-grid { gap: 28px; }
+  .local-chat-layout { grid-template-columns: 220px minmax(0, 1fr); gap: 24px; }
+  .local-plan-title { align-items: flex-start; flex-direction: column; gap: 8px; }
+}
+@media (max-width: 740px) {
+  .local-studio .local-intro { padding-top: 32px; padding-bottom: 28px; gap: 16px; flex-wrap: wrap; }
+  .local-studio .local-intro h1 { font-size: 32px; }
+  .local-grid { grid-template-columns: 1fr; gap: 40px; }
+  .local-chat-layout { grid-template-columns: 1fr; gap: 24px; }
+  .local-chat-section { margin-top: 40px; padding-top: 32px; }
+  .local-plan { padding: 20px; }
+  .local-section-heading { margin-bottom: 20px; }
+  .local-section-heading h2 { font-size: 22px; }
+  .local-steps > li { gap: 12px; }
+  .local-chat-history { padding: 20px; }
+  .local-health small { margin-left: 0; width: 100%; }
+  .local-recipe { padding: 16px; }
+  .local-studio { padding-bottom: 56px; }
+  .local-chat-settings select, .local-token-field input, .local-chat-form textarea { font-size: 16px; }
+  .local-os-tabs button, .local-command button { min-height: 44px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .local-spin { animation: none; }
+  .local-recipe { transition: none; }
+}

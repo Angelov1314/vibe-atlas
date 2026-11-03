@@ -1,0 +1,1 @@
+declare namespace Cloudflare {interface Env {DB?:D1Database;BUCKET?:R2Bucket;IDENTITY_HMAC_SECRET?:string;SITE_ORIGIN?:string;TURNSTILE_SECRET_KEY?:string;TURNSTILE_SITE_KEY?:string;ADMIN_USER_ID?:string;}}

@@ -1,0 +1,117 @@
+# Apache ECharts
+
+用 Canvas 或 SVG 绘制可交互的数据图表和仪表盘。
+
+## 项目信息
+
+- 类型：创作工具
+- 分类：数据驱动 SVG 可视化
+- GitHub：https://github.com/apache/echarts
+- 官网：https://echarts.apache.org
+- 代码许可：Apache-2.0
+
+## 许可说明
+
+依据 GitHub 主源的许可证标识；使用前核对当前版本 LICENSE、依赖与资源条款。
+
+## 本地部署
+
+阅读官方仓库 README 与安装文档：https://github.com/apache/echarts#readme
+
+以上是官方安装方向，不代表已在本机执行或验证。详情页可下载包含完整检查步骤的 Codex 部署任务。
+
+## 硬件条件
+
+依项目、工作负载和运行方式而定；未在用户设备上实测。
+
+## 项目补充
+
+本轮收录核验仓库、用途、分类、许可和维护元数据；未在用户设备安装或测试该项目。
+
+## 数据快照
+
+- GitHub Stars：67669
+- 采集时间：2026-11-03T05:36:18.121232+00:00
+- 最近推送：2026-10-13T09:27:20Z
+- X：尚未接入完整授权观察窗口。
+
+起始热度依据已有仓库指标；缺失信号不补造。模型变体可共享同一仓库星数。热度不能解释为质量榜或全网第一。评分权重、覆盖率、社区后验与风控见评分政策。
+
+## 图片与归属
+
+- 展示图：https://opengraph.githubassets.com/34f4d927eafe251f26f63afd3aeefa30f2feba30/apache/echarts
+- 来源：https://github.com/apache/echarts
+- 归属：Apache ECharts 仓库维护者 / GitHub 社交预览
+- 图片说明：Apache ECharts 仓库社交预览，非 Arena 评测样本
+
+## 可追溯来源
+
+- https://github.com/apache/echarts
+- https://github.com/apache/echarts/tree/34f4d927eafe251f26f63afd3aeefa30f2feba30
+- https://echarts.apache.org/
+
+## 原始记录
+
+```json
+{
+  "id": "apache-echarts",
+  "name": "Apache ECharts",
+  "categoryId": "data-driven-svg",
+  "familyId": "vector",
+  "description": "用 Canvas 或 SVG 绘制可交互的数据图表和仪表盘。",
+  "tags": [
+    "数据可视化",
+    "图表",
+    "Canvas",
+    "SVG"
+  ],
+  "github": "https://github.com/apache/echarts",
+  "homepage": "https://echarts.apache.org",
+  "previewImage": "https://opengraph.githubassets.com/34f4d927eafe251f26f63afd3aeefa30f2feba30/apache/echarts",
+  "previewAlt": "Apache ECharts 仓库社交预览，非 Arena 评测样本",
+  "imageSource": "https://github.com/apache/echarts",
+  "imageAttribution": "Apache ECharts 仓库维护者 / GitHub 社交预览",
+  "license": "Apache-2.0",
+  "licenseNote": "依据 GitHub 主源的许可证标识；使用前核对当前版本 LICENSE、依赖与资源条款。",
+  "openSourceStatus": "osi-license",
+  "stars": 67669,
+  "forks": 19973,
+  "lastPushedAt": "2026-10-13T09:27:20Z",
+  "sourceUrls": [
+    "https://github.com/apache/echarts",
+    "https://github.com/apache/echarts/tree/34f4d927eafe251f26f63afd3aeefa30f2feba30",
+    "https://echarts.apache.org/"
+  ],
+  "deploy": {
+    "kind": "docs",
+    "installHint": "阅读官方仓库 README 与安装文档：https://github.com/apache/echarts#readme",
+    "status": "official-docs-not-locally-tested",
+    "executionPolicy": "此处提供官方部署方向，未在本机安装该项目；运行前审阅命令和依赖。"
+  },
+  "verifiedAt": "2026-11-03T05:36:18.121232+00:00",
+  "starsObservedAt": "2026-11-03T05:36:18.121232+00:00",
+  "starsApproximate": false,
+  "forksApproximate": false,
+  "metricsSource": "github-graphql-api",
+  "evidenceStatus": "verified-primary-repository-metadata",
+  "xPopularity": null,
+  "xStatus": "discovery-only-no-complete-window",
+  "discoverySource": {
+    "type": "curated-followup",
+    "basis": "补充已有 D3 分类的数据可视化库；本轮 X 摘要未确认此项目。"
+  },
+  "githubMetadata": {
+    "fullName": "apache/echarts",
+    "commit": "34f4d927eafe251f26f63afd3aeefa30f2feba30",
+    "defaultBranch": "master",
+    "pushedAt": "2026-10-13T09:27:20Z",
+    "archived": false,
+    "latestRelease": {
+      "tagName": "6.1.0",
+      "publishedAt": "2026-05-19T17:38:29Z",
+      "url": "https://github.com/apache/echarts/releases/tag/6.1.0"
+    }
+  },
+  "notes": "本轮收录核验仓库、用途、分类、许可和维护元数据；未在用户设备安装或测试该项目。"
+}
+```

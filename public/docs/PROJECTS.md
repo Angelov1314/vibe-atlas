@@ -1,0 +1,208 @@
+# 项目说明索引
+
+由目录原始数据生成；请修改 data/ 中的来源，随后运行 pnpm docs:prepare。
+
+## 创作工具
+
+- [Astro](projects/astro.md)：以内容优先的架构创建快速博客、文档站与品牌网站。
+- [Next.js](projects/next-js.md)：用 React 统一构建页面、服务端渲染和完整 Web 产品。
+- [shadcn/ui](projects/ui.md)：把可直接修改的高质量组件拼成仪表盘和产品界面。
+- [Payload](projects/payload.md)：用 TypeScript 构建可扩展的内容后台和应用数据层。
+- [Medusa](projects/medusa.md)：用模块化后端构建自定义店铺、商品和订单流程。
+- [Three.js](projects/three-js.md)：以 JavaScript 在浏览器里创建可交互的 3D 场景。
+- [React Three Fiber](projects/react-three-fiber.md)：以 React 组件编排 Three.js 场景与交互。
+- [Babylon.js](projects/babylon-js.md)：在浏览器中构建完整的实时 3D、XR 和游戏体验。
+- [wgpu](projects/wgpu.md)：用安全的跨平台图形 API 探索 WebGPU 渲染和计算。
+- [CesiumJS](projects/cesium.md)：把地形、影像与海量地理数据组合成可交互的 3D 地球。
+- [tldraw](projects/tldraw.md)：以可扩展画布搭建白板、可视化编辑器和 AI 创作界面。
+- [Excalidraw](projects/excalidraw.md)：用手绘风格的协作画布表达想法、流程与系统结构。
+- [React Flow](projects/xyflow.md)：把节点和连线变成可拖动的工作流、图谱或可视化程序。
+- [SVG.js](projects/svg-js.md)：用轻量 JavaScript API 创建、操控与动画化 SVG 图形。
+- [p5.js](projects/p5-js.md)：通过简洁绘图代码探索交互艺术、声音和生成式视觉。
+- [Remotion](projects/remotion.md)：把 React 组件渲染为可批量生产的视频。
+- [Motion Canvas](projects/motion-canvas.md)：用 TypeScript 精确编排图形与旁白节奏。
+- [Manim](projects/manim.md)：用 Python 制作清晰且可复现的数学和科学动画。
+- [Lottie Web](projects/lottie-web.md)：把动画设计文件以 SVG、Canvas 或 HTML 形式在网页播放。
+- [FFmpeg](projects/ffmpeg.md)：以可组合的命令完成转码、剪辑、滤镜和音视频处理。
+- [Godot](projects/godot.md)：在同一个开源引擎中制作并导出 2D 与 3D 游戏。
+- [Bevy](projects/bevy.md)：用数据驱动 ECS 架构构建 Rust 游戏与交互应用。
+- [Phaser](projects/phaser.md)：用 JavaScript 快速制作浏览器里的 2D 游戏。
+- [PixiJS](projects/pixijs.md)：以高性能 Web 图形渲染创建 2D 游戏和交互视觉。
+- [GDevelop](projects/gdevelop.md)：用事件系统和可视化编辑器制作跨平台游戏。
+- [Expo](projects/expo.md)：用统一工具链开发、测试和发布 React Native 应用。
+- [Flutter](projects/flutter.md)：用 Dart 构建可覆盖手机、桌面与 Web 的精细界面。
+- [Ionic](projects/ionic-framework.md)：用熟悉的 Web 技术构建移动端与跨平台应用界面。
+- [Lynx](projects/lynx.md)：用 Web 技能构建由跨平台引擎驱动的原生 UI。
+- [Compose Multiplatform](projects/compose-multiplatform.md)：以 Kotlin 共享桌面、移动和 Web 的声明式界面。
+- [Electron](projects/electron.md)：用 HTML、CSS 与 JavaScript 构建跨平台桌面软件。
+- [Tauri](projects/tauri.md)：以系统 WebView 和 Rust 后端构建紧凑的桌面应用。
+- [Wails](projects/wails.md)：把 Go 后端与熟悉的 Web 界面组合成桌面应用。
+- [Avalonia](projects/avalonia.md)：以 .NET 和 XAML 构建跨平台桌面应用界面。
+- [Neutralinojs](projects/neutralinojs.md)：用轻量原生容器运行 Web 界面与本地能力。
+- [FastAPI](projects/fastapi.md)：从 Python 类型提示快速构建清晰、可文档化的 Web API。
+- [Express](projects/express.md)：用精简的 Node.js 框架编写灵活的 Web 服务和 API。
+- [NestJS](projects/nest.md)：用 TypeScript 模块与依赖注入组织可维护的后端系统。
+- [Hono](projects/hono.md)：用小巧的 Web 框架构建可运行于多种运行时的 API。
+- [Temporal](projects/temporal.md)：把长时间运行的任务写成可恢复的可靠工作流。
+- [Streamlit](projects/streamlit.md)：把 Python 分析脚本直接变成交互式数据应用。
+- [Gradio](projects/gradio.md)：为模型和 Python 函数快速生成可分享的交互界面。
+- [Metabase](projects/metabase.md)：让团队通过可视化查询和仪表盘理解业务数据。
+- [Apache Superset](projects/superset.md)：在可扩展的数据探索平台中连接数据库并制作仪表盘。
+- [DuckDB](projects/duckdb.md)：在本地进程中高效查询表格、Parquet 与分析数据。
+- [LangGraph](projects/langgraph.md)：用可持久化的图结构编排有状态的 Agent 工作流。
+- [Dify](projects/dify.md)：把模型、知识库和工作流组合成可交付的 AI 应用。
+- [GraphRAG](projects/graphrag.md)：把文档转换为图索引以支持面向复杂问题的检索。
+- [Browser Use](projects/browser-use.md)：让 AI Agent 通过浏览器完成网页中的多步骤任务。
+- [AutoGen](projects/autogen.md)：以可组合的 Agent 与消息机制构建多智能体应用。
+- [n8n](projects/n8n.md)：把应用、数据和 AI 节点连接成可复用的业务工作流。
+- [Activepieces](projects/activepieces.md)：用可组合连接器和可视化流程自动化日常业务。
+- [Windmill](projects/windmill.md)：把脚本、流程和内部应用放进统一的自动化平台。
+- [Playwright](projects/playwright.md)：在多个浏览器中自动验证真实用户操作与网页行为。
+- [Home Assistant](projects/core.md)：在本地统一连接设备并编排家庭自动化。
+- [Ghidra](projects/ghidra.md)：在授权研究中分析程序二进制、反汇编和反编译结果。
+- [radare2](projects/radare2.md)：以可脚本化工具分析二进制、汇编与程序结构。
+- [Frida](projects/frida.md)：通过动态插桩观察和测试自己有权分析的应用运行行为。
+- [angr](projects/angr.md)：用 Python 框架探索程序路径、符号执行和二进制分析。
+- [Capstone](projects/capstone.md)：在自己的分析工具中加入多架构反汇编能力。
+- [OpenHands](projects/openhands.md)：让软件开发 Agent 在受控工作区中处理编码任务。
+- [Aider](projects/aider.md)：在终端中让 AI 与 Git 仓库协同修改代码。
+- [Continue](projects/continue.md)：把可配置的 AI 编码与 Agent 工作流带入开发环境。
+- [code-server](projects/code-server.md)：在自己的服务器上运行可通过浏览器访问的 VS Code。
+- [Zed](projects/zed.md)：在高性能代码编辑器中结合协作与 AI 辅助开发。
+- [Penpot](projects/penpot.md)：在开源协作设计平台中制作界面、原型与设计系统。
+- [Impeccable](projects/impeccable.md)：用结构化设计技能改善 AI 生成界面的视觉质量与可用性。
+- [Storybook](projects/storybook.md)：隔离开发、记录与测试产品中的 UI 组件。
+- [Screenshot to Code](projects/screenshot-to-code.md)：把界面截图转换为可继续编辑的前端实现。
+- [Tokens Studio](projects/figma-plugin.md)：在设计工具中管理可同步到代码的设计变量与主题。
+- [VitePress](projects/vitepress.md)：用 Markdown 和 Vue 构建快速且易维护的技术文档站。
+- [Blender](projects/blender.md)：把建模、材质、动画与 Python 自动化汇集到完整的 3D 工具中。
+- [D3](projects/d3.md)：把数据映射成可交互的 SVG、Canvas 与自定义可视化。
+- [Motion](projects/motion.md)：用声明式 API 为网页加入布局、手势与滚动动画。
+- [Rapier](projects/rapier.md)：把可靠的 2D 与 3D 物理模拟接入游戏和实时场景。
+- [Maestro](projects/maestro.md)：用可读流程描述自动测试移动与 Web 应用界面。
+- [Toga](projects/toga.md)：用 Python 构建采用各平台原生控件的应用界面。
+- [Supabase](projects/supabase.md)：在 Postgres 之上组合认证、存储、实时通信和 API。
+- [JupyterLab](projects/jupyterlab.md)：在可扩展的笔记本工作区里完成代码、数据和科学分析。
+- [Open WebUI](projects/open-webui.md)：为本地与远程模型提供可自托管的对话和知识界面。
+- [Crawlee](projects/crawlee.md)：用可扩展爬取库将获准访问的网页整理成结构化数据。
+- [Wireshark](projects/wireshark.md)：通过协议解码和数据包分析诊断自己的网络通信。
+- [WezTerm](projects/wezterm.md)：用 GPU 加速终端和 Lua 配置组织本地开发工作流。
+- [GrapesJS](projects/grapesjs.md)：把可嵌入的可视化编辑器接入网站和模板创作流程。
+- [PlayCanvas](projects/playcanvas.md)：在浏览器中制作实时 3D、XR 与交互式产品体验。
+- [A-Frame](projects/aframe.md)：用 HTML 风格组件搭建浏览器中的 WebXR 场景。
+- [SuperSplat](projects/supersplat.md)：在浏览器中检查、编辑和压缩 3D Gaussian Splat 场景。
+- [Blender MCP](projects/blender-mcp.md)：让 AI 客户端通过 MCP 检查并操作本机 Blender 场景。
+- [openFrameworks](projects/openframeworks.md)：用 C++ 实现互动装置、实时视觉与创意编程。
+- [Cinder](projects/cinder.md)：面向专业创意编程的 C++ 图形、音频与交互工具库。
+- [Paper.js](projects/paperjs.md)：在 Canvas 中创建和操作路径、曲线及矢量图形。
+- [Fabric.js](projects/fabricjs.md)：以对象模型构建可编辑的 Canvas 图形与设计工具。
+- [Konva](projects/konva.md)：为 Canvas 加入图层、事件与可交互图形对象。
+- [Anime.js](projects/animejs.md)：用 JavaScript 编排网页、SVG 与交互界面的时间线动画。
+- [AutoAnimate](projects/auto-animate.md)：为 DOM 列表和布局变化自动补上过渡动画。
+- [Rive Runtimes](projects/rive-runtime.md)：在应用和游戏中运行 Rive 交互矢量动画与状态机。
+- [Tween.js](projects/tweenjs.md)：用轻量补间和缓动函数控制 JavaScript 对象动画。
+- [Defold](projects/defold.md)：使用编辑器与 Lua 脚本开发轻量跨平台游戏。
+- [Cocos Engine](projects/cocos-engine.md)：为 Cocos Creator 项目提供跨平台 2D 与 3D 游戏运行时。
+- [Stride](projects/stride.md)：使用 C# 和可视化编辑器开发跨平台 2D 与 3D 游戏。
+- [LittleJS](projects/littlejs.md)：用轻量 JavaScript 引擎制作浏览器 2D 游戏。
+- [KAPLAY](projects/kaplay.md)：以组件式 JavaScript API 制作浏览器中的 2D 游戏。
+- [Matter.js](projects/matterjs.md)：在 JavaScript 项目中模拟 2D 刚体、碰撞和约束。
+- [Bullet Physics](projects/bullet.md)：为游戏和机器人仿真提供碰撞检测与刚体动力学。
+- [Rizin](projects/rizin.md)：通过可脚本化命令分析自己有权研究的二进制程序。
+- [Cutter](projects/cutter.md)：在图形界面中反汇编、反编译并分析授权二进制文件。
+- [ImHex](projects/imhex.md)：用模式语言和可视化十六进制编辑器解析二进制数据。
+- [x64dbg](projects/x64dbg.md)：在 Windows 中调试并观察有权分析的 x64 与 x86 程序。
+- [mitmproxy](projects/mitmproxy.md)：拦截并检查自己获准测试的 HTTP 与 HTTPS 流量。
+- [Nuxt](projects/nuxt.md)：以 Vue 构建带服务端渲染、静态生成和服务端路由的 Web 应用。
+- [SvelteKit](projects/sveltekit.md)：用 Svelte 构建 Web 应用，支持路由、服务端渲染和适配器部署。
+- [React Router](projects/react-router.md)：为 React 应用提供嵌套路由、数据加载、服务端渲染与全栈框架能力。
+- [Qwik](projects/qwik.md)：用可恢复状态与细粒度延迟加载构建较少客户端启动工作的 Web 应用。
+- [Fresh](projects/fresh.md)：Deno Web 框架，以服务端渲染和按需客户端脚本组织网站。
+- [Strapi](projects/strapi.md)：用于创建可自托管内容 API 和管理内容的 Node.js CMS。
+- [Directus](projects/directus.md)：为 SQL 数据库提供数据管理界面、API 和内容工作流。
+- [TinaCMS](projects/tinacms.md)：以 Git 内容源和可视化编辑体验管理静态站点内容。
+- [Saleor](projects/saleor.md)：用 GraphQL 和 Python 构建可扩展的电商后端与店面。
+- [Vendure](projects/vendure.md)：用 TypeScript 和 GraphQL 构建插件化电商后端。
+- [Puck](projects/puck.md)：在 React 项目中嵌入可编辑页面和内容的可视化构建器。
+- [Craft.js](projects/craft-js.md)：为 React 应用提供可组合的拖放页面编辑器框架。
+- [Onlook](projects/onlook.md)：面向 React 代码的可视化界面编辑器，可在运行页面中调整并回写组件样式。
+- [React Native](projects/react-native.md)：用 React 构建 Android 与 iOS 原生应用界面和功能。
+- [NativeScript](projects/nativescript.md)：使用 JavaScript、TypeScript 或 Angular 构建原生 iOS 和 Android 应用。
+- [Capacitor](projects/capacitor.md)：用 Web 技术构建并打包 iOS、Android 与 Web 应用，同时调用原生设备 API。
+- [Dioxus](projects/dioxus.md)：以 Rust 和统一组件模型构建 Web、桌面与移动用户界面。
+- [Qt for Python (PySide)](projects/qt-for-python-pyside.md)：Python 官方 Qt 绑定，用 Qt Widgets 或 Qt Quick 开发桌面界面。
+- [Lapce](projects/lapce.md)：以 Rust 构建的高性能代码编辑器，支持跨平台桌面开发。
+- [Iced](projects/iced.md)：用 Rust 和 Elm 风格架构构建跨平台图形应用。
+- [Observable Framework](projects/observable-framework.md)：用 JavaScript、Markdown 和数据文件发布可交互的数据应用与报告。
+- [Apache ECharts](projects/apache-echarts.md)：用 Canvas 或 SVG 绘制可交互的数据图表和仪表盘。
+- [Vega-Lite](projects/vega-lite.md)：以声明式语法将数据编码为交互图表和可视化视图。
+- [marimo](projects/marimo.md)：以响应式 Python 笔记本编写、运行和分享数据分析与交互式应用。
+- [Evidence](projects/evidence.md)：用 SQL 和 Markdown 构建可部署的数据报表与分析站点。
+- [Huginn](projects/huginn.md)：自托管事件代理平台，可监视网页与服务并触发自动化。
+- [Trigger.dev](projects/trigger-dev.md)：面向 TypeScript 的持久后台任务与 AI Agent 执行平台。
+- [Automatisch](projects/automatisch.md)：自托管的无代码工作流自动化平台，可连接常用应用。
+- [Sim Studio](projects/simstudio.md)：可视化搭建、运行和协作管理 AI Agent 工作流的开源平台。
+- [Langflow](projects/langflow.md)：以拖放组件构建并部署 AI Agent 与 RAG 应用。
+- [CrewAI](projects/crewai.md)：以角色和任务编排协作式多 Agent 应用。
+- [Kestra](projects/kestra.md)：事件驱动的声明式工作流编排与调度平台。
+- [Pydantic AI](projects/pydantic-ai.md)：以类型校验和结构化输出构建 Python AI Agent。
+- [CopilotKit](projects/copilotkit.md)：将聊天、Agent 工作流和生成式 UI 集成到 React 产品。
+- [Context7](projects/context7.md)：向 AI 编码工具提供版本匹配的库文档与示例。
+- [Serena](projects/serena.md)：为编码 Agent 提供语言服务器驱动的符号检索与代码操作。
+- [GitHub MCP Server](projects/github-mcp-server.md)：通过 MCP 为 AI Agent 提供仓库、Issue、PR 等 GitHub 操作入口。
+- [Deep Agents](projects/deepagents.md)：提供规划、子 Agent、长期任务与上下文管理的 Agent harness。
+- [smolagents](projects/smolagents.md)：Hugging Face 的轻量 Python Agent 框架，支持工具调用与代码执行工作流。
+- [OpenAI Agents SDK](projects/openai-agents-python.md)：用于构建工具调用、交接与可追踪 Agent 工作流的 Python SDK。
+- [Haystack](projects/haystack.md)：以组件与 Pipeline 构建搜索、RAG 和生成式 AI 应用。
+- [LlamaIndex](projects/llamaindex.md)：连接数据源并构建检索增强与 Agentic 应用。
+- [RAGFlow](projects/ragflow.md)：把文档解析、知识检索和 Agent 工作流组合为 RAG 平台。
+- [FastGPT](projects/fastgpt.md)：以知识库和可视化流程构建可部署的 LLM 应用。
+- [Coze Studio](projects/coze-studio.md)：用于搭建、调试并发布 Agent 与 AI 工作流的开发平台。
+- [Cline](projects/cline.md)：在 VS Code 中执行可审阅的多步编码任务与工具操作。
+- [OpenCode](projects/opencode.md)：面向终端和桌面的开源 AI 编程 Agent。
+- [LiteLLM](projects/litellm.md)：统一代理和调用多家模型 API，并提供路由、预算与观测能力。
+- [Langfuse](projects/langfuse.md)：自托管 LLM 应用与 Agent 的追踪、提示词和评估平台。
+- [Semantic Kernel](projects/semantic-kernel.md)：Microsoft 的多语言 SDK，用插件、函数和 Agent 流程组合 AI 应用。
+
+## 本地模型
+
+- [Qwen-Image](projects/qwen-image.md)：擅长复杂文字排版与语义理解的本地文生图模型。
+- [Qwen-Image-Edit](projects/qwen-image-edit.md)：用自然语言执行多图融合、文字替换与结构保持的图像编辑。
+- [FLUX.1 schnell](projects/flux-schnell.md)：以少量采样步骤生成图像的开放权重 FLUX 模型。
+- [FLUX.1 dev](projects/flux-dev.md)：提供高质量提示词控制与成熟工作流生态的 FLUX 基础模型。
+- [Stable Diffusion XL](projects/sdxl.md)：拥有大量微调模型与控制插件的通用本地图像生成底座。
+- [SANA](projects/sana.md)：围绕高分辨率与低显存优化的高效图像生成系列。
+- [Wan2.2](projects/wan22.md)：同时覆盖文生视频、图生视频与角色动画的开放视频模型。
+- [LTX-2 / 2.x](projects/ltx2.md)：把画面与声音联合生成的本地视频创作模型系列。
+- [HunyuanVideo-1.5](projects/hunyuanvideo15.md)：面向消费级 GPU 卸载推理的视频生成模型。
+- [CogVideoX-2B](projects/cogvideox2b.md)：适合作为可复现基线的 Apache 许可文生视频模型。
+- [Mochi 1](projects/mochi1.md)：注重自然运动与提示词遵循的开放视频生成模型。
+- [Hunyuan3D-2](projects/hunyuan3d2.md)：从单张图像生成三维几何与纹理的分阶段模型。
+- [TRELLIS.2](projects/trellis2.md)：从图像生成带材质的紧凑三维资产与结构化表示。
+- [TripoSR](projects/triposr.md)：把单张物体图像快速重建为可导出的三维网格。
+- [Stable Fast 3D](projects/stable-fast-3d.md)：从单图重建带 UV、纹理和材质信息的三维网格。
+- [InstantMesh](projects/instantmesh.md)：借助多视图生成与重建把单图转换成三维网格。
+- [ACE-Step 1.5](projects/ace-step15.md)：在本地生成歌曲并支持参考音频与音乐编辑的创作模型。
+- [YuE2](projects/yue2.md)：通过音乐规划、歌词与参考音频完成歌曲生成和编辑。
+- [MusicGen](projects/musicgen.md)：通过文本或旋律条件生成音乐的可复现研究基线。
+- [Stable Audio Open 1.0](projects/stable-audio-open.md)：从文字生成环境声、音效与短音乐片段。
+- [TangoFlux](projects/tangoflux.md)：利用流匹配从声音描述生成短音频与音效。
+- [Kokoro 82M](projects/kokoro82m.md)：轻量级多语音本地 TTS，适合旁白与交互语音。
+- [F5-TTS](projects/f5tts.md)：以参考语音控制说话风格的中英文语音合成模型。
+- [Fun-CosyVoice 3.0](projects/cosyvoice3.md)：支持多语言、方言与流式输出的语音生成模型。
+- [Whisper](projects/whisper.md)：把多语言音频转录成文字的成熟本地语音识别模型。
+- [SenseVoiceSmall](projects/sensevoice.md)：同时识别语音内容、语言、情感与音频事件。
+- [Demucs](projects/demucs.md)：把混合音乐分离成人声、鼓、贝斯与其他音轨。
+- [SAM 2.1](projects/sam2.md)：根据点、框或掩码对图片及视频中的对象分割与跟踪。
+- [Real-ESRGAN](projects/real-esrgan.md)：恢复低清图像与视频细节的实用超分辨率模型。
+- [SwinIR](projects/swinir.md)：用视觉 Transformer 执行超分、去噪和压缩伪影修复。
+- [LivePortrait](projects/liveportrait.md)：用驱动视频让静态人物或动物肖像产生自然表情与运动。
+- [Wav2Lip](projects/wav2lip.md)：让现有视频中的口型与给定语音同步的经典模型。
+- [Practical RIFE](projects/rife.md)：在相邻视频帧之间补出中间帧以改善播放流畅度。
+- [VGGT](projects/vggt.md)：从一组图像估计相机、深度和三维点结构。
+- [Depth Anything V2 Small](projects/depth-anything-v2.md)：从单张图片预测深度以支持场景理解和三维工作流。
+- [Human Motion Diffusion Model](projects/mdm.md)：把动作文字描述转成人体骨骼运动序列。
+- [Qwen3](projects/qwen3.md)：可通过本地推理运行的多尺寸语言与推理模型系列。
+- [Qwen3-VL](projects/qwen3-vl.md)：联合理解图片、视频与文字的本地视觉语言模型。
+- [BGE-M3](projects/bge-m3.md)：为多语言检索同时提供稠密、稀疏与多向量表示。
+- [DINOv2](projects/dinov2.md)：提取可迁移视觉特征以支持图片检索、聚类与下游识别。
